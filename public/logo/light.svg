@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 60">
+  <!-- Iranian flag simplified for logo -->
+  <rect width="100" height="20" fill="#239f40"/>
+  <rect y="20" width="100" height="20" fill="#fff"/>
+  <rect y="40" width="100" height="20" fill="#da0000"/>
+</svg>
