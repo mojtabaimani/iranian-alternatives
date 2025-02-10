@@ -4,7 +4,7 @@ seo:
   description: Find Iranian alternatives for digital services and products, including cloud services, SaaS products and more. Support local businesses and ensure data compliance.
 ---
 
-::u-page-hero
+::u-page-hero{id="top"}
 ---
 # removing the orientation, makes it center aligned
 # orientation: horizontal
@@ -20,7 +20,7 @@ We help you discover Iranian alternatives for digital services and products, lik
   :::u-button
   ---
   size: xl
-  to: /categories
+  to: /#categories
   trailing-icon: i-lucide-arrow-right
   ---
   Browse Categories
@@ -111,7 +111,7 @@ Why Choose Iranian Alternatives?
   :::
 ::
 
-::u-page-section
+::u-page-section{id="Categories"}
 #title
 Categories
 
@@ -430,7 +430,7 @@ Categories
 
   :::u-page-feature
   ---
-  icon: i-lucide-browser
+  icon: i-lucide-globe
   to: /categories/browsers
   ---
   #title
@@ -502,7 +502,7 @@ Categories
 
   :::u-page-feature
   ---
-  icon: i-lucide-wordpress
+  icon: i-simple-icons-wordpress
   to: /categories/wordpress-hosting
   ---
   #title
@@ -598,7 +598,7 @@ Categories
 
   :::u-page-feature
   ---
-  icon: i-lucide-certificate
+  icon: i-simple-icons-openssl
   to: /categories/ssl
   ---
   #title
@@ -658,7 +658,7 @@ Categories
 
   :::u-page-feature
   ---
-  icon: i-lucide-message
+  icon: i-simple-icons-minutemailer
   to: /categories/sms
   ---
   #title
@@ -693,8 +693,8 @@ Categories
       target: _blank
       icon: i-lucide-plus
       color: primary
-    - label: Learn More
-      to: '/about'
+    - label: Back to top
+      to: '/#top'
       trailingIcon: i-lucide-arrow-right
       color: neutral
       variant: subtle
