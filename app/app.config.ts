@@ -19,10 +19,14 @@ export default defineAppConfig({
   header: {
     title: 'Iranian Alternatives',
     to: '/',
+    showTitle: true,
+    showLogo: true,
+    titleClass: 'ml-2 font-bold text-lg', // Style the title
     logo: {
-      alt: '',
-      light: '',
-      dark: ''
+      alt: 'Iranian Alternatives Logo',
+      light: '/logo/iran.svg',
+      dark: '/logo/iran.svg',
+      class: 'h-9 w-9' // Control logo size
     },
     search: true,
     colorMode: true,
@@ -47,7 +51,7 @@ export default defineAppConfig({
     title: 'Table of Contents',
     bottom: {
       title: 'Community',
-      edit: 'https://github.com/mojtabaimani/iranian-alternatives/edit/v3/content',
+      edit: 'https://github.com/mojtabaimani/iranian-alternatives/edit/main/content',
       links: [{
         icon: 'i-lucide-star',
         label: 'Star on GitHub',

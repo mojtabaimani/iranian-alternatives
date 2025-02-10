@@ -111,7 +111,7 @@ Why Choose Iranian Alternatives?
   :::
 ::
 
-::u-page-section{id="Categories"}
+::u-page-section{id="categories"}
 #title
 Categories
 
