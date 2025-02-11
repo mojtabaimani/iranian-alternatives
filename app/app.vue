@@ -20,10 +20,15 @@ useHead({
 
 useSeoMeta({
   titleTemplate: `%s - ${seo?.siteName}`,
+  description: 'Find Iranian alternatives for digital services and products, including cloud services, SaaS products and more. Support local businesses and ensure data compliance.',
   ogSiteName: seo?.siteName,
+  ogTitle: seo?.siteName,
+  ogDescription: 'Find Iranian alternatives for digital services and products, including cloud services, SaaS products and more. Support local businesses and ensure data compliance.',
   ogImage: '/flag/iranianflagflying.png',
-  twitterImage: '/flag/iranianflagflying.png',
-  twitterCard: 'summary_large_image'
+  twitterCard: 'summary_large_image',
+  twitterTitle: seo?.siteName,
+  twitterDescription: 'Find Iranian alternatives for digital services and products, including cloud services, SaaS products and more. Support local businesses and ensure data compliance.',
+  twitterImage: '/flag/iranianflagflying.png'
 })
 
 provide('navigation', navigation)
