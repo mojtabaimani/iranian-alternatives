@@ -21,8 +21,8 @@ useHead({
 useSeoMeta({
   titleTemplate: `%s - ${seo?.siteName}`,
   ogSiteName: seo?.siteName,
-  ogImage: '/logo/iran.svg',
-  twitterImage: '/logo/iran.svg',
+  ogImage: '/flag/iranianflagflying.webp',
+  twitterImage: '/flag/iranianflagflying.webp',
   twitterCard: 'summary_large_image'
 })
 
