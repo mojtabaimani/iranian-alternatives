@@ -1,0 +1,16 @@
+title: CDN Services
+description: Content delivery networks with local PoPs.
+icon: i-lucide-network
+services:
+- name: Arvan Cloud
+  description: Arvan Cloud is a cloud service provider that offers a range of services including CDN, DDoS protection, and cloud storage.
+  logo: https://www.arvancloud.ir/images/v6/svg/logo-header-desktop-v6.svg
+  website: https://arvancloud.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Cloud Computing
+    - CDN
+    - DNS
+    - DDoS Protection
+    - Cloud Storage

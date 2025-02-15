@@ -1,0 +1,12 @@
+title: Iranian Captcha Services
+description: Find Iranian alternatives for Captcha and human verification services
+icon: i-lucide-shield-question
+services:
+- name: Arcaptcha
+  description: "Arcaptcha is a next-generation captcha that leverages artificial intelligence and practical challenges to provide integrated security and a seamless experience for business services and their users on the web."
+  logo: https://arcaptcha.co/svg/arcaptcha-brand.svg
+  website: https://arcaptcha.co
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Captcha

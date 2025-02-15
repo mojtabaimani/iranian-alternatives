@@ -1,0 +1,12 @@
+title: SMS Services
+description: SMS gateway and messaging APIs.
+icon: i-simple-icons-minutemailer
+services:
+- name: Negin Ertebat
+  description: "Negin SMS system is a web-based messaging platform enabling two-way SMS communication between users and the GSM network with enhanced messaging services."
+  logo: ""
+  website: https://www.3300.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - SMS Gateway

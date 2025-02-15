@@ -1,51 +1,34 @@
 export default defineAppConfig({
   ui: {
-    colors: {
-      primary: 'green',
-      neutral: 'slate'
-    }
-  },
-  uiPro: {
+    primary: 'green',
+    gray: 'slate',
+    button: {
+      default: {
+        size: 'md'
+      }
+    },
+    input: {
+      default: {
+        size: 'md'
+      }
+    },
+    card: {
+      rounded: 'rounded-xl'
+    },
     footer: {
-      slots: {
-        root: 'border-t border-(--ui-border)',
-        left: 'text-sm text-(--ui-text-muted)'
+      top: {
+        wrapper: 'border-t border-gray-200 dark:border-gray-800',
+        container: 'py-8 lg:py-16'
+      },
+      bottom: {
+        wrapper: 'border-t border-gray-200 dark:border-gray-800'
+      }
+    },
+    page: {
+      hero: {
+        wrapper: 'lg:py-24'
       }
     }
-  },
-  seo: {
-    siteName: 'Iranian Alternatives'
-  },
-  header: {
-    title: 'Iranian Alternatives',
-    to: '/',
-    showTitle: true,
-    showLogo: true,
-    titleClass: 'ml-2 font-bold text-lg', // Style the title
-    logo: {
-      alt: 'Iranian Alternatives Logo',
-      light: '/logo/iran.svg',
-      dark: '/logo/iran.svg',
-      class: 'h-9 w-9' // Control logo size
-    },
-    search: true,
-    colorMode: true,
-    links: [{
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/mojtabaimani/iranian-alternatives',
-      'target': '_blank',
-      'aria-label': 'GitHub'
-    }]
-  },
-  footer: {
-    credits: `Copyright © ${new Date().getFullYear()} Iranian Alternatives`,
-    colorMode: false,
-    links: [{
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/mojtabaimani/iranian-alternatives',
-      'target': '_blank',
-      'aria-label': 'GitHub'
-    }]
   },
   toc: {
     title: 'Table of Contents',
@@ -59,5 +42,8 @@ export default defineAppConfig({
         target: '_blank'
       }]
     }
+  },
+  seo: {
+    siteName: 'Iranian Alternatives'
   }
 })

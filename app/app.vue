@@ -1,14 +1,14 @@
 <script setup lang="ts">
+const colorMode = useColorMode()
 const { seo } = useAppConfig()
 
-const { data: navigation } = await useAsyncData('navigation', () => queryCollectionNavigation('docs'))
-const { data: files } = useLazyAsyncData('search', () => queryCollectionSearchSections('docs'), {
-  server: false
-})
+const color = computed(() => colorMode.value === 'dark' ? '#111827' : 'white')
 
 useHead({
   meta: [
-    { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+    { charset: 'utf-8' },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    { key: 'theme-color', name: 'theme-color', content: color }
   ],
   link: [
     { rel: 'icon', href: '/favicon.ico' }
@@ -30,29 +30,16 @@ useSeoMeta({
   twitterDescription: 'Find Iranian alternatives for digital services and products, including cloud services, SaaS products and more. Support local businesses and ensure data compliance.',
   twitterImage: '/flag/iranianflagflying.png'
 })
-
-provide('navigation', navigation)
 </script>
 
 <template>
-  <UApp>
+  <div>
     <NuxtLoadingIndicator />
 
-    <AppHeader />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
 
-    <UMain>
-      <NuxtLayout>
-        <NuxtPage />
-      </NuxtLayout>
-    </UMain>
-
-    <AppFooter />
-
-    <ClientOnly>
-      <LazyUContentSearch
-        :files="files"
-        :navigation="navigation"
-      />
-    </ClientOnly>
-  </UApp>
+    <UNotifications />
+  </div>
 </template>

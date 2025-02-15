@@ -3,10 +3,10 @@ name: ci
 on:
   push:
     branches:
-      - v3
+      - v1
   pull_request:
     branches:
-      - v3
+      - v1
 
 jobs:
   ci:

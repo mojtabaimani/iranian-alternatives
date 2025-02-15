@@ -1,26 +1,125 @@
-<!-- README for the Iranian Alternatives project -->
+![nuxt-ui-saas-social-card](https://github.com/nuxt-ui-pro/saas/assets/739984/50bf4ddd-c4d5-47e5-a09e-0f699513dfb5)
 
-# Iranian Alternatives
+# Nuxt UI Pro - SaaS template
 
-<!-- Purpose: Introduce the project and its goals. -->
-Iranian Alternatives is a project dedicated to showcasing and supporting digital services and products developed in Iran. Our mission is to provide a reliable directory for local digital solutions, including cloud services, SaaS products, web analytics, and more. By emphasizing local alternatives, we aim to promote data compliance and empower local businesses.
+[![Nuxt UI Pro](https://img.shields.io/badge/Made%20with-Nuxt%20UI%20Pro-00DC82?logo=nuxt.js&labelColor=020420)](https://ui.nuxt.com/pro)
 
-<!-- Contribution: Explain how to contribute. -->
-## How to Contribute
+- [Live demo](https://saas-template.nuxt.dev/)
+- [Play on Stackblitz](https://stackblitz.com/github/nuxt-ui-pro/saas)
+- [Documentation](https://ui.nuxt.com/pro/getting-started)
 
-<!-- Contribution guidelines:
-1. Fork the repository.
-2. Create a new branch.
-3. Add or update content.
-4. Submit a pull request.
--->
-We welcome contributions from everyone. Here’s how you can help:
+[![Deploy to NuxtHub](https://hub.nuxt.com/button.svg)](https://hub.nuxt.com/new?repo=nuxt-ui-pro/saas)
 
-1. **Fork the repository**: Click the fork button at the top right of the repository page.
-2. **Create a new branch**: Work on a separate branch for your contributions.
-3. **Make your changes**: Update documentation, add new alternatives, or improve existing content.
-4. **Submit a pull request**: Once you are satisfied with your changes, open a pull request for review.
+## Quick Start
 
-For any questions or suggestions, open an issue or contact the maintainers directly.
+```bash [Terminal]
+npx nuxi init -t github:nuxt-ui-pro/saas
+```
 
-<!-- End of README -->
+## Setup
+
+Make sure to install the dependencies:
+
+```bash
+# npm
+npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm run dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm run build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm run preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Nuxt Studio integration
+
+Add `@nuxthq/studio` dependency to your package.json:
+
+```bash
+# npm
+npm install --save-dev @nuxthq/studio
+
+# pnpm
+pnpm add -D @nuxthq/studio
+
+# yarn
+yarn add -D @nuxthq/studio
+
+# bun
+bun add -d @nuxthq/studio
+```
+
+Add this module to your `nuxt.config.ts`:
+
+```ts
+export default defineNuxtConfig({
+  ...
+  modules: [
+    ...
+    '@nuxthq/studio'
+  ]
+})
+```
+
+Read more on [Nuxt Studio docs](https://nuxt.studio/docs/get-started/setup).
+
+## Renovate integration
+
+Install [Renovate GitHub app](https://github.com/apps/renovate/installations/select_target) on your repository and you are good to go.

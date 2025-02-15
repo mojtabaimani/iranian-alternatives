@@ -1,0 +1,12 @@
+title: Project Management
+description: Project and task management solutions.
+icon: i-lucide-kanban
+services:
+- name: Mizito
+  description: "Mizito is a project management tool that helps you manage your projects, tasks, and team members in one place."
+  logo: /logo/mizito.svg
+  website: https://mizito.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Project Management

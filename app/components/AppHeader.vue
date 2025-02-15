@@ -1,66 +1,61 @@
 <script setup lang="ts">
-import type { ContentNavigationItem } from '@nuxt/content'
+import type { NavItem } from '@nuxt/content'
 
-const navigation = inject<Ref<ContentNavigationItem[]>>('navigation')
+const navigation = inject<Ref<NavItem[]>>('navigation', ref([]))
 
-const { header } = useAppConfig()
+const links = [
+  // {
+  //   label: 'Docs',
+  //   to: '/docs'
+  // },
+  // {
+  //   label: 'Pricing',
+  //   to: '/pricing'
+  // },
+  // {
+  //   label: 'Blog',
+  //   to: '/blog'
+  // }
+]
 </script>
 
 <template>
-  <UHeader
-    :ui="{ center: 'flex-1' }"
-    :to="header?.to || '/'"
-  >
-    <UContentSearchButton
-      v-if="header?.search"
-      label="Search..."
-      variant="outline"
-      class="w-full"
-    >
-      <template #trailing>
-        <div class="flex items-center gap-0.5 ms-auto">
-          <UKbd value="meta" />
-          <UKbd value="k" />
-        </div>
-      </template>
-    </UContentSearchButton>
-
-    <template #title>
+  <UHeader :links="links">
+    <template #logo>
       <div class="flex items-center gap-2">
         <UColorModeImage
-          v-if="header?.logo?.dark || header?.logo?.light"
-          :light="header?.logo?.light!"
-          :dark="header?.logo?.dark!"
-          :alt="header?.logo?.alt"
+          light="/logo/iran.svg"
+          dark="/logo/iran.svg"
+          alt="iran flag"
           class="h-6 w-auto shrink-0"
         />
-        <span v-if="header?.title">
-          {{ header.title }}
-        </span>
+        Iranian Alternatives <UBadge
+          label="IR"
+          variant="subtle"
+          class="mb-0.5"
+        />
       </div>
     </template>
-
+    <template #center>
+      <UContentSearchButton />
+    </template>
     <template #right>
-      <UContentSearchButton
-        v-if="header?.search"
-        class="lg:hidden"
+      <UColorModeButton size="sm" />
+
+      <UButton
+        to="https://github.com/mojtabaimani/iranian-alternatives"
+        target="_blank"
+        icon="i-simple-icons-github"
+        aria-label="GitHub"
+        color="gray"
+        variant="ghost"
       />
-
-      <UColorModeButton v-if="header?.colorMode" />
-
-      <template v-if="header?.links">
-        <UButton
-          v-for="(link, index) of header.links"
-          :key="index"
-          v-bind="{ color: 'neutral', variant: 'ghost', ...link }"
-        />
-      </template>
     </template>
 
-    <template #content>
-      <UContentNavigation
-        highlight
-        :navigation="navigation"
+    <template #panel>
+      <UNavigationTree
+        :links="mapContentNavigation(navigation)"
+        default-open
       />
     </template>
   </UHeader>
