@@ -21,8 +21,6 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () => qu
   .where({ _extension: 'yml', navigation: { $ne: false } })
   .only(['title', 'description', '_path'])
   .findSurround(withoutTrailingSlash(route.path)), { default: () => [] })
-
-defineOgImageComponent('Saas')
 </script>
 
 <template>
