@@ -1,5 +1,5 @@
 {
-  "name": "iranian-alternatives",
+  "name": "nuxt-ui-pro-template-saas",
   "private": true,
   "type": "module",
   "scripts": {
@@ -12,20 +12,24 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "@iconify-json/lucide": "^1.2.25",
-    "@iconify-json/simple-icons": "^1.2.23",
-    "@iconify-json/vscode-icons": "^1.2.11",
-    "@nuxt/content": "^3.1.0",
+    "@iconify-json/heroicons": "^1.2.2",
+    "@iconify-json/simple-icons": "^1.2.24",
+    "@nuxt/content": "^2.13.4",
+    "@nuxt/fonts": "^0.10.3",
     "@nuxt/image": "^1.9.0",
-    "@nuxt/ui-pro": "3.0.0-alpha.12",
-    "nuxt": "^3.15.2",
+    "@nuxt/ui-pro": "^1.7.0",
+    "@vueuse/nuxt": "^12.6.1",
+    "nuxt": "^3.15.4",
     "nuxt-og-image": "^4.1.2"
   },
   "devDependencies": {
-    "@nuxt/eslint": "^1.0.0",
-    "eslint": "^9.19.0",
-    "typescript": "^5.7.3",
-    "vue-tsc": "^2.2.0"
+    "@nuxt/eslint": "^1.0.1",
+    "@nuxthq/studio": "^2.2.1",
+    "eslint": "^9.20.1",
+    "vue-tsc": "^2.1.10"
   },
-  "packageManager": "pnpm@9.15.5"
+  "resolutions": {
+    "vue-tsc": "2.1.10"
+  },
+  "packageManager": "pnpm@10.4.0"
 }

@@ -1,0 +1,251 @@
+title: Iranian Alternatives - Digital Services & Products
+description: Find Iranian alternatives for digital services and products, including cloud services, SaaS products and more. Support local businesses and ensure data compliance.
+navigation: false
+hero:
+  title: Find Iranian Digital Alternatives
+  description: We help you discover Iranian alternatives for digital services and products, like cloud services and SaaS solutions. Support local businesses while ensuring compliance with Iranian regulations.
+  links:
+    - label: Browse Categories
+      to: '/#categories'
+      size: xl
+      icon: i-lucide-arrow-right
+      trailing: true
+    - label: Contribute
+      icon: i-simple-icons-github
+      size: xl
+      color: gray
+      to: https://github.com/mojtabaimani/iranian-alternatives
+      target: _blank
+sections:
+  - title: Why Choose Iranian Alternatives?
+    features:
+      - name: Support Local Economy
+        description: When you choose Iranian services, you support local businesses, create jobs, and strengthen the domestic digital economy.
+        icon: i-lucide-building
+      - name: Data Sovereignty
+        description: Keep your data within Iranian borders and comply with local data protection regulations.
+        icon: i-lucide-shield-check
+      - name: Local Payment Methods
+        description: Easy access to local payment methods and billing in Iranian Rial (IRR).
+        icon: i-lucide-wallet
+      - name: Legal Compliance
+        description: Services that comply with Iranian laws and regulations.
+        icon: i-lucide-scale
+      - name: Local Support
+        description: Get customer support in Persian and in your timezone.
+        icon: i-lucide-headphones
+      - name: Local Infrastructure
+        description: Better performance with services hosted on Iranian infrastructure.
+        icon: i-lucide-network
+features:
+  title: Categories
+  items:
+    - title: Web Analytics
+      description: Track website usage with local analytics solutions.
+      icon: i-lucide-bar-chart
+      to: /categories/web-analytics
+    - title: Cloud Computing
+      description: Iranian cloud hosting and infrastructure services.
+      icon: i-lucide-cloud
+      to: /categories/cloud-computing
+    - title: CDN Services
+      description: Content delivery networks with local PoPs.
+      icon: i-lucide-network
+      to: /categories/cdn
+    - title: Email Services
+      description: Local email hosting and delivery solutions.
+      icon: i-lucide-mail
+      to: /categories/email
+    - title: VPS Hosting
+      description: Virtual private servers with local datacenter presence.
+      icon: i-lucide-server
+      to: /categories/vps
+    - title: Search Engines
+      description: Local search engine alternatives.
+      icon: i-lucide-search
+      to: /categories/search
+    - title: Domain Registrars
+      description: Register domains through local providers.
+      icon: i-lucide-globe
+      to: /categories/domains
+    - title: Time Tracking
+      description: Track time and productivity locally.
+      icon: i-lucide-clock
+      to: /categories/time-tracking
+    - title: Navigation
+      description: Local navigation and mapping solutions.
+      icon: i-lucide-map
+      to: /categories/navigation
+    - title: Uptime Monitoring
+      description: Monitor your services from local checkpoints.
+      icon: i-lucide-activity
+      to: /categories/monitoring
+    - title: File Hosting
+      description: Store and share files on local infrastructure.
+      icon: i-lucide-hard-drive
+      to: /categories/file-hosting
+    - title: Translation Services
+      description: Machine translation with Persian language support.
+      icon: i-lucide-languages
+      to: /categories/translation
+    - title: Object Storage
+      description: Store objects and files with local providers.
+      icon: i-lucide-database
+      to: /categories/object-storage
+    - title: Microblogging
+      description: Local social networking platforms.
+      icon: i-lucide-message-square
+      to: /categories/microblogging
+    - title: VPN Services
+      description: Secure VPN services with local endpoints.
+      icon: i-lucide-shield
+      to: /categories/vpn
+    - title: DNS Services
+      description: Managed DNS solutions with local infrastructure.
+      icon: i-lucide-network
+      to: /categories/dns
+    - title: Professional Networking
+      description: Connect with local professionals.
+      icon: i-lucide-users
+      to: /categories/professional-networking
+    - title: FaaS
+      description: Function as a Service platforms.
+      icon: i-lucide-function-square
+      to: /categories/faas
+    - title: PaaS
+      description: Platform as a Service solutions.
+      icon: i-lucide-layers
+      to: /categories/paas
+    - title: Error Tracking
+      description: Monitor and track application errors.
+      icon: i-lucide-bug
+      to: /categories/error-tracking
+    - title: E-Signature
+      description: Electronic signature solutions.
+      icon: i-lucide-pen-tool
+      to: /categories/e-signature
+    - title: Password Managers
+      description: Secure password management solutions.
+      icon: i-lucide-key
+      to: /categories/password-manager
+    - title: Messaging
+      description: Local instant messaging platforms.
+      icon: i-lucide-message-circle
+      to: /categories/messaging
+    - title: Version Control
+      description: Source code hosting and version control.
+      icon: i-lucide-git-branch
+      to: /categories/version-control
+    - title: IAM
+      description: Identity and access management solutions.
+      icon: i-lucide-lock
+      to: /categories/iam
+    - title: Live Chat
+      description: Customer support chat solutions.
+      icon: i-lucide-message-square
+      to: /categories/live-chat
+    - title: Web Browsers
+      description: Local web browser alternatives.
+      icon: i-lucide-globe
+      to: /categories/browsers
+    - title: Video Conferencing
+      description: Video meeting and conferencing solutions.
+      icon: i-lucide-video
+      to: /categories/video-conferencing
+    - title: Document Collaboration
+      description: Collaborative document editing tools.
+      icon: i-lucide-file-text
+      to: /categories/document-collaboration
+    - title: Calendar Services
+      description: Calendar and scheduling solutions.
+      icon: i-lucide-calendar
+      to: /categories/calendar
+    - title: Email Marketing
+      description: Email campaign and newsletter tools.
+      icon: i-lucide-mail-plus
+      to: /categories/email-marketing
+    - title: Font Services
+      description: Web font hosting and delivery.
+      icon: i-lucide-type
+      to: /categories/fonts
+    - title: WordPress Hosting
+      description: Managed WordPress hosting solutions.
+      icon: i-simple-icons-wordpress
+      to: /categories/wordpress-hosting
+    - title: Team Communication
+      description: Team collaboration platforms.
+      icon: i-lucide-messages-square
+      to: /categories/team-communication
+    - title: Managed Kubernetes
+      description: Container orchestration services.
+      icon: i-lucide-container
+      to: /categories/kubernetes
+    - title: Video Hosting
+      description: Video storage and streaming services.
+      icon: i-lucide-video
+      to: /categories/video-hosting
+    - title: Maps API
+      description: Mapping and location services.
+      icon: i-lucide-map-pin
+      to: /categories/maps-api
+    - title: Tag Management
+      description: Website tag and analytics management.
+      icon: i-lucide-tags
+      to: /categories/tag-management
+    - title: DDoS Protection
+      description: Protection against DDoS attacks.
+      icon: i-lucide-shield-check
+      to: /categories/ddos-protection
+    - title: Session Recording
+      description: Website user session recording tools.
+      icon: i-lucide-video
+      to: /categories/session-recording
+    - title: SSL Certificates
+      description: ACME SSL certificate providers.
+      icon: i-simple-icons-openssl
+      to: /categories/ssl
+    - title: Survey Tools
+      description: Online survey and form builders.
+      icon: i-lucide-form-input
+      to: /categories/surveys
+    - title: Marketing Automation
+      description: Automated marketing workflow tools.
+      icon: i-lucide-zap
+      to: /categories/marketing-automation
+    - title: Project Management
+      description: Project and task management solutions.
+      icon: i-lucide-kanban
+      to: /categories/project-management
+    - title: Consent Management
+      description: Cookie and privacy consent platforms.
+      icon: i-lucide-cookie
+      to: /categories/consent-management
+    - title: SMS Services
+      description: SMS gateway and messaging APIs.
+      icon: i-simple-icons-minutemailer
+      to: /categories/sms
+    - title: Jamstack Hosting
+      description: Static and Jamstack website hosting.
+      icon: i-lucide-code
+      to: /categories/jamstack
+    - title: Captcha Services
+      description: Human verification and anti-bot solutions.
+      icon: i-lucide-shield-question
+      to: /categories/captcha
+    - title: Payment Services
+      description: Online payment gateways and processing solutions.
+      icon: i-lucide-credit-card
+      to: /categories/payment
+cta:
+  title: Contribute to Iranian Alternatives
+  description: Help us build the largest directory of Iranian digital services. Add missing services or suggest improvements.
+  links:
+    - label: Add Service
+      to: https://github.com/mojtabaimani/iranian-alternatives/issues/new
+      target: _blank
+      icon: i-lucide-plus
+    - label: Back to top
+      to: /#top
+      icon: i-lucide-arrow-right
+      color: gray
+      trailing: true

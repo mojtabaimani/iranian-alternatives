@@ -1,0 +1,12 @@
+title: Search Engines
+description: Iranian search engine alternatives.
+icon: i-lucide-search
+services:
+- name: Gerdoo
+  description: "Gerdoo is a meta search engine that retrieves initial results from providers like Google, refines the results, and then displays them to the user. "
+  logo: https://gerdoo.me/static/commons/img/logo.c179f12989b4.svg
+  website: https://gerdoo.me/
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Search Engine

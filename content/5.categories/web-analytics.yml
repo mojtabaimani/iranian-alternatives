@@ -1,0 +1,23 @@
+title: Web Analytics
+description: Track website usage with local analytics solutions.
+icon: i-lucide-bar-chart
+services:
+- name: Jetseo
+  description: "Optimizes SEO by analyzing website performance, detecting technical errors, guiding keyword research, and providing recommendations."
+  logo: https://www.jetseo.ir/uploadFiles/settings/a105d4a5b5d249889cb164eb751439c7.png
+  website: https://www.jetseo.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - SEO
+  - Web Analytics
+- name: Keywordchi
+  # Description of the tool in English
+  description: "Keywordchi is a specialized Persian keyword research tool that tells you what people search on Google about any keyword."
+  logo: https://keywordchi.com/NegahNo/img/logo/logo.svg
+  website: https://keywordchi.com/
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - SEO
+  - Web Analytics
