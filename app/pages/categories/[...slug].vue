@@ -102,8 +102,6 @@ defineOgImageComponent('Saas')
         </UPageCard>
       </UPageGrid>
 
-      <hr v-if="surround?.length">
-
       <UContentSurround :surround="surround" />
     </UPageBody>
   </UContainer>
