@@ -107,7 +107,7 @@ features:
     - title: Professional Networking
       description: Connect with local professionals.
       icon: i-lucide-users
-      to: /categories/professional-network
+      to: /categories/professional-networking
     - title: FaaS
       description: Function as a Service platforms.
       icon: i-lucide-function-square

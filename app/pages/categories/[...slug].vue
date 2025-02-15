@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { withoutTrailingSlash } from 'ufo'
+
 const route = useRoute()
 
 // Fetch category data from YAML file
