@@ -112,7 +112,7 @@ useSeoMeta({
 
 <style scoped>
 .landing-grid {
-  background-size: 100px 100px;
+  /* background-size: 100px 100px; */
   background-image:
     linear-gradient(to right, rgb(var(--color-gray-200)) 1px, transparent 1px),
     linear-gradient(to bottom, rgb(var(--color-gray-200)) 1px, transparent 1px);
