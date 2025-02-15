@@ -1,4 +1,12 @@
 title: Email Services
 description: Local email hosting and delivery solutions.
 icon: i-lucide-mail
-services: []
+services:
+- name: Chmail
+  description: Chmail is a free email service provider that offers email hosting with a focus on privacy and security.
+  logo: /logo/chaapaar.svg
+  website: https://chmail.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Email Services

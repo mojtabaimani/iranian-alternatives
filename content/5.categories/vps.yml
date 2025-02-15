@@ -1,4 +1,22 @@
 title: VPS Hosting
 description: Virtual private servers with local datacenter presence.
 icon: i-lucide-server
-services: []
+services:
+- name: Mihan Web Host
+  description: Mihan Web Host is a web hosting provider that offers a range of services including shared hosting, VPS, and dedicated servers.
+  logo: https://mihanwebhost.com/images/logo-s/active-logo/01.svg
+  website: https://mihanwebhost.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - VPS Hosting
+  - Domain
+- name: Iran Host
+  description: Iran Host is a web hosting provider that offers a range of services including shared hosting, VPS, and dedicated servers.
+  logo: https://iranhost.com/assets/images/new-iranHost-Logo-1.svg
+  website: https://www.iranhost.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - VPS Hosting
+  - Domain

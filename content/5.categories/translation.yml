@@ -1,4 +1,12 @@
 title: Translation Services
 description: Machine translation with Persian language support.
 icon: i-lucide-languages
-services: []
+services:
+- name: Abadis
+  description: Abadis is a machine translation service that supports Persian and other languages.
+  logo: https://abadis.ir/images/abadis.svg
+  website: https://abadis.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Translation

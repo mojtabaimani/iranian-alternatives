@@ -26,7 +26,7 @@ defineOgImageComponent('Saas')
 </script>
 
 <template>
-  <UContainer v-if="category">
+  <UPage v-if="category">
     <UPageHeader
       :title="category.title"
       :description="category.description"
@@ -36,7 +36,7 @@ defineOgImageComponent('Saas')
         <UIcon
           v-if="category.icon"
           :name="category.icon"
-          class="w-8 h-8"
+          class="w-8 h-8 text-green-600 dark:text-green-500"
         />
       </template>
     </UPageHeader>
@@ -56,7 +56,7 @@ defineOgImageComponent('Saas')
                 v-if="service.logo"
                 :src="service.logo"
                 :alt="`${service.name} logo`"
-                class="w-48 h-auto object-contain"
+                class="w-40 h-auto object-contain"
               >
               <h3 class="font-semibold truncate text-2xl">{{ service.name }}</h3>
             </div>
@@ -102,7 +102,9 @@ defineOgImageComponent('Saas')
         </UPageCard>
       </UPageGrid>
 
+      <hr v-if="surround?.length" class="my-8 border-gray-200 dark:border-gray-800">
+
       <UContentSurround :surround="surround" />
     </UPageBody>
-  </UContainer>
+  </UPage>
 </template>

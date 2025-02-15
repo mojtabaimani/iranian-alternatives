@@ -1,4 +1,28 @@
 title: Messaging
 description: Local instant messaging platforms.
 icon: i-lucide-message-circle
-services: []
+services:
+- name: Eitaa
+  description: "Eitaa is a Persian messaging app that offers secure messaging, voice and video calls, and group chats."
+  logo: https://eitaa.com/img/eitaa_logo.svg
+  website: https://eitaa.com/
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Messaging
+- name: Bale
+  description: "Bale is a Persian messaging app that offers secure messaging, voice and video calls, and group chats."
+  logo: https://bale.ai/_next/static/media/bale_logo.ae0fd3dc.svg
+  website: https://bale.ai/
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Messaging
+- name: Rubika
+  description: "Rubika is a Persian messaging app that offers secure messaging, voice and video calls, and group chats."
+  logo: https://rubika.ir/static/images/logo.svg
+  website: https://rubika.ir/
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Messaging

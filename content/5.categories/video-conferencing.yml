@@ -1,4 +1,12 @@
 title: Video Conferencing
 description: Video meeting and conferencing solutions.
 icon: i-lucide-video
-services: []
+services:
+- name: Garar
+  description: A simple and quality solution for online meetings
+  logo: https://gharar.ir/static/images/Logos/Gharar-logo-small-white-bg.png?v=85
+  website: https://gharar.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Video Conferencing

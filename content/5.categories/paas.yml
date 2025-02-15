@@ -1,4 +1,12 @@
 title: PaaS
 description: Platform as a Service solutions.
 icon: i-lucide-layers
-services: []
+services:
+- name: Liara
+  description: "Liara is a Persian platform as a service that helps you deploy, manage, and scale applications without managing servers."
+  logo: /logo/liara.svg
+  website: https://liara.ir/
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - PaaS

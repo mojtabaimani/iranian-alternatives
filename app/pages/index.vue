@@ -72,6 +72,12 @@ useSeoMeta({
           v-for="(item, index) in page.features.items"
           :key="index"
           v-bind="item"
+          :ui="{
+            icon:
+              {
+                base: 'w-8 h-8 flex-shrink-0 text-green-600 dark:text-green-500'
+              }
+          }"
         />
       </UPageGrid>
     </ULandingSection>

@@ -1,4 +1,22 @@
 title: Managed Kubernetes
 description: Container orchestration services.
 icon: i-lucide-container
-services: []
+services:
+
+- name: Kubit
+  description: "Kubit is a managed Kubernetes service that provides a fully managed Kubernetes cluster with high availability, auto-scaling, and monitoring."
+  logo: https://kubit.cloud/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Flogo.fa5d9287.svg&w=1080&q=75
+  website: https://kubit.cloud
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Managed Kubernetes
+
+- name: Hamravesh
+  description: "Hamravesh is a Persian managed Kubernetes service that provides a fully managed Kubernetes cluster with high availability, auto-scaling, and monitoring."
+  logo: https://hamravesh.com/_next/static/media/Hamravesh-logo.10040828.svg
+  website: https://hamravesh.com/
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Managed Kubernetes
