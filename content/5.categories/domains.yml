@@ -20,3 +20,32 @@ services:
   tags:
   - VPS Hosting
   - Domain
+- name: Pars Pack
+  description: Parspack is Iran's first cloud computing service provider, offering a range of hosting solutions, including cloud servers, virtual private servers, domain registration, and SSL certificates.
+  logo: https://parspack.com/wp-content/themes/parspack/template/images/logo.svg
+  website: https://parspack.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - VPS Hosting
+    - Server Provider
+    - Website Builder
+- name: Pars VDS
+  description: parsvds.com is an Iranian web hosting provider offering a range of services including virtual private servers (VPS), dedicated servers, hosting, and domain registration, with 24/7 support and over 11 years of experience.
+  logo: https://parsvds.com/wp-content/uploads/2021/08/Logo-Site-new-min-3.png
+  website: https://parsvds.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - VPS Hosting
+    - Domain
+    - Dedicated Servers
+- name: Limoo Host
+  description: Limoo.Host is an Iranian web hosting provider offering various hosting services, including shared hosting, dedicated servers, virtual private servers (VPS), and domain registration.
+  logo: https://limoo.host/asstes/img/logo/Logo.svg
+  website: https://limoo.host
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - VPS Hosting
+    - Dedicated Servers

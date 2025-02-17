@@ -13,7 +13,7 @@ services:
 
   - name: Parseek
     description: "Parseek started in 2002 as a Persian web search engine and later evolved into a news aggregator, automatically curating headlines from hundreds of trusted news sites. Its redesign focuses on enhancing the news browsing experience and fostering closer collaboration with news website managers."
-    logo: http://www.parseek.ir/images/parseek-logo.png
+    logo: /logo/parseek.png
     website: http://www.parseek.ir
     location: Iran
     flag: /flag/iran.svg
