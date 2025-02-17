@@ -2,19 +2,28 @@ title: Search Engines
 description: A search engine enables people to find and access information across the internet by entering keywords or phrases.
 icon: i-lucide-search
 services:
-  - name: Gerdoo
-    description: "Gerdoo is a meta search engine that retrieves initial results from providers like Google, refines the results, and then displays them to the user. "
-    logo: https://gerdoo.me/static/commons/img/logo.c179f12989b4.svg
-    website: https://gerdoo.me/
+  - name: Parseek
+    description: "Parseek started in 2002 as a Persian web search engine and later evolved into a news aggregator, automatically curating headlines from hundreds of trusted news sites. Its redesign focuses on enhancing the news browsing experience and fostering closer collaboration with news website managers."
+    logo: /logo/parseek.png
+    website: http://www.parseek.ir
     location: Iran
     flag: /flag/iran.svg
     tags:
       - Search Engine
 
-  - name: Parseek
-    description: "Parseek started in 2002 as a Persian web search engine and later evolved into a news aggregator, automatically curating headlines from hundreds of trusted news sites. Its redesign focuses on enhancing the news browsing experience and fostering closer collaboration with news website managers."
-    logo: /logo/parseek.png
-    website: http://www.parseek.ir
+  - name: Zarebin
+    description: "Zarebin is a search engine that improves access to Persian-language content by integrating multiple specialized search tools. It offers a unified platform where users can find music, movies, shopping, and more through a single app."
+    logo: /logo/zarebin.svg
+    website: https://zarebin.ir
+    location: Iran
+    flag: /flag/iran.svg
+    tags:
+      - Search Engine
+
+  - name: Gerdoo
+    description: "Gerdoo is a meta search engine that retrieves initial results from providers like Google, refines the results, and then displays them to the user. "
+    logo: https://gerdoo.me/static/commons/img/logo.c179f12989b4.svg
+    website: https://gerdoo.me/
     location: Iran
     flag: /flag/iran.svg
     tags:

@@ -10,3 +10,12 @@ services:
   flag: /flag/iran.svg
   tags:
     - Email Services
+
+- name: Mailfa
+  description: Mailfa is a free email service provider that offers email hosting.
+  logo: https://mailfa.com/images/logo-mailfa-light.png
+  website: https://mailfa.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Email Services

@@ -2,10 +2,20 @@ title: SMS Services
 description: SMS sending APIs enable businesses to send customized text messages to users through programmatic interfaces, supporting uses like notifications, phone number verification, and two-factor authentication.
 icon: i-simple-icons-minutemailer
 services:
+
 - name: Negin Ertebat
   description: "Negin SMS system is a web-based messaging platform enabling two-way SMS communication between users and the GSM network with enhanced messaging services."
-  logo: ""
+  logo: /logo/neginertebat.png
   website: https://www.3300.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - SMS Gateway
+
+- name: Kave Negar
+  description: "Kave Negar is a cloud-based SMS gateway that provides a simple API for sending and receiving SMS messages. It offers features like message scheduling, delivery reports, and message templates."
+  logo: https://kavenegar.com/images/logo.svg
+  website: https://www.kavenegar.com
   location: Iran
   flag: /flag/iran.svg
   tags:
