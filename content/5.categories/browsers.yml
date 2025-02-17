@@ -1,21 +1,4 @@
 title: Web Browsers
 description: Local web browser alternatives.
 icon: i-lucide-globe
-services: 
-- name: rismon
-  description: "a web browser using next.js with a good design, first search engine in persian language"
-  logo: https://www.rismoon.com/images/logo/logo.svg
-  website: https://www.rismoon.com
-  location: Iran
-  flag: /flag/iran.svg
-  tags:
-    - WEB Browser
-- name: parseek
-  description: "a web browser using asp.net with a good security"
-  logo: http://www.parseek.ir/images/parseek-logo.png
-  website: http://www.parseek.ir
-  location: Iran
-  flag: /flag/iran.svg
-  tags:
-    - WEB Browser
-
+services: []
