@@ -1,5 +1,5 @@
 title: VPS Hosting
-description: Virtual private servers with local datacenter presence.
+description: Virtual private servers with local data-center presence.
 icon: i-lucide-server
 services:
   - name: Mihan Web Host
@@ -37,9 +37,9 @@ services:
     location: Iran
     flag: /flag/iran.svg
     tags:
-      - VPS hosting
-      - server provider
-      - website builder
+      - VPS Hosting
+      - Server Provider
+      - Website Builder
   - name: ParsVDS
     description: parsvds.com is an Iranian web hosting provider offering a range of services including virtual private servers (VPS), dedicated servers, hosting, and domain registration, with 24/7 support and over 11 years of experience.
     logo: https://parsvds.com/wp-content/uploads/2021/08/Logo-Site-new-min-3.png
@@ -47,9 +47,9 @@ services:
     location: Iran
     flag: /flag/iran.svg
     tags:
-      - VPS hosting
-      - domain registration
-      - dedicated servers
+      - VPS Hosting
+      - Domain
+      - Dedicated Servers
   - name: limoohost
     description: Limoo.Host is an Iranian web hosting provider offering various hosting services, including shared hosting, dedicated servers, virtual private servers (VPS), and domain registration.
     logo: https://limoo.host/asstes/img/logo/Logo.svg
@@ -57,6 +57,5 @@ services:
     location: Iran
     flag: /flag/iran.svg
     tags:
-      - VPS hosting
-      - dedicated servers
-      - including shared hosting
+      - VPS Hosting
+      - Dedicated Servers
