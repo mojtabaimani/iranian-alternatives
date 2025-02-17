@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const links = [{
+// const links = [{
 //   label: 'Resources',
 //   children: [{
 //     label: 'Help center'
@@ -32,25 +32,25 @@ const links = [{
 //   }, {
 //     label: 'Blog'
 //   }]
-}]
+// }]
 
-const toast = useToast()
+// const toast = useToast()
 
-const email = ref('')
-const loading = ref(false)
+// const email = ref('')
+// const loading = ref(false)
 
-function onSubmit() {
-  loading.value = true
+// function onSubmit() {
+//   loading.value = true
 
-  setTimeout(() => {
-    toast.add({
-      title: 'Subscribed!',
-      description: 'You\'ve been subscribed to our newsletter.'
-    })
+//   setTimeout(() => {
+//     toast.add({
+//       title: 'Subscribed!',
+//       description: 'You\'ve been subscribed to our newsletter.'
+//     })
 
-    loading.value = false
-  }, 1000)
-}
+//     loading.value = false
+//   }, 1000)
+// }
 </script>
 
 <template>

@@ -56,7 +56,9 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () => qu
                 :alt="`${service.name} logo`"
                 class="w-40 h-auto object-contain"
               >
-              <h3 class="font-semibold truncate text-2xl">{{ service.name }}</h3>
+              <h3 class="font-semibold truncate text-2xl">
+                {{ service.name }}
+              </h3>
             </div>
 
             <!-- Service Description -->
@@ -100,7 +102,10 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () => qu
         </UPageCard>
       </UPageGrid>
 
-      <hr v-if="surround?.length" class="my-8 border-gray-200 dark:border-gray-800">
+      <hr
+        v-if="surround?.length"
+        class="my-8 border-gray-200 dark:border-gray-800"
+      >
 
       <UContentSurround :surround="surround" />
     </UPageBody>
