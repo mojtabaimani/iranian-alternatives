@@ -11,8 +11,8 @@ services:
     tags:
       - Search Engine
 
-  - name: parseek
-    description: "a search engine using asp.net with a good security"
+  - name: Parseek
+    description: "Parseek started in 2002 as a Persian web search engine and later evolved into a news aggregator, automatically curating headlines from hundreds of trusted news sites. Its redesign focuses on enhancing the news browsing experience and fostering closer collaboration with news website managers."
     logo: http://www.parseek.ir/images/parseek-logo.png
     website: http://www.parseek.ir
     location: Iran
