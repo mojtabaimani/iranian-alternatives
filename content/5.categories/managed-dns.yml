@@ -1,0 +1,14 @@
+title: Managed DNS
+description: A managed DNS provider operates authoritative servers that maintain DNS records for specific domains. Unlike public DNS resolvers that handle general domain lookups, these specialized servers store and manage DNS information only for their assigned domains. When users access a website, their computers first contact a public DNS resolver, which then queries the appropriate authoritative DNS server to find the correct IP address. While domain registrars typically include basic DNS management with domain purchases, dedicated managed DNS providers offer more sophisticated services that work with domains from any registrar. These providers include advanced features such as automatic failover and location-based DNS routing, and can manage domains registered through different companies.
+icon: i-lucide-network
+services:
+- name: Arvan Cloud
+  description: Arvan Cloud is a cloud service provider that offers a range of services including CDN, DDoS protection, and cloud storage.
+  logo: https://www.arvancloud.ir/blog/wp-content//uploads/2023/08/Avatar.svg
+  website: https://arvancloud.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Cloud Computing
+    - CDN
+    - DNS

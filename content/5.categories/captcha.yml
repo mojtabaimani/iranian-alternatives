@@ -1,5 +1,5 @@
 title: Captcha Services
-description: Find Iranian alternatives for Captcha and human verification services
+description: A captcha system helps websites distinguish between human users and automated programs (bots). It protects websites from automated abuse by requiring users to complete tasks that are easy for humans but difficult for computers.
 icon: i-lucide-shield-question
 services:
 - name: Arcaptcha

@@ -1,5 +1,5 @@
 title: VPS Hosting
-description: Virtual private servers with local data-center presence.
+description: A virtual private server provider offers dedicated computing resources with specific amounts of memory, storage space, data transfer limits and processing power allocated to each customer.
 icon: i-lucide-server
 services:
 - name: Mihan Web Host

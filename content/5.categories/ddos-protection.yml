@@ -1,4 +1,4 @@
 title: DDoS Protection
-description: Protection against DDoS attacks.
+description: A DDoS protection service shields websites and servers from distributed denial of service attacks by analyzing incoming traffic. When an attack occurs, multiple computers send simultaneous requests to overwhelm a service and make it unavailable to legitimate users. These protection services identify and block malicious traffic while allowing genuine user requests to reach the website, helping maintain service availability during attacks.
 icon: i-lucide-shield-check
 services: []

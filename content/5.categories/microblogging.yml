@@ -1,4 +1,12 @@
 title: Microblogging
-description: Local social networking platforms.
+description: A microblogging platform enables people to share brief updates in the form of short text posts, images, or video links. These concise messages are typically displayed in a chronological feed for followers to view and engage with.
 icon: i-lucide-message-square
-services: []
+services:
+- name: Virasty
+  description: "Virasty is a Persian microblogging platform that allows users to share short text posts, images, and videos with their followers. It also offers a feature called 'Virasty Stories' that lets users create temporary posts that disappear after 24 hours."
+  logo: https://virasty.com/img/icon-192.png
+  website: https://virasty.com/
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Microblogging

@@ -1,5 +1,5 @@
 title: PaaS
-description: Platform as a Service solutions.
+description: A platform as a service offers a complete environment for developing and running applications in the cloud, handling infrastructure management so users can focus on their application code.
 icon: i-lucide-layers
 services:
 - name: Liara

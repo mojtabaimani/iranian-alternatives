@@ -1,5 +1,5 @@
 title: E-Signature
-description: Electronic signature solutions.
+description: Electronic signature software allows users to sign documents digitally with varying levels of legal validity. These digital signatures come in three security tiers, 1. A simple electronic signature represents the basic level, comparable to adding a scanned signature to a PDF or typing your name in an email. 2. An advanced electronic signature provides stronger security by ensuring the signer can be identified and detecting any document alterations after signing. 3. A qualified electronic signature offers the highest security level and carries the same legal weight as a handwritten signature. Only authorized trust service providers can issue these signatures.
 icon: i-lucide-pen-tool
 services:
 - name: Vinsign

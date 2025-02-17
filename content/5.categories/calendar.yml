@@ -1,5 +1,5 @@
 title: Calendar Services
-description: Calendar and scheduling solutions.
+description: A calendar service provides digital tools for managing dates and appointments. Users can often share calendars with others to coordinate schedules and events collaboratively. Most services support the iCalendar standard, allowing users to synchronize their calendar information across multiple devices.
 icon: i-lucide-calendar
 services:
 - name: Bade Saba

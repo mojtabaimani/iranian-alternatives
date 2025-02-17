@@ -1,5 +1,5 @@
-title: Translation Services
-description: Machine translation with Persian language support.
+title: Machine Translation
+description: A machine translation service automatically converts text from one language to another using computer algorithms.
 icon: i-lucide-languages
 services:
 - name: Abadis

@@ -1,4 +1,4 @@
 title: Error Tracking
-description: Monitor and track application errors.
+description: Error tracking services monitor applications for problems and collect detailed information about when and how errors occur, helping developers understand and fix issues by providing context about each error situation.
 icon: i-lucide-bug
 services: []

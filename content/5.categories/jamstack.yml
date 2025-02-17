@@ -1,4 +1,4 @@
 title: Jamstack Hosting
-description: Static and Jamstack website hosting.
+description: Jamstack hosting services specialize in deploying websites built using the Jamstack architecture, where static pages are pre-generated and served alongside JavaScript code that connects to APIs. These services optimize the delivery of pre-rendered markup files while supporting dynamic functionality through API integrations.
 icon: i-lucide-code
 to: /categories/jamstack

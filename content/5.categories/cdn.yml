@@ -1,5 +1,5 @@
 title: CDN Services
-description: Content delivery networks with local PoPs.
+description: A content delivery network distributes network traffic through multiple servers located across different geographical locations.
 icon: i-lucide-network
 services:
 - name: Arvan Cloud
