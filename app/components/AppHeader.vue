@@ -4,18 +4,22 @@ import type { NavItem } from '@nuxt/content'
 const navigation = inject<Ref<NavItem[]>>('navigation', ref([]))
 
 const links = [
-  // {
-  //   label: 'Docs',
-  //   to: '/docs'
-  // },
-  // {
-  //   label: 'Pricing',
-  //   to: '/pricing'
-  // },
-  // {
-  //   label: 'Blog',
-  //   to: '/blog'
-  // }
+  {
+    label: 'Home',
+    to: '/#top'
+  },
+  {
+    label: 'Categories',
+    to: '/#categories'
+  },
+  {
+    label: 'Docs',
+    to: '/docs'
+  },
+  {
+    label: 'Blog',
+    to: '/blog'
+  }
 ]
 </script>
 
@@ -36,9 +40,9 @@ const links = [
         />
       </div>
     </template>
-    <template #center>
+    <!-- <template #center>
       <UContentSearchButton />
-    </template>
+    </template> -->
     <template #right>
       <UColorModeButton size="sm" />
 
