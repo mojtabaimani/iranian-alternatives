@@ -1,5 +1,5 @@
 title: Managed Kubernetes
-description: Container orchestration services.
+description: A managed Kubernetes service offers a pre-configured environment for running Kubernetes, a system that automates the deployment and management of containerized applications. While Kubernetes is open-source software maintained by the Cloud Native Computing Foundation and originally created by Google, managed services handle the complex setup and maintenance tasks for users.
 icon: i-lucide-container
 services:
 

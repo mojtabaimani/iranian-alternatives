@@ -1,4 +1,4 @@
-title: IAM
-description: Identity and access management solutions.
+title: Identity and Access Management (IAM)
+description: An identity and access management service controls user accounts and their permissions across different resources. These systems often provide single sign-on functionality, allowing users to access multiple services with one login. When users click a "Login with" button, they're redirected to a central login page, which sends back a verification token after successful authentication. This process typically follows established security standards like OAuth or SAML.
 icon: i-lucide-lock
 services: []

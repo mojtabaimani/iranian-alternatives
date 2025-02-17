@@ -1,4 +1,4 @@
 title: VPN Services
-description: Secure VPN services with local endpoints.
+description: A VPN service routes your internet connection through remote servers, protecting your privacy by masking your real location and encrypting your data, particularly useful when using public WiFi networks.
 icon: i-lucide-shield
 services: []

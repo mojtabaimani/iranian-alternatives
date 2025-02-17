@@ -1,4 +1,4 @@
-title: Consent Management
-description: Cookie and privacy consent platforms.
+title: Consent Management Platform (CMP)
+description: A consent management platform provides tools to collect and manage user privacy preferences through cookie banners on websites. When visitors first access a site, these systems display options for accepting or declining various tracking technologies. Based on user choices, the platform then enables or blocks specific services. These systems are designed to comply with various data privacy laws across different regions.
 icon: i-lucide-cookie
 to: /categories/consent-management

@@ -1,4 +1,4 @@
 title: SSL Certificates
-description: ACME SSL certificate providers.
+description: SSL certificate providers issue digital certificates that enable secure encrypted connections (HTTPS) between websites and users. This category specifically covers providers that use the ACME protocol, which automates domain verification and allows for shorter certificate lifespans. These certificates work through a trust hierarchy, where each certificate is signed by a Certificate Authority (CA), whose own certificate is signed by a root certificate.
 icon: i-simple-icons-openssl
 services: []

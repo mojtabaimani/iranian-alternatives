@@ -1,5 +1,5 @@
 title: Messaging
-description: Local instant messaging platforms.
+description: Instant messaging applications enable users to exchange text messages and multimedia content with one another. Many of these apps also include voice and video calling capabilities.
 icon: i-lucide-message-circle
 services:
 - name: Eitaa
@@ -22,6 +22,14 @@ services:
   description: "Rubika is a Persian messaging app that offers secure messaging, voice and video calls, and group chats."
   logo: https://rubika.ir/static/images/logo.svg
   website: https://rubika.ir/
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Messaging
+- name: Gap
+  description: "Gap is a Persian messaging app that offers secure messaging, voice and video calls, and group chats."
+  logo: https://gap.im/gap-site/images/logo-header-en.png
+  website: https://gap.im/
   location: Iran
   flag: /flag/iran.svg
   tags:
