@@ -1,40 +1,43 @@
-# name: ci
+name: ci
 
-# on:
-#   push:
-#     branches:
-#       - v1
-#   pull_request:
-#     branches:
-#       - v1
+on:
+  push:
+    branches:
+      - v1
+  pull_request:
+    branches:
+      - v1
 
-# jobs:
-#   ci:
-#     runs-on: ${{ matrix.os }}
+jobs:
+  ci:
+    runs-on: ${{ matrix.os }}
 
-#     strategy:
-#       matrix:
-#         os: [ubuntu-latest]
-#         node: [22]
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [22]
 
-#     steps:
-#       - name: Checkout
-#         uses: actions/checkout@v4
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-#       - name: Install pnpm
-#         uses: pnpm/action-setup@v4
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
 
-#       - name: Install node
-#         uses: actions/setup-node@v4
-#         with:
-#           node-version: ${{ matrix.node }}
-#           cache: pnpm
+      - name: Install node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: pnpm
 
-#       - name: Install dependencies
-#         run: pnpm install
+      - name: Install dependencies
+        run: pnpm install
 
-#       - name: Lint
-#         run: pnpm run lint
+      - name: Lint
+        run: pnpm run lint
 
-#       - name: Typecheck
-#         run: pnpm run typecheck
+      - name: Typecheck
+        run: pnpm run typecheck
+
+      - name: Build
+        run: pnpm run build
