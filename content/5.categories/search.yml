@@ -2,11 +2,20 @@ title: Search Engines
 description: Iranian search engine alternatives.
 icon: i-lucide-search
 services:
-- name: Gerdoo
-  description: "Gerdoo is a meta search engine that retrieves initial results from providers like Google, refines the results, and then displays them to the user. "
-  logo: https://gerdoo.me/static/commons/img/logo.c179f12989b4.svg
-  website: https://gerdoo.me/
-  location: Iran
-  flag: /flag/iran.svg
-  tags:
-  - Search Engine
+  - name: Gerdoo
+    description: "Gerdoo is a meta search engine that retrieves initial results from providers like Google, refines the results, and then displays them to the user. "
+    logo: https://gerdoo.me/static/commons/img/logo.c179f12989b4.svg
+    website: https://gerdoo.me/
+    location: Iran
+    flag: /flag/iran.svg
+    tags:
+      - Search Engine
+
+  - name: parseek
+    description: "a search engine using asp.net with a good security"
+    logo: http://www.parseek.ir/images/parseek-logo.png
+    website: http://www.parseek.ir
+    location: Iran
+    flag: /flag/iran.svg
+    tags:
+      - Search Engine
