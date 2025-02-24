@@ -92,10 +92,10 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () => qu
               </div>
             </div>
             <!-- Visit Website -->
-            <div class="flex items-center gap-2 mt-4 text-sm text-gray-500 dark:text-gray-400">
-              <span>Website:</span>
-              <div class="flex items-center gap-1">
-                <span>{{ service.website }}</span>
+            <div class="flex items-start gap-2 mt-4 text-sm text-gray-500 dark:text-gray-400">
+              <span class="shrink-0">Website:</span>
+              <div class="flex-1 min-w-0">
+                <span class="break-words">{{ service.website }}</span>
               </div>
             </div>
           </div>

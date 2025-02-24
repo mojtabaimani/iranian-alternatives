@@ -1,4 +1,12 @@
 title: Identity and Access Management (IAM)
 description: An identity and access management service controls user accounts and their permissions across different resources. These systems often provide single sign-on functionality, allowing users to access multiple services with one login. When users click a "Login with" button, they're redirected to a central login page, which sends back a verification token after successful authentication. This process typically follows established security standards like OAuth or SAML.
 icon: i-lucide-lock
-services: []
+services:
+- name: Keycloak
+  description: Keycloak is an open source identity and access management solution that provides single sign-on, social login, and multi-factor authentication.
+  logo: https://www.keycloak.org/resources/images/logo.svg
+  website: https://github.com/keycloak/keycloak
+  location: Open Source
+  tags:
+  - IAM
+  - Open Source
