@@ -40,166 +40,154 @@ sections:
 features:
   title: Categories
   items:
-    - title: Web Analytics
-      description: Tools for analyzing website traffic and visitor behavior.
-      icon: i-lucide-bar-chart
-      to: /categories/web-analytics
-    - title: Cloud Computing
-      description: Scalable infrastructure services for hosting and computing needs.
-      icon: i-lucide-cloud
-      to: /categories/cloud-computing
-    - title: CDN Services
-      description: Content delivery networks optimized for regional performance.
-      icon: i-lucide-network
-      to: /categories/cdn
-    - title: Email Services
-      description: Email hosting with business features.
-      icon: i-lucide-mail
-      to: /categories/email
-    - title: VPS Hosting
-      description: Virtual private servers with dedicated resources.
-      icon: i-lucide-server
-      to: /categories/vps
-    - title: Search Engines
-      description: Search platforms optimized for regional content and languages.
-      icon: i-lucide-search
-      to: /categories/search
-    - title: Domain Registrars
-      description: Domain name registration services.
-      icon: i-lucide-globe
-      to: /categories/domains
-    - title: Time Tracking
-      description: Track time spent on tasks and projects.
-      icon: i-lucide-clock
-      to: /categories/time-tracking
-    - title: Navigation
-      description: Mapping and routing services.
-      icon: i-lucide-map
-      to: /categories/navigation
-    - title: Uptime Monitoring
-      description: Website and service availability monitoring.
-      icon: i-lucide-activity
-      to: /categories/uptime-monitoring
-    - title: File Hosting
-      description: File storage and sharing platforms.
-      icon: i-lucide-hard-drive
-      to: /categories/file-hosting
-    - title: Translation Services
-      description: Machine translation with Persian language support.
-      icon: i-lucide-languages
-      to: /categories/translation
-    - title: Object Storage
-      description: Object storage solutions for applications.
-      icon: i-lucide-database
-      to: /categories/object-storage
-    - title: Microblogging
-      description: Platforms for social networking and content sharing.
-      icon: i-lucide-message-square
-      to: /categories/microblogging
-    - title: VPN Services
-      description: Secure and reliable virtual private network solutions.
-      icon: i-lucide-shield
-      to: /categories/vpn
-    - title: Managed DNS
-      description: DNS management and distribution services.
-      icon: i-lucide-network
-      to: /categories/managed-dns
-    - title: Professional Networking
-      description: Social platforms for career development.
-      icon: i-lucide-users
-      to: /categories/professional-networking
-    - title: FaaS
-      description: Serverless computing platforms.
-      icon: i-lucide-function-square
-      to: /categories/faas
-    - title: PaaS
-      description: Platform services for application deployment.
-      icon: i-lucide-layers
-      to: /categories/paas
-    - title: Error Tracking
-      description: Application error monitoring and debugging tools.
-      icon: i-lucide-bug
-      to: /categories/error-tracking
-    - title: E-Signature
-      description: Digital document signing and verification services.
-      icon: i-lucide-pen-tool
-      to: /categories/e-signature
-    - title: Password Managers
-      description: Encrypted credential storage and management tools.
-      icon: i-lucide-key
-      to: /categories/password-manager
-    - title: Messaging
-      description: Real-time communication platforms for teams and individuals.
-      icon: i-lucide-message-circle
-      to: /categories/messaging
-    - title: Version Control
-      description: Code repository hosting with collaboration features.
-      icon: i-lucide-git-branch
-      to: /categories/version-control
-    - title: IAM
-      description: Identity and access management platforms.
-      icon: i-lucide-lock
-      to: /categories/iam
-    - title: Live Chat
-      description: Customer engagement and support solutions.
-      icon: i-lucide-message-square
-      to: /categories/live-chat
-    - title: Web Browsers
+    - title: Browsers
       description: Web browsers with privacy features.
       icon: i-lucide-globe
       to: /categories/browsers
-    - title: Video Conferencing
-      description: Virtual meeting and collaboration platforms.
-      icon: i-lucide-video
-      to: /categories/video-conferencing
-    - title: Document Collaboration
-      description: Real-time document editing and team collaboration tools.
-      icon: i-lucide-file-text
-      to: /categories/document-collaboration
     - title: Calendar Services
       description: Scheduling and calendar management tools.
       icon: i-lucide-calendar
       to: /categories/calendar
-    - title: Email Marketing
-      description: Email campaign and automation tools.
-      icon: i-lucide-mail-plus
-      to: /categories/email-marketing
-    - title: Font Services
-      description: Professional web font delivery and optimization services.
-      icon: i-lucide-type
-      to: /categories/fonts
-    - title: WordPress Hosting
-      description: Hosting solutions for WordPress websites.
-      icon: i-simple-icons-wordpress
-      to: /categories/wordpress-hosting
-    - title: Team Communication
-      description: Platforms for team collaboration and messaging.
-      icon: i-lucide-messages-square
-      to: /categories/team-communication
-    - title: Managed Kubernetes
-      description: Container orchestration platforms.
-      icon: i-lucide-container
-      to: /categories/kubernetes
-    - title: Video Platform
-      description: Video hosting and streaming services.
-      icon: i-lucide-video
-      to: /categories/video-platform
-    - title: Maps API
-      description: Mapping and geolocation services.
-      icon: i-lucide-map-pin
-      to: /categories/maps-api
-    - title: Tag Management
-      description: Analytics and tag management solutions.
-      icon: i-lucide-tags
-      to: /categories/tag-management
+    - title: Captcha Services
+      description: Human verification and anti-bot solutions.
+      icon: i-lucide-shield-question
+      to: /categories/captcha
+    - title: CDN Services
+      description: Content delivery networks optimized for regional performance.
+      icon: i-lucide-network
+      to: /categories/cdn
+    - title: Cloud Computing
+      description: Scalable infrastructure services for hosting and computing needs.
+      icon: i-lucide-cloud
+      to: /categories/cloud-computing
+    - title: Consent Management
+      description: Cookie and privacy consent platforms.
+      icon: i-lucide-cookie
+      to: /categories/consent-management
     - title: DDoS Protection
       description: Cyber-attack prevention and mitigation services.
       icon: i-lucide-shield-check
       to: /categories/ddos-protection
+    - title: Document Collaboration
+      description: Real-time document editing and team collaboration tools.
+      icon: i-lucide-file-text
+      to: /categories/document-collaboration
+    - title: Domain Registrars
+      description: Domain name registration services.
+      icon: i-lucide-globe
+      to: /categories/domains
+    - title: E-Signature
+      description: Digital document signing and verification services.
+      icon: i-lucide-pen-tool
+      to: /categories/e-signature
+    - title: Email Marketing
+      description: Email campaign and automation tools.
+      icon: i-lucide-mail-plus
+      to: /categories/email-marketing
+    - title: Email Services
+      description: Email hosting with business features.
+      icon: i-lucide-mail
+      to: /categories/email
+    - title: Error Tracking
+      description: Application error monitoring and debugging tools.
+      icon: i-lucide-bug
+      to: /categories/error-tracking
+    - title: FaaS
+      description: Serverless computing platforms.
+      icon: i-lucide-function-square
+      to: /categories/faas
+    - title: File Hosting
+      description: File storage and sharing platforms.
+      icon: i-lucide-hard-drive
+      to: /categories/file-hosting
+    - title: Font Services
+      description: Professional web font delivery and optimization services.
+      icon: i-lucide-type
+      to: /categories/fonts
+    - title: IAM
+      description: Identity and access management platforms.
+      icon: i-lucide-lock
+      to: /categories/iam
+    - title: Jamstack Hosting
+      description: Static and Jamstack website hosting.
+      icon: i-lucide-code
+      to: /categories/jamstack
+    - title: Live Chat
+      description: Customer engagement and support solutions.
+      icon: i-lucide-message-square
+      to: /categories/live-chat
+    - title: Managed DNS
+      description: DNS management and distribution services.
+      icon: i-lucide-network
+      to: /categories/managed-dns
+    - title: Managed Kubernetes
+      description: Container orchestration platforms.
+      icon: i-lucide-container
+      to: /categories/kubernetes
+    - title: Maps API
+      description: Mapping and geolocation services.
+      icon: i-lucide-map-pin
+      to: /categories/maps-api
+    - title: Marketing Automation
+      description: Marketing workflow automation tools.
+      icon: i-lucide-zap
+      to: /categories/marketing-automation
+    - title: Messaging
+      description: Real-time communication platforms for teams and individuals.
+      icon: i-lucide-message-circle
+      to: /categories/messaging
+    - title: Microblogging
+      description: Platforms for social networking and content sharing.
+      icon: i-lucide-message-square
+      to: /categories/microblogging
+    - title: Navigation
+      description: Mapping and routing services.
+      icon: i-lucide-map
+      to: /categories/navigation
+    - title: Object Storage
+      description: Object storage solutions for applications.
+      icon: i-lucide-database
+      to: /categories/object-storage
+    - title: PaaS
+      description: Platform services for application deployment.
+      icon: i-lucide-layers
+      to: /categories/paas
+    - title: Password Managers
+      description: Encrypted credential storage and management tools.
+      icon: i-lucide-key
+      to: /categories/password-manager
+    - title: Payment Services
+      description: Secure payment processing and gateway solutions.
+      icon: i-lucide-credit-card
+      to: /categories/payment
+    - title: Professional Networking
+      description: Social platforms for career development.
+      icon: i-lucide-users
+      to: /categories/professional-networking
+    - title: Project Management
+      description: Project planning and team coordination tools.
+      icon: i-lucide-kanban
+      to: /categories/project-management
+    - title: Public DNS
+      description: Public DNS resolvers and servers.
+      icon: i-lucide-network
+      to: /categories/public-dns
+    - title: Search Engines
+      description: Search platforms optimized for regional content and languages.
+      icon: i-lucide-search
+      to: /categories/search
     - title: Session Recording
       description: User behavior analysis tools.
       icon: i-lucide-video
       to: /categories/session-recording
+    - title: SMS Services
+      description: SMS gateway and messaging services.
+      icon: i-simple-icons-minutemailer
+      to: /categories/sms
+    - title: Spelling and Grammar Checker
+      description: Check spelling and grammar to identify and correct mistakes.
+      icon: i-lucide-spell-check
+      to: /categories/spelling-and-grammar-checker
     - title: SSL Certificates
       description: Digital certificate management and automation services.
       icon: i-simple-icons-openssl
@@ -208,42 +196,54 @@ features:
       description: Survey creation and analysis tools.
       icon: i-lucide-form-input
       to: /categories/surveys
-    - title: Marketing Automation
-      description: Marketing workflow automation tools.
-      icon: i-lucide-zap
-      to: /categories/marketing-automation
-    - title: Project Management
-      description: Project planning and team coordination tools.
-      icon: i-lucide-kanban
-      to: /categories/project-management
-    - title: Consent Management
-      description: Cookie and privacy consent platforms.
-      icon: i-lucide-cookie
-      to: /categories/consent-management
-    - title: SMS Services
-      description: SMS gateway and messaging services.
-      icon: i-simple-icons-minutemailer
-      to: /categories/sms
-    - title: Jamstack Hosting
-      description: Static and Jamstack website hosting.
-      icon: i-lucide-code
-      to: /categories/jamstack
-    - title: Captcha Services
-      description: Human verification and anti-bot solutions.
-      icon: i-lucide-shield-question
-      to: /categories/captcha
-    - title: Payment Services
-      description: Secure payment processing and gateway solutions.
-      icon: i-lucide-credit-card
-      to: /categories/payment
-    - title: Public DNS
-      description: Public DNS resolvers and servers.
-      icon: i-lucide-network
-      to: /categories/public-dns
-    - title: Spelling and Grammar Checker
-      description: Check spelling and grammar to identify and correct mistakes.
-      icon: i-lucide-spell-check
-      to: /categories/spelling-and-grammar-checker
+    - title: Tag Management
+      description: Analytics and tag management solutions.
+      icon: i-lucide-tags
+      to: /categories/tag-management
+    - title: Team Communication
+      description: Platforms for team collaboration and messaging.
+      icon: i-lucide-messages-square
+      to: /categories/team-communication
+    - title: Time Tracking
+      description: Track time spent on tasks and projects.
+      icon: i-lucide-clock
+      to: /categories/time-tracking
+    - title: Translation Services
+      description: Machine translation with Persian language support.
+      icon: i-lucide-languages
+      to: /categories/translation
+    - title: Uptime Monitoring
+      description: Website and service availability monitoring.
+      icon: i-lucide-activity
+      to: /categories/uptime-monitoring
+    - title: Version Control
+      description: Code repository hosting with collaboration features.
+      icon: i-lucide-git-branch
+      to: /categories/version-control
+    - title: Video Conferencing
+      description: Virtual meeting and collaboration platforms.
+      icon: i-lucide-video
+      to: /categories/video-conferencing
+    - title: Video Platform
+      description: Video hosting and streaming services.
+      icon: i-lucide-video
+      to: /categories/video-platform
+    - title: VPN Services
+      description: Secure and reliable virtual private network solutions.
+      icon: i-lucide-shield
+      to: /categories/vpn
+    - title: VPS Hosting
+      description: Virtual private servers with dedicated resources.
+      icon: i-lucide-server
+      to: /categories/vps
+    - title: Web Analytics
+      description: Tools for analyzing website traffic and visitor behavior.
+      icon: i-lucide-bar-chart
+      to: /categories/web-analytics
+    - title: WordPress Hosting
+      description: Hosting solutions for WordPress websites.
+      icon: i-simple-icons-wordpress
+      to: /categories/wordpress-hosting
 cta:
   title: Contribute to Iranian Alternatives
   description: Help us build the largest directory of Iranian digital services. Add missing services or suggest improvements.

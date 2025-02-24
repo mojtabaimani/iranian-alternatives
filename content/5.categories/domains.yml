@@ -2,9 +2,17 @@ title: Domain Name Registrars
 description: Domain name registrars are companies that handle the registration and management of website addresses on the internet.
 icon: i-lucide-globe
 services:
+- name: IRNIC
+  description: IRNIC is the official registry for .ir domain names in Iran. It manages the registration and administration of .ir domains, ensuring the stability and security of the Iranian internet space.
+  logo: https://www.nic.ir/static/images/logo-irnic.fa.png
+  website: https://www.nic.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Domain
 - name: Mihan Web Host
   description: Mihan Web Host is a web hosting provider that offers a range of services including shared hosting, VPS, and dedicated servers.
-  logo: https://mihanwebhost.com/images/logo-s/active-logo/01.svg
+  logo: https://my.mihanwebhost.com/templates/mwh/images/pagesIcon/logo-mwh-01.svg
   website: https://mihanwebhost.com
   location: Iran
   flag: /flag/iran.svg

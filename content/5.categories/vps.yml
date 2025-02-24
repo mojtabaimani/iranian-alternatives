@@ -4,7 +4,7 @@ icon: i-lucide-server
 services:
 - name: Mihan Web Host
   description: Mihan Web Host is a web hosting provider that offers a range of services including shared hosting, VPS, and dedicated servers.
-  logo: https://mihanwebhost.com/images/logo-s/active-logo/01.svg
+  logo: https://my.mihanwebhost.com/templates/mwh/images/pagesIcon/logo-mwh-01.svg
   website: https://mihanwebhost.com
   location: Iran
   flag: /flag/iran.svg
