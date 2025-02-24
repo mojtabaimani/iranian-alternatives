@@ -20,3 +20,12 @@ services:
   flag: /flag/iran.svg
   tags:
   - SMS Gateway
+
+- name: SMS.ir
+  description: "SMS.ir is a messaging platform that provides SMS services for businesses in Iran. It offers features like SMS campaigns, two-way messaging, and SMS APIs for integration with other systems."
+  logo: https://sms.ir/wp-content/uploads/2024/12/Company-sms.ir_.svg
+  website: https://sms.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - SMS Gateway

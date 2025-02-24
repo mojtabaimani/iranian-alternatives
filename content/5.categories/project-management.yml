@@ -2,20 +2,28 @@ title: Project Management
 description: Project management software helps teams organize and track their work by providing a shared workspace where they can create tasks, set deadlines, allocate resources, and monitor progress. Team members can actively participate in managing projects, communicate with each other, and view project status. These tools typically include features for time tracking, scheduling, and calendar management to help coordinate team activities.
 icon: i-lucide-kanban
 services:
-  - name: Mizito
-    description: "Mizito is a project management tool that helps you manage your projects, tasks, and team members in one place."
-    logo: /logo/mizito.svg
-    website: https://mizito.ir
-    location: Iran
-    flag: /flag/iran.svg
-    tags:
-      - Project Management
-  - name: Peygir
-    description: "Peygir is a brand-new, issue-tracking project & team Management application."
-    logo: https://peygir.com/wp-content/uploads/2018/02/logo.png
-    website: https://peygir.com
-    location: Iran
-    flag: /flag/iran.svg
-    tags:
-      - Project Management
-      - Issue Tracker
+- name: Mizito
+  description: "Mizito is a project management tool that helps you manage your projects, tasks, and team members in one place."
+  logo: /logo/mizito.svg
+  website: https://mizito.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Project Management
+- name: Peygir
+  description: "Peygir is a brand-new, issue-tracking project & team Management application."
+  logo: https://peygir.com/wp-content/uploads/2018/02/logo.png
+  website: https://peygir.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Project Management
+    - Issue Tracker
+- name: Taskulu
+  description: "Taskulu is a project management tool that lets you manage projects, tasks, and team members in one place."
+  logo: https://taskulu.ir/static/images/taskulu-fa-blue.svg
+  website: https://taskulu.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Project Management

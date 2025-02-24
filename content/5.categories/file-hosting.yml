@@ -1,4 +1,12 @@
 title: File Hosting
 description: File hosting services allow users to store files online, either for backup purposes or file sharing. These services typically provide applications that can automatically synchronize computer folders or upload smartphone photos to the cloud storage.
 icon: i-lucide-hard-drive
-services: []
+services:
+- name: Nodisk
+  description: "Nodisk is a cloud storage service that allows you to store, share, and access your files from anywhere."
+  logo: https://nodisk.ir/wp-content/uploads/2020/08/LoGoNodisK1-e1636974218617.webp
+  website: https://nodisk.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Cloud Storage
