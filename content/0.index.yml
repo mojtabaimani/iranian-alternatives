@@ -56,6 +56,10 @@ features:
       description: Content delivery networks optimized for regional performance.
       icon: i-lucide-network
       to: /categories/cdn
+    - title: Channel Management
+      description: Centralized tools for managing property listings across multiple booking websites.
+      icon: i-lucide-home
+      to: /categories/channel-management
     - title: Cloud Computing
       description: Scalable infrastructure services for hosting and computing needs.
       icon: i-lucide-cloud

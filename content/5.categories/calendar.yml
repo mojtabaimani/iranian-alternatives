@@ -26,3 +26,12 @@ services:
   flag: /flag/iran.svg
   tags:
     - Calendar
+- name: Persian-Calendar.ir
+  description: persian-calendar.ir is a dynamic calendar service that covers 10 years of past and 10 years of future dates, updated monthly. It can be used both as an API and as a NuGet Package for developers.
+  logo: https://persian-calendar.ir/assets/images/logo.png
+  website: https://persian-calendar.ir/
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Calendar
+    - API
