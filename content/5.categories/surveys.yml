@@ -10,3 +10,11 @@ services:
   flag: /flag/iran.svg
   tags:
   - Survey
+- name: Formafzar
+  description: "The FormAfzar survey system ensures that you can design a unique, fully customized, and professional survey form, while its exceptional capabilities assist you in creating Persian survey forms.."
+  logo: https://formafzar.com/assets/img/logo/formAfzar-logo-fa.png
+  website: https://formafzar.com/
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Survey
