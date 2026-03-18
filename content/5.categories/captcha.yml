@@ -1,0 +1,12 @@
+title: Captcha Services
+description: A captcha system helps websites distinguish between human users and automated programs (bots). It protects websites from automated abuse by requiring users to complete tasks that are easy for humans but difficult for computers.
+icon: i-lucide-shield-question
+services:
+- name: Arcaptcha
+  description: "Arcaptcha is a next-generation captcha that leverages artificial intelligence and practical challenges to provide integrated security and a seamless experience for business services and their users on the web."
+  logo: https://arcaptcha.co/svg/arcaptcha-brand.svg
+  website: https://arcaptcha.co
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Captcha

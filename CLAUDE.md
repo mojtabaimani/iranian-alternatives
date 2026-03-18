@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-A Nuxt 4 content-driven website for showcasing Iranian alternatives to international services. Built with Vue 3, TypeScript, Nuxt UI 4, and Nuxt Content 3.
+A Nuxt 4 content-driven website for showcasing Iranian alternatives to international digital services. Built with Vue 3, TypeScript, Nuxt UI 4, and Nuxt Content 3.
 
 ## Commands
 
@@ -24,30 +24,28 @@ CI runs `lint` and `typecheck` on every push (Node 22, Ubuntu).
 
 The site is primarily content-driven using Nuxt Content with YAML config files and Markdown for pages:
 
-- `content/0.index.yml` - Homepage (hero, features, testimonials, CTA)
+- `content/0.index.yml` - Homepage (hero, sections, categories grid, CTA)
 - `content/1.docs/` - Documentation pages in Markdown
-- `content/2.pricing.yml` - Pricing plans and FAQ
-- `content/3.blog.yml` + `content/3.blog/` - Blog config and Markdown posts
-- `content/4.changelog.yml` + `content/4.changelog/` - Changelog versions
+- `content/5.categories/*.yml` - 52 category YAML files, each with services array
 
-Content schemas are defined with Zod in `content.config.ts`.
+Content schemas are defined with Zod in `content.config.ts`. Three collections: `index` (page), `docs` (page), `categories` (data).
 
 ### App Directory
 
 - `app/app.vue` - Root component, sets up Head/SEO, navigation, search
-- `app/app.config.ts` - UI theme (primary: blue, neutral: slate)
-- `app/layouts/` - Layouts: default, docs, auth
-- `app/pages/` - Route pages (index, pricing, blog, docs, changelog, login, signup)
-- `app/components/` - Shared UI components
-- `app/components/content/` - Components available inside Markdown content
+- `app/app.config.ts` - UI theme (primary: green, neutral: slate)
+- `app/layouts/` - Layouts: default, docs
+- `app/pages/` - Route pages (index, categories, docs)
+- `app/components/` - AppHeader, AppFooter
 - `app/assets/css/main.css` - Tailwind CSS with custom color theme
 
 ### Key Patterns
 
 - UI components come from `@nuxt/ui` (UApp, UHeader, UPage, UPageHero, etc.)
 - Docs navigation is auto-generated from the docs content collection
-- Route redirect: `/docs` redirects to `/docs/getting-started`
-- OG images are auto-generated via `nuxt-og-image`
+- Categories are queried via `queryCollection('categories')` (Nuxt Content v3)
+- Route redirect: `/docs` redirects to `/docs/overview`
+- OG images use Iranian flag image
 - Search uses Fuse.js integration from Nuxt UI
 
 ## Code Style
@@ -55,7 +53,6 @@ Content schemas are defined with Zod in `content.config.ts`.
 - 2-space indentation, LF line endings, UTF-8
 - ESLint with Nuxt config: no trailing commas (`commaDangle: 'never'`), 1TBS brace style
 - TypeScript strict mode throughout
-- Custom types in `app/types/index.d.ts`
 
 ## Environment
 

@@ -1,8 +1,11 @@
 export default defineAppConfig({
   ui: {
     colors: {
-      primary: 'blue',
+      primary: 'green',
       neutral: 'slate'
     }
+  },
+  seo: {
+    siteName: 'Iranian Alternatives'
   }
 })

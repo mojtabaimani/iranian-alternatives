@@ -1,0 +1,12 @@
+title: PaaS
+description: A platform as a service offers a complete environment for developing and running applications in the cloud, handling infrastructure management so users can focus on their application code.
+icon: i-lucide-layers
+services:
+- name: Liara
+  description: "Liara is a Persian platform as a service that helps you deploy, manage, and scale applications without managing servers."
+  logo: /logo/liara.svg
+  website: https://liara.ir/
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - PaaS

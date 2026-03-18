@@ -18,9 +18,12 @@ useHead({
 })
 
 useSeoMeta({
-  titleTemplate: '%s - Nuxt SaaS template',
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/saas-light.png',
-  twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/saas-light.png',
+  titleTemplate: '%s - Iranian Alternatives',
+  description: 'Find Iranian alternatives for digital services and products, including cloud services, SaaS products and more. Support local businesses and ensure data compliance.',
+  ogImage: '/flag/iranianflagflying.png',
+  ogDescription: 'Find Iranian alternatives for digital services and products, including cloud services, SaaS products and more. Support local businesses and ensure data compliance.',
+  twitterImage: '/flag/iranianflagflying.png',
+  twitterDescription: 'Find Iranian alternatives for digital services and products, including cloud services, SaaS products and more. Support local businesses and ensure data compliance.',
   twitterCard: 'summary_large_image'
 })
 
@@ -32,21 +35,17 @@ const { data: files } = useLazyAsyncData('search', () => queryCollectionSearchSe
 })
 
 const links = [{
+  label: 'Home',
+  icon: 'i-lucide-home',
+  to: '/'
+}, {
+  label: 'Categories',
+  icon: 'i-lucide-grid',
+  to: '/#categories'
+}, {
   label: 'Docs',
   icon: 'i-lucide-book',
-  to: '/docs/getting-started'
-}, {
-  label: 'Pricing',
-  icon: 'i-lucide-credit-card',
-  to: '/pricing'
-}, {
-  label: 'Blog',
-  icon: 'i-lucide-pencil',
-  to: '/blog'
-}, {
-  label: 'Changelog',
-  icon: 'i-lucide-history',
-  to: '/changelog'
+  to: '/docs/overview'
 }]
 
 provide('navigation', navigation)

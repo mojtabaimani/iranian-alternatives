@@ -1,0 +1,37 @@
+title: Calendar Services
+description: A calendar service provides digital tools for managing dates and appointments. Users can often share calendars with others to coordinate schedules and events collaboratively. Most services support the iCalendar standard, allowing users to synchronize their calendar information across multiple devices.
+icon: i-lucide-calendar
+services:
+- name: Bade Saba
+  description: Bade Saba is a calendar and scheduling service that offers a range of features for managing events and appointments.
+  logo: https://badesaba.ir/assets/img/logo_blue.svg
+  website: https://badesaba.ir/
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Calendar
+- name: Time.ir
+  description: Time.ir is a calendar and scheduling service that offers a range of features for managing events and appointments.
+  logo: https://www.time.ir/Content/media/image/2024/12/266_orig.png
+  website: https://time.ir/
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Calendar
+- name: Bahesab
+  description: Bahesab is a calendar and scheduling service that offers a range of features for managing events and appointments.
+  logo: /logo/bahesab.png
+  website: https://bahesab.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Calendar
+- name: Persian-Calendar.ir
+  description: persian-calendar.ir is a dynamic calendar service that covers 10 years of past and 10 years of future dates, updated monthly. It can be used both as an API and as a NuGet Package for developers.
+  logo: https://persian-calendar.ir/assets/images/logo.png
+  website: https://persian-calendar.ir/
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Calendar
+    - API

@@ -1,150 +1,263 @@
-title: Ship Your [SaaS]{class="text-primary"} at light speed
-description: Build production-ready SaaS applications with Nuxt UI's powerful components, authentication flows, and enterprise features. The same component library trusted by the entire Nuxt ecosystem.
-seo:
-  title: Nuxt SaaS Template
-  description: Create stunning, fast and production-ready SaaS applications with Nuxt UI. 100+ Vue components, authentication, dark mode, and enterprise features built on Tailwind CSS.
+title: Iranian Alternatives - Digital Services & Products
+description: Find Iranian alternatives for digital services and products, including cloud services, SaaS products and more. Support local businesses and ensure data compliance.
 navigation: false
 hero:
+  title: Find Iranian Digital Alternatives
+  description: We help you discover Iranian alternatives for digital services and products, like cloud services and SaaS solutions. Support local businesses while ensuring compliance with Iranian regulations.
   links:
-    - label: Get started
+    - label: Browse Categories
+      to: '/#categories'
+      size: xl
       icon: i-lucide-arrow-right
       trailing: true
-      to: https://ui.nuxt.com/docs/getting-started/installation/nuxt
-      target: _blank
-      size: xl
-    - label: Use this template
+    - label: Contribute
       icon: i-simple-icons-github
       size: xl
       color: neutral
-      variant: subtle
-      to: https://github.com/nuxt-ui-templates/saas
+      to: https://github.com/mojtabaimani/iranian-alternatives
       target: _blank
 sections:
-  - title: Powered by Nuxt UI Components
-    description: Access the complete Nuxt UI component library with 100+ beautifully styled, accessible, and customizable Vue components. Everything you need to build professional SaaS applications.
-    id: features
-    orientation: horizontal
+  - title: Why Choose Iranian Alternatives?
     features:
-      - name: 100+ UI Components
-        description: From buttons to modals, data tables to forms - all styled with Tailwind CSS and accessible out of the box.
-        icon: i-lucide-package
-      - name: Authentication Ready
-        description: Pre-built login, signup, and password reset flows. Just connect your backend and start onboarding users.
-        icon: i-lucide-shield
-      - name: TypeScript First
-        description: Full TypeScript support with auto-completion, type safety, and IntelliSense for every component and composable.
-        icon: i-lucide-code-2
-  - title: Built for Modern SaaS
-    description: Everything you need to launch and scale your SaaS. From beautiful marketing pages to complex dashboards, ship faster with production-ready patterns.
-    orientation: horizontal
-    reverse: true
-    features:
-      - name: Edge Performance
-        description: Optimized for Core Web Vitals with automatic code splitting, lazy loading, and SSR/SSG support.
-        icon: i-lucide-zap
-      - name: Dark Mode Ready
-        description: Automatic theme switching with smooth transitions. Respects system preferences and remembers user choice.
-        icon: i-lucide-moon
-      - name: Global Ready
-        description: Built-in i18n support for 50+ languages with RTL/LTR layouts and @nuxt/fonts integration.
-        icon: i-lucide-globe
+      - name: Support Local Economy
+        description: When you choose Iranian services, you support local businesses, create jobs, and strengthen the domestic digital economy.
+        icon: i-lucide-building
+      - name: Data Sovereignty
+        description: Keep your data within Iranian borders and comply with local data protection regulations.
+        icon: i-lucide-shield-check
+      - name: Local Payment Methods
+        description: Easy access to local payment methods and billing in Iranian Rial (IRR).
+        icon: i-lucide-wallet
+      - name: Legal Compliance
+        description: Services that comply with Iranian laws and regulations.
+        icon: i-lucide-scale
+      - name: Local Support
+        description: Get customer support in Persian and in your timezone.
+        icon: i-lucide-headphones
+      - name: Local Infrastructure
+        description: Better performance with services hosted on Iranian infrastructure.
+        icon: i-lucide-network
 features:
-  title: Everything You Need to Ship
-  description: Stop building from scratch. Focus on your unique features while Nuxt UI handles the foundations with battle-tested components and patterns.
+  title: Categories
   items:
-    - title: Beautiful Design System
-      description: Semantic color aliases, comprehensive design tokens, and Tailwind Variants for consistent, customizable styling.
-      icon: i-lucide-palette
-    - title: Accessible by Default
-      description: Built on Reka UI for robust accessibility. WCAG compliant components that work for everyone, everywhere.
-      icon: i-lucide-accessibility
-    - title: Developer Experience
-      description: Auto-imports, hot module replacement, and comprehensive documentation. Build faster with less friction.
-      icon: i-lucide-terminal
-    - title: SEO Optimized
-      description: Server-side rendering, automatic meta tags, sitemap generation, and Open Graph images out of the box.
+    - title: Browsers
+      description: Web browsers with privacy features.
+      icon: i-lucide-globe
+      to: /categories/browsers
+    - title: Calendar Services
+      description: Scheduling and calendar management tools.
+      icon: i-lucide-calendar
+      to: /categories/calendar
+    - title: Captcha Services
+      description: Human verification and anti-bot solutions.
+      icon: i-lucide-shield-question
+      to: /categories/captcha
+    - title: CDN Services
+      description: Content delivery networks optimized for regional performance.
+      icon: i-lucide-network
+      to: /categories/cdn
+    - title: Channel Management
+      description: Centralized tools for managing property listings across multiple booking websites.
+      icon: i-lucide-home
+      to: /categories/channel-management
+    - title: Cloud Computing
+      description: Scalable infrastructure services for hosting and computing needs.
+      icon: i-lucide-cloud
+      to: /categories/cloud-computing
+    - title: Consent Management
+      description: Cookie and privacy consent platforms.
+      icon: i-lucide-cookie
+      to: /categories/consent-management
+    - title: DDoS Protection
+      description: Cyber-attack prevention and mitigation services.
+      icon: i-lucide-shield-check
+      to: /categories/ddos-protection
+    - title: Document Collaboration
+      description: Real-time document editing and team collaboration tools.
+      icon: i-lucide-file-text
+      to: /categories/document-collaboration
+    - title: Domain Registrars
+      description: Domain name registration services.
+      icon: i-lucide-globe
+      to: /categories/domains
+    - title: E-Signature
+      description: Digital document signing and verification services.
+      icon: i-lucide-pen-tool
+      to: /categories/e-signature
+    - title: Email Marketing
+      description: Email campaign and automation tools.
+      icon: i-lucide-mail-plus
+      to: /categories/email-marketing
+    - title: Email Services
+      description: Email hosting with business features.
+      icon: i-lucide-mail
+      to: /categories/email
+    - title: Error Tracking
+      description: Application error monitoring and debugging tools.
+      icon: i-lucide-bug
+      to: /categories/error-tracking
+    - title: FaaS
+      description: Serverless computing platforms.
+      icon: i-lucide-function-square
+      to: /categories/faas
+    - title: File Hosting
+      description: File storage and sharing platforms.
+      icon: i-lucide-hard-drive
+      to: /categories/file-hosting
+    - title: Font Services
+      description: Professional web font delivery and optimization services.
+      icon: i-lucide-type
+      to: /categories/fonts
+    - title: IAM
+      description: Identity and access management platforms.
+      icon: i-lucide-lock
+      to: /categories/iam
+    - title: Jamstack Hosting
+      description: Static and Jamstack website hosting.
+      icon: i-lucide-code
+      to: /categories/jamstack
+    - title: Live Chat
+      description: Customer engagement and support solutions.
+      icon: i-lucide-message-square
+      to: /categories/live-chat
+    - title: Managed DNS
+      description: DNS management and distribution services.
+      icon: i-lucide-network
+      to: /categories/managed-dns
+    - title: Managed Kubernetes
+      description: Container orchestration platforms.
+      icon: i-lucide-container
+      to: /categories/kubernetes
+    - title: Maps API
+      description: Mapping and geolocation services.
+      icon: i-lucide-map-pin
+      to: /categories/maps-api
+    - title: Marketing Automation
+      description: Marketing workflow automation tools.
+      icon: i-lucide-zap
+      to: /categories/marketing-automation
+    - title: Messaging
+      description: Real-time communication platforms for teams and individuals.
+      icon: i-lucide-message-circle
+      to: /categories/messaging
+    - title: Microblogging
+      description: Platforms for social networking and content sharing.
+      icon: i-lucide-message-square
+      to: /categories/microblogging
+    - title: Navigation
+      description: Mapping and routing services.
+      icon: i-lucide-map
+      to: /categories/navigation
+    - title: Object Storage
+      description: Object storage solutions for applications.
+      icon: i-lucide-database
+      to: /categories/object-storage
+    - title: PaaS
+      description: Platform services for application deployment.
+      icon: i-lucide-layers
+      to: /categories/paas
+    - title: Password Managers
+      description: Encrypted credential storage and management tools.
+      icon: i-lucide-key
+      to: /categories/password-manager
+    - title: Payment Services
+      description: Secure payment processing and gateway solutions.
+      icon: i-lucide-credit-card
+      to: /categories/payment
+    - title: Professional Networking
+      description: Social platforms for career development.
+      icon: i-lucide-users
+      to: /categories/professional-networking
+    - title: Project Management
+      description: Project planning and team coordination tools.
+      icon: i-lucide-kanban
+      to: /categories/project-management
+    - title: Public DNS
+      description: Public DNS resolvers and servers.
+      icon: i-lucide-network
+      to: /categories/public-dns
+    - title: Search Engines
+      description: Search platforms optimized for regional content and languages.
       icon: i-lucide-search
-    - title: Production Ready
-      description: Error handling, loading states, form validation, and security best practices built into every component.
-      icon: i-lucide-check-circle
-    - title: Infinitely Customizable
-      description: Override any style with the ui prop, customize globally with AppConfig, or use Tailwind classes directly.
-      icon: i-lucide-settings
-testimonials:
-  headline: Trusted by Developers
-  title: Join Thousands Building with Nuxt UI
-  description: See why developers choose Nuxt UI to ship their SaaS applications faster and with more confidence.
-  items:
-    - quote: Nuxt UI transformed how we build. The component quality is exceptional - everything just works with perfect TypeScript support, accessibility, and dark mode built in.
-      user:
-        name: Sarah Chen
-        description: CTO at TechScale Solutions
-        avatar:
-          src: https://i.pravatar.cc/120?img=1
-    - quote: We shipped our MVP in 2 weeks instead of 2 months. The authentication flows and form components saved us countless hours of development time.
-      user:
-        name: Marcus Rodriguez
-        description: VP of Engineering at DataFlow
-        avatar:
-          src: https://i.pravatar.cc/120?img=7
-    - quote: The design system with AppConfig is brilliant. We maintain brand consistency across all our products while leveraging the full component library.
-      user:
-        name: David Kumar
-        description: Security Director at SecureStack
-        avatar:
-          src: https://i.pravatar.cc/120?img=3
-    - quote: Perfect Lighthouse scores out of the box. Our Core Web Vitals improved dramatically just by switching to Nuxt UI components.
-      user:
-        name: Emily Zhang
-        description: Lead Architect at ScaleForce
-        avatar:
-          src: https://i.pravatar.cc/120?img=5
-    - quote: The Tailwind Variants system makes customization so intuitive. We can override any component style while keeping the functionality intact.
-      user:
-        name: James Wilson
-        description: DevOps Lead at CloudPro
-        avatar:
-          src: https://i.pravatar.cc/120?img=8
-    - quote: From the SaaS template to production in days. The pre-built layouts, navigation, and content structure accelerated our launch.
-      user:
-        name: Lisa Patel
-        description: CEO at AutoScale
-        avatar:
-          src: https://i.pravatar.cc/120?img=9
-    - quote: Reka UI foundation means accessibility is never an afterthought. We achieved WCAG compliance without any custom work.
-      user:
-        name: Michael Torres
-        description: Frontend Lead at AccessFirst
-        avatar:
-          src: https://i.pravatar.cc/120?img=11
-    - quote: The documentation is outstanding. Every component has clear examples, and the community on Discord is incredibly helpful.
-      user:
-        name: Rachel Kim
-        description: Performance Engineer at APIHub
-        avatar:
-          src: https://i.pravatar.cc/120?img=10
-    - quote: We replaced three different UI libraries with Nuxt UI. The consistency and quality across all components is unmatched.
-      user:
-        name: Thomas Weber
-        description: UI Architecture Lead at DesignScale
-        avatar:
-          src: https://i.pravatar.cc/120?img=12
-    - quote: The integration with Nuxt modules is seamless. Color mode, fonts, icons - everything works together perfectly.
-      user:
-        name: Sophia Martinez
-        description: Integration Specialist at TechFlow
-        avatar:
-          src: https://i.pravatar.cc/120?img=14
+      to: /categories/search
+    - title: Session Recording
+      description: User behavior analysis tools.
+      icon: i-lucide-video
+      to: /categories/session-recording
+    - title: SMS Services
+      description: SMS gateway and messaging services.
+      icon: i-simple-icons-minutemailer
+      to: /categories/sms
+    - title: Spelling and Grammar Checker
+      description: Check spelling and grammar to identify and correct mistakes.
+      icon: i-lucide-spell-check
+      to: /categories/spelling-and-grammar-checker
+    - title: SSL Certificates
+      description: Digital certificate management and automation services.
+      icon: i-simple-icons-openssl
+      to: /categories/ssl
+    - title: Survey Tools
+      description: Survey creation and analysis tools.
+      icon: i-lucide-form-input
+      to: /categories/surveys
+    - title: Tag Management
+      description: Analytics and tag management solutions.
+      icon: i-lucide-tags
+      to: /categories/tag-management
+    - title: Team Communication
+      description: Platforms for team collaboration and messaging.
+      icon: i-lucide-messages-square
+      to: /categories/team-communication
+    - title: Time Tracking
+      description: Track time spent on tasks and projects.
+      icon: i-lucide-clock
+      to: /categories/time-tracking
+    - title: Translation Services
+      description: Machine translation with Persian language support.
+      icon: i-lucide-languages
+      to: /categories/translation
+    - title: Uptime Monitoring
+      description: Website and service availability monitoring.
+      icon: i-lucide-activity
+      to: /categories/uptime-monitoring
+    - title: Version Control
+      description: Code repository hosting with collaboration features.
+      icon: i-lucide-git-branch
+      to: /categories/version-control
+    - title: Video Conferencing
+      description: Virtual meeting and collaboration platforms.
+      icon: i-lucide-video
+      to: /categories/video-conferencing
+    - title: Video Platform
+      description: Video hosting and streaming services.
+      icon: i-lucide-video
+      to: /categories/video-platform
+    - title: VPN Services
+      description: Secure and reliable virtual private network solutions.
+      icon: i-lucide-shield
+      to: /categories/vpn
+    - title: VPS Hosting
+      description: Virtual private servers with dedicated resources.
+      icon: i-lucide-server
+      to: /categories/vps
+    - title: Web Analytics
+      description: Tools for analyzing website traffic and visitor behavior.
+      icon: i-lucide-bar-chart
+      to: /categories/web-analytics
+    - title: WordPress Hosting
+      description: Hosting solutions for WordPress websites.
+      icon: i-simple-icons-wordpress
+      to: /categories/wordpress-hosting
 cta:
-  title: Ready to build an amazing SaaS?
-  description: Join thousands of developers building with Nuxt and Nuxt UI. Get this template and start shipping today.
+  title: Contribute to Iranian Alternatives
+  description: Help us build the largest directory of Iranian digital services. Add missing services or suggest improvements.
   links:
-    - label: Start building
-      to: 'https://ui.nuxt.com/docs/getting-started/installation/nuxt'
+    - label: Add Service
+      to: https://github.com/mojtabaimani/iranian-alternatives/issues/new
       target: _blank
-      trailingIcon: i-lucide-arrow-right
-    - label: View on GitHub
-      to: 'https://github.com/nuxt-ui-templates/saas'
-      target: _blank
-      variant: subtle
-      icon: i-simple-icons-github
+      icon: i-lucide-plus
+    - label: Back to top
+      to: /#top
+      icon: i-lucide-arrow-right
+      color: neutral
+      trailing: true

@@ -1,0 +1,21 @@
+title: Email Services
+description: Email providers offer users unique email addresses and storage for their messages. They typically include a web-based interface where users can read, write, and manage their emails directly through their internet browser.
+icon: i-lucide-mail
+services:
+- name: Chmail
+  description: Chmail is a free email service provider that offers email hosting with a focus on privacy and security.
+  logo: /logo/chaapaar.svg
+  website: https://chmail.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Email Services
+
+- name: Mailfa
+  description: Mailfa is a free email service provider that offers email hosting.
+  logo: https://mailfa.com/images/logo-mailfa-light.png
+  website: https://mailfa.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Email Services

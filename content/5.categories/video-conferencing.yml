@@ -1,0 +1,21 @@
+title: Video Conferencing
+description: Video meeting and conferencing solutions.
+icon: i-lucide-video
+services:
+- name: Garar
+  description: A simple and quality solution for online meetings
+  logo: https://gharar.ir/static/images/Logos/Gharar-logo-small-white-bg.png?v=85
+  website: https://gharar.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Video Conferencing
+
+- name: Skyroom
+  description: Skyroom is a video conferencing platform that offers high-quality video and audio, screen sharing, and recording. It is designed for businesses and educational institutions.
+  logo: https://www.skyroom.online//wp-content/uploads/2022/07/logo-blue.png
+  website: https://www.skyroom.online
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Video Conferencing

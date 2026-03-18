@@ -1,0 +1,12 @@
+title: Channel Management
+description: A Channel Management Platform is a centralized tool designed for property owners and hospitality providers to efficiently manage and synchronize their listings across multiple booking websites. By automatically updating availability calendars and reservations in real-time, it prevents double bookings, minimizes cancellations, reduces administrative workload, and helps maximize occupancy and revenue.
+icon: i-lucide-home
+services:
+- name: Rentamon
+  description: Rentamon is a platform designed to simplify vacation rental management by integrating and automatically synchronizing calendars across multiple booking websites such as Jabama, Jajiga, Otaghak, and others. Rentamon helps Channel owners efficiently manage their rentals, ensuring accurate availability information and a smoother rental experience.
+  logo: https://rentamon.com/wp-content/uploads/2023/08/rentamon-fa-low.png
+  website: https://rentamon.com/
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Channel Management

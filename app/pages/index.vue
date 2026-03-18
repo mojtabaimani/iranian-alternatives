@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const { data: page } = await useAsyncData('index', () => queryCollection('index').first())
 
-const title = page.value?.seo?.title || page.value?.title
-const description = page.value?.seo?.description || page.value?.description
+const title = page.value?.title
+const description = page.value?.description
 
 useSeoMeta({
   titleTemplate: '',
@@ -16,22 +16,12 @@ useSeoMeta({
 <template>
   <div v-if="page">
     <UPageHero
-      :title="page.title"
-      :description="page.description"
-      :links="page.hero.links"
+      id="top"
+      :title="page.hero?.title"
+      :description="page.hero?.description"
+      :links="(page.hero?.links as any)"
     >
-      <template #top>
-        <HeroBackground />
-      </template>
-
-      <template #title>
-        <MDC
-          :value="page.title"
-          unwrap="p"
-        />
-      </template>
-
-      <PromotionalVideo />
+      <div class="absolute inset-0 landing-grid z-[-1] [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" />
     </UPageHero>
 
     <UPageSection
@@ -39,59 +29,43 @@ useSeoMeta({
       :key="index"
       :title="section.title"
       :description="section.description"
-      :orientation="section.orientation"
-      :reverse="section.reverse"
       :features="section.features"
-    >
-      <ImagePlaceholder />
-    </UPageSection>
+    />
 
     <UPageSection
-      :title="page.features.title"
-      :description="page.features.description"
+      id="categories"
+      :title="page.features?.title"
+      :description="page.features?.description"
     >
       <UPageGrid>
         <UPageCard
-          v-for="(item, index) in page.features.items"
+          v-for="(item, index) in page.features?.items"
           :key="index"
           v-bind="item"
-          spotlight
         />
       </UPageGrid>
     </UPageSection>
 
-    <UPageSection
-      id="testimonials"
-      :headline="page.testimonials.headline"
-      :title="page.testimonials.title"
-      :description="page.testimonials.description"
-    >
-      <UPageColumns class="xl:columns-4">
-        <UPageCard
-          v-for="(testimonial, index) in page.testimonials.items"
-          :key="index"
-          variant="subtle"
-          :description="testimonial.quote"
-          :ui="{ description: 'before:content-[open-quote] after:content-[close-quote]' }"
-        >
-          <template #footer>
-            <UUser
-              v-bind="testimonial.user"
-              size="lg"
-            />
-          </template>
-        </UPageCard>
-      </UPageColumns>
+    <UPageSection>
+      <UPageCTA
+        v-bind="(page.cta as any)"
+        variant="subtle"
+      />
     </UPageSection>
-
-    <USeparator />
-
-    <UPageCTA
-      v-bind="page.cta"
-      variant="naked"
-      class="overflow-hidden"
-    >
-      <LazyStarsBg />
-    </UPageCTA>
   </div>
 </template>
+
+<style scoped>
+.landing-grid {
+  background-image:
+    linear-gradient(to right, rgb(var(--color-gray-200)) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(var(--color-gray-200)) 1px, transparent 1px);
+}
+.dark {
+  .landing-grid {
+    background-image:
+      linear-gradient(to right, rgb(var(--color-gray-800)) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(var(--color-gray-800)) 1px, transparent 1px);
+  }
+}
+</style>
