@@ -20,23 +20,21 @@ useSeoMeta({
 })
 
 const { data: navigation } = await useAsyncData('navigation', async () => {
-  const [docs, blog, categories] = await Promise.all([
-    queryCollectionNavigation('docs'),
-    queryCollectionNavigation('blog'),
-    queryCollectionNavigation('categories')
+  const [categories, about] = await Promise.all([
+    queryCollectionNavigation('categories'),
+    queryCollectionNavigation('about')
   ])
 
-  return [...docs, ...blog, ...categories]
+  return [...categories, ...about]
 }, { default: () => [] })
 
 const { data: files } = useLazyAsyncData('search', async () => {
-  const [docs, blog, categories] = await Promise.all([
-    queryCollectionSearchSections('docs'),
-    queryCollectionSearchSections('blog'),
-    queryCollectionSearchSections('categories')
+  const [categories, about] = await Promise.all([
+    queryCollectionSearchSections('categories'),
+    queryCollectionSearchSections('about')
   ])
 
-  return [...docs, ...blog, ...categories]
+  return [...categories, ...about]
 }, { default: () => [], server: false })
 
 provide('navigation', navigation)

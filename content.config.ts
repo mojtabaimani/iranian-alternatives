@@ -55,39 +55,9 @@ export default defineContentConfig({
         }).optional()
       })
     }),
-    docs: defineCollection({
+    about: defineCollection({
       type: 'page',
-      source: '1.docs/**/*.md'
-    }),
-    blogLanding: defineCollection({
-      type: 'data',
-      source: '3.blog.yml',
-      schema: z.object({
-        title: z.string(),
-        description: z.string()
-      })
-    }),
-    blog: defineCollection({
-      type: 'page',
-      source: '3.blog/**/*.md',
-      schema: z.object({
-        date: z.string(),
-        image: z.object({
-          src: z.string()
-        }).optional(),
-        badge: z.object({
-          label: z.string(),
-          color: z.string().optional()
-        }).optional(),
-        authors: z.array(z.object({
-          name: z.string(),
-          description: z.string().optional(),
-          to: z.string().optional(),
-          avatar: z.object({
-            src: z.string()
-          }).optional()
-        })).optional()
-      })
+      source: '1.about.md'
     }),
     categories: defineCollection({
       type: 'page',

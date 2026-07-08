@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-A Nuxt 4 website showcasing Iranian alternative services to international products, organized by category. All content is file-based (YAML for categories/homepage, Markdown for blog/docs) using `@nuxt/content` v3.
+A Nuxt 4 website showcasing Iranian alternative services to international products, organized by category. All content is file-based (YAML for categories/homepage, Markdown for the About page) using `@nuxt/content` v3.
 
 ## Commands
 
@@ -27,33 +27,30 @@ No license key is required to build. Nuxt UI **v4** includes the components form
 - **Content:** `@nuxt/content` **v3**. Collections are declared in the root `content.config.ts` (`defineContentConfig` / `defineCollection`) and queried with the v3 API: `queryCollection()`, `queryCollectionNavigation()`, `queryCollectionSearchSections()`, `queryCollectionItemSurroundings()`. Do not reintroduce the v2 API (`queryContent`, `serverQueryContent`, `fetchContentNavigation`); it has been fully removed. Nuxt Studio preview is wired via `content.preview` in `nuxt.config.ts` and the field schema in `nuxt.schema.ts`.
 - **Styling:** Tailwind CSS **v4**, configured in CSS at `app/assets/css/main.css` (`@import "tailwindcss"` + `@theme`). There is no `tailwind.config.ts`. DM Sans is loaded by `@nuxt/fonts`; icons come from Lucide, Heroicons, and Simple Icons via Iconify.
 - **SEO:** `@nuxtjs/seo` provides sitemap, robots, canonical / `og:url` / absolute `og:image` (seo-utils), OG image generation (nuxt-og-image), and schema.org. It is driven by the single `site` block in `nuxt.config.ts` (`url`, `name`, `description`); change the domain there and canonical, OG, sitemap, and robots all follow.
-- **Rendering:** Prerendered / static. `nitro.prerender` seeds `/`, `/categories`, `/blog`, `/robots.txt`, `/sitemap.xml` and crawls links from there (`crawlLinks: true`).
+- **Rendering:** Prerendered / static. `nitro.prerender` seeds `/`, `/categories`, `/about`, `/robots.txt`, `/sitemap.xml` and crawls links from there (`crawlLinks: true`).
 - TypeScript strict mode is **off** (`typescript.strict: false` in nuxt.config.ts).
 
 ### Content collections (content.config.ts)
 
 - `landing` (data) from `0.index.yml` (homepage)
-- `docs` (page) from `1.docs/**/*.md`
-- `blogLanding` (data) from `3.blog.yml`
-- `blog` (page) from `3.blog/**/*.md`
+- `about` (page) from `1.about.md`
 - `categories` (page) from `5.categories/*.yml`
 
 Collection schemas are the source of truth for content shapes; page components import UI prop types directly from `@nuxt/ui` (e.g. `ButtonProps`, `BadgeProps`). There is no longer a hand-written `app/types/index.d.ts`.
 
 ### Key Directories
 
-- `app/pages/` - Route pages; category and docs detail pages are `[...slug].vue` catch-alls
+- `app/pages/` - Route pages; the category detail page is a `[...slug].vue` catch-all
 - `app/components/` - Vue components (AppHeader, AppFooter)
 - `app/components/OgImage/OgImageSaas.satori.vue` - Satori OG-image template, rendered via `defineOgImage('Saas', ...)`
-- `app/layouts/default.vue` - Builds the combined content navigation and search sections once and `provide`s the navigation; section wrapper pages (`categories.vue`, `docs.vue`) `inject` it for the sidebar
+- `app/layouts/default.vue` - Builds the combined content navigation and search sections once and `provide`s the navigation; the section wrapper page (`categories.vue`) `inject`s it for the sidebar
 - `app/assets/css/main.css` - Tailwind entry point and theme (font)
 - `content/5.categories/` - Category YAML files, one per category (~52)
 - `content/0.index.yml` - Homepage content
-- `content/3.blog/` + `content/3.blog.yml` - Blog posts (Markdown with frontmatter) and blog landing config
-- `content/1.docs/` - Documentation pages (Markdown)
+- `content/1.about.md` - About page (Markdown), rendered by `app/pages/about.vue`
 - `public/logo/` and `public/flag/` - Service logos and country flags referenced from YAML
 
-Numeric prefixes on content files/dirs (`0.`, `1.`, `3.`, `5.`) control navigation order and are stripped from URLs.
+Numeric prefixes on content files/dirs (`0.`, `1.`, `5.`) control navigation order and are stripped from URLs.
 
 ### Content Model
 
@@ -81,13 +78,12 @@ Categories with an empty `services: []` are treated as "coming soon": hidden fro
 - `/` - Homepage
 - `/categories` - Category listing
 - `/categories/[slug]` - Category detail with service cards
-- `/blog` and `/blog/[slug]` - Blog listing and posts
-- `/docs/[...slug]` - Documentation; `/docs` redirects to `/docs/overview` (routeRule)
+- `/about` - About page (what the site is, inclusion criteria, how to contribute)
 
 ### Patterns
 
 - Data fetching: `queryCollection()` with `useAsyncData()` in page components; detail pages throw a fatal 404 via `createError` when content is missing and use `queryCollectionItemSurroundings()` for prev/next links.
-- Navigation and search: `app/layouts/default.vue` (and `app/error.vue`) combine `queryCollectionNavigation()` and `queryCollectionSearchSections()` across the `docs`, `blog`, and `categories` collections; the search UI is `UContentSearch` (client-only). There is no `server/api/search` endpoint anymore.
+- Navigation and search: `app/layouts/default.vue` (and `app/error.vue`) combine `queryCollectionNavigation()` and `queryCollectionSearchSections()` across the `categories` and `about` collections; the search UI is `UContentSearch` (client-only). There is no `server/api/search` endpoint anymore.
 - SEO: `useSeoMeta()` per page, site-wide defaults in `app/app.vue`; the `site` config plus `@nuxtjs/seo` supply canonical / `og:url` / absolute `og:image`, `sitemap.xml`, and `robots.txt`. Page OG images are generated with `defineOgImage('Saas', ...)`.
 - All Nuxt composables, `@nuxt/ui` components, and `@nuxt/content` components are auto-imported.
 

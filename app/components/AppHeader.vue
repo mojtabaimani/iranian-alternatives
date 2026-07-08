@@ -13,12 +13,8 @@ const links = [
     to: '/#categories'
   },
   {
-    label: 'Docs',
-    to: '/docs'
-  },
-  {
-    label: 'Blog',
-    to: '/blog'
+    label: 'About',
+    to: '/about'
   }
 ]
 </script>

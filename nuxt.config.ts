@@ -32,10 +32,6 @@ export default defineNuxtConfig({
     }
   },
 
-  routeRules: {
-    '/docs': { redirect: '/docs/overview', prerender: false }
-  },
-
   compatibilityDate: '2026-07-07',
 
   nitro: {
@@ -43,7 +39,7 @@ export default defineNuxtConfig({
       routes: [
         '/',
         '/categories',
-        '/blog',
+        '/about',
         '/robots.txt',
         '/sitemap.xml'
       ],
