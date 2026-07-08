@@ -34,6 +34,9 @@
     "typescript": "^5.9.3",
     "vue-tsc": "^3.3.6"
   },
+  "engines": {
+    "node": ">=20"
+  },
   "packageManager": "pnpm@10.4.0",
   "pnpm": {
     "onlyBuiltDependencies": [
