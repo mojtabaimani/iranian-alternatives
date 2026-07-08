@@ -84,6 +84,15 @@ defineOgImage('Saas', {
         <div class="absolute inset-0 landing-grid z-[-1] [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" />
       </template>
 
+      <div class="flex justify-center">
+        <UContentSearchButton
+          :collapsed="false"
+          label="Search for a service or category..."
+          size="xl"
+          class="w-full max-w-md"
+        />
+      </div>
+
       <div class="flex flex-wrap items-start justify-center gap-x-16 gap-y-6">
         <div
           v-for="stat in stats"
@@ -115,7 +124,7 @@ defineOgImage('Saas', {
         <img
           :src="service.logo"
           :alt="service.name"
-          class="h-12 w-auto max-w-44 shrink-0 object-contain grayscale opacity-70 transition hover:opacity-100 not-dark:hover:grayscale-0 dark:invert"
+          class="h-12 w-auto max-w-44 shrink-0 object-contain opacity-90 transition hover:opacity-100 dark:bg-white/90 dark:rounded-md dark:p-1.5"
           loading="lazy"
         >
       </NuxtLink>
