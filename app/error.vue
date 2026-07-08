@@ -28,13 +28,27 @@ const { data: navigation } = await useAsyncData('navigation', async () => {
   return [...categories, ...about]
 }, { default: () => [] })
 
+// Same hand-built search sections as app/layouts/default.vue: YAML category
+// pages have no markdown body for queryCollectionSearchSections to extract.
 const { data: files } = useLazyAsyncData('search', async () => {
   const [categories, about] = await Promise.all([
-    queryCollectionSearchSections('categories'),
-    queryCollectionSearchSections('about')
+    queryCollection('categories').order('title', 'ASC').all(),
+    queryCollectionSearchSections('about').catch(() => [])
   ])
 
-  return [...categories, ...about]
+  const categorySections = categories.map(category => ({
+    id: category.path,
+    title: category.title,
+    titles: [],
+    level: 1,
+    content: [
+      category.description,
+      category.alternativeTo?.length ? `Alternative to ${category.alternativeTo.join(', ')}` : '',
+      (category.services || []).map(service => service.name).join(', ')
+    ].filter(Boolean).join('. ')
+  }))
+
+  return [...categorySections, ...about]
 }, { default: () => [], server: false })
 
 provide('navigation', navigation)
