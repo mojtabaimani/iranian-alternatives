@@ -1,6 +1,7 @@
 title: Job Boards & Freelancing
 description: Job boards list openings and let candidates apply with structured profiles, while freelancing marketplaces connect clients with independent professionals for project work. They are the local equivalents of LinkedIn Jobs, Indeed, and Upwork.
 icon: i-lucide-briefcase
+group: Business & Productivity
 tagline: Hiring and freelance marketplaces.
 alternativeTo:
   - LinkedIn Jobs

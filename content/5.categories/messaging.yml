@@ -1,6 +1,7 @@
 title: Messaging
 description: Instant messaging applications enable users to exchange text messages and multimedia content with one another. Many of these apps also include voice and video calling capabilities.
 icon: i-lucide-message-circle
+group: Communication & Social
 tagline: Real-time communication platforms for teams and individuals.
 alternativeTo:
   - WhatsApp

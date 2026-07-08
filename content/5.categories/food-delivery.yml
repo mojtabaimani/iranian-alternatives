@@ -1,6 +1,7 @@
 title: Food Delivery
 description: Food delivery platforms let users order from restaurants and supermarkets for courier delivery, handling menus, payments, and live order tracking. They are the local equivalents of DoorDash, Uber Eats, and Deliveroo.
 icon: i-lucide-utensils
+group: Consumer Apps
 tagline: Restaurant and grocery delivery.
 alternativeTo:
   - Uber Eats

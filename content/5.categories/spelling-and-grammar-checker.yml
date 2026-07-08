@@ -1,6 +1,7 @@
 title: Spelling and Grammar Checker
 description: A spelling and grammar checker analyzes text to identify and correct writing mistakes in both spelling and sentence structure.
 icon: i-lucide-spell-check
+group: Business & Productivity
 tagline: Check spelling and grammar to identify and correct mistakes.
 alternativeTo:
   - Grammarly

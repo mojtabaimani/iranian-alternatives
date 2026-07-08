@@ -1,6 +1,7 @@
 title: CDN Services
 description: A content delivery network distributes network traffic through multiple servers located across different geographical locations.
 icon: i-lucide-network
+group: Infrastructure & Cloud
 tagline: Content delivery networks optimized for regional performance.
 alternativeTo:
   - Cloudflare

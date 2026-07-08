@@ -1,6 +1,7 @@
 title: Microblogging
 description: A microblogging platform enables people to share brief updates in the form of short text posts, images, or video links. These concise messages are typically displayed in a chronological feed for followers to view and engage with.
 icon: i-lucide-message-square
+group: Communication & Social
 tagline: Platforms for social networking and content sharing.
 alternativeTo:
   - X (Twitter)

@@ -1,9 +1,11 @@
 title: Web Analytics
-description: Web analytics platforms monitor and collect data about visitor interactions on websites, providing site owners with insights into user behavior patterns. This information helps businesses understand how their sites are being used and make data-driven improvements to enhance the user experience.
+description: Web analytics platforms monitor and collect data about visitor interactions on websites, providing site owners with insights into user behavior patterns. This information helps businesses understand how their sites are being used and make data-driven improvements to enhance the user experience. This category also covers adjacent niches such as tag management and session recording.
 icon: i-lucide-bar-chart
+group: Business & Productivity
 tagline: Tools for analyzing website traffic and visitor behavior.
 alternativeTo:
   - Google Analytics
+  - Hotjar
 services:
 - name: Keywordchi
   # Description of the tool in English

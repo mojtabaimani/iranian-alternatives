@@ -1,6 +1,7 @@
 title: Uptime Monitoring
 description: Uptime monitoring services regularly check if websites and online services are functioning correctly. These tools send alerts through various channels - email, chat messages, or phone calls - when they detect problems like server outages. Many include public status pages to keep users informed about service availability.
 icon: i-lucide-activity
+group: Infrastructure & Cloud
 tagline: Website and service availability monitoring.
 alternativeTo:
   - UptimeRobot

@@ -69,6 +69,9 @@ export default defineContentConfig({
         // International products this category replaces, shown as
         // "Alternative to X, Y" on category cards and headers
         alternativeTo: z.array(z.string()).optional(),
+        // Themed cluster for the category grids; see GROUP_ORDER in
+        // app/utils/format.ts for the display order
+        group: z.string().optional(),
         services: z.array(z.object({
           name: z.string(),
           description: z.string().optional(),

@@ -1,6 +1,7 @@
 title: Books & E-Books
 description: Book platforms sell print books online or offer e-books and audiobooks for reading in an app with a personal library. They are the local equivalents of Amazon's bookstore, Kindle, and Google Play Books, with deep Persian catalogs.
 icon: i-lucide-book-open
+group: Consumer Apps
 tagline: Persian bookstores and reading apps.
 alternativeTo:
   - Kindle

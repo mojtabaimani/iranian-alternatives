@@ -1,6 +1,7 @@
 title: Music Streaming
 description: Music streaming services offer on-demand listening from licensed catalogs with playlists, discovery, and offline playback. Since Spotify and Apple Music do not serve Iranian users or accept Iranian payments, local platforms fill this role with strong Persian catalogs.
 icon: i-lucide-music
+group: Consumer Apps
 tagline: On-demand music platforms.
 alternativeTo:
   - Spotify

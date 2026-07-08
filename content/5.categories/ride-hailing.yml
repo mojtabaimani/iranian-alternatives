@@ -1,6 +1,7 @@
 title: Ride-Hailing
 description: Ride-hailing apps connect passengers with nearby drivers for on-demand trips, with in-app pricing, tracking, and payment. Since international services like Uber and Lyft do not operate in Iran, local apps cover urban transport across the country.
 icon: i-lucide-car
+group: Consumer Apps
 tagline: On-demand taxi apps.
 alternativeTo:
   - Uber

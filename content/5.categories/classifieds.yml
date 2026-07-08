@@ -1,6 +1,7 @@
 title: Classifieds
 description: Classifieds platforms let people list second-hand goods, vehicles, property, jobs, and services for direct buyer-to-seller contact. They are the local equivalents of Craigslist and Facebook Marketplace.
 icon: i-lucide-tags
+group: Consumer Apps
 tagline: Buy and sell listings.
 alternativeTo:
   - Craigslist

@@ -1,6 +1,7 @@
 title: Maps API
 description: A maps API service enables websites and apps to display interactive maps through a programming interface, allowing businesses to embed location-based features like store locations on their websites.
 icon: i-lucide-map-pin
+group: Infrastructure & Cloud
 tagline: Mapping and geolocation services.
 alternativeTo:
   - Google Maps Platform

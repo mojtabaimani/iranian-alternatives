@@ -1,6 +1,7 @@
 title: Navigation
 description: Navigation apps help users find and follow the best routes to reach their destinations.
 icon: i-lucide-map
+group: Consumer Apps
 tagline: Mapping and routing services.
 alternativeTo:
   - Google Maps

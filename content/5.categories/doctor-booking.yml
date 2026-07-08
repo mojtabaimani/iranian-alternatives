@@ -1,6 +1,7 @@
 title: Doctor Appointment Booking
 description: Doctor booking platforms let patients find physicians by specialty, read reviews, book in-person appointments, and hold online consultations. They are the local equivalents of Zocdoc and Doctolib.
 icon: i-lucide-stethoscope
+group: Consumer Apps
 tagline: Find and book doctors online.
 alternativeTo:
   - Zocdoc

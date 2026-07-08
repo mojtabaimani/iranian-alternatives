@@ -1,6 +1,7 @@
 title: Captcha Services
 description: A captcha system helps websites distinguish between human users and automated programs (bots). It protects websites from automated abuse by requiring users to complete tasks that are easy for humans but difficult for computers.
 icon: i-lucide-shield-question
+group: Infrastructure & Cloud
 tagline: Human verification and anti-bot solutions.
 alternativeTo:
   - reCAPTCHA

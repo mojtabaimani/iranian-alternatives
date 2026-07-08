@@ -1,10 +1,11 @@
-title: Domain Name Registrars
-description: Domain name registrars are companies that handle the registration and management of website addresses on the internet.
-icon: i-lucide-globe
-tagline: Domain name registration services.
+title: Hosting & Domains
+description: Hosting and domain providers register website addresses and rent out the servers that run them, from shared hosting and virtual private servers (VPS) to dedicated machines. Iranian providers register .ir domains, bill in Rial, and run their servers in local datacenters.
+icon: i-lucide-server
+group: Infrastructure & Cloud
+tagline: Domain registration and server hosting.
 alternativeTo:
   - GoDaddy
-  - Namecheap
+  - DigitalOcean
 services:
 - name: IRNIC
   description: IRNIC is the official registry for .ir domain names in Iran. It manages the registration and administration of .ir domains, ensuring the stability and security of the Iranian internet space.
@@ -13,25 +14,38 @@ services:
   location: Iran
   flag: /flag/iran.svg
   tags:
-  - Domain
+    - Domain
+
 - name: Mihan Web Host
-  description: Mihan Web Host is a web hosting provider that offers a range of services including shared hosting, VPS, and dedicated servers.
+  description: Mihan Web Host is a web hosting provider that offers a range of services including shared hosting, VPS, dedicated servers, and domain registration.
   logo: /logo/mihanwebhost.svg
   website: https://mihanwebhost.com
   location: Iran
   flag: /flag/iran.svg
   tags:
-  - VPS Hosting
-  - Domain
+    - VPS Hosting
+    - Domain
+
 - name: Iran Host
-  description: Iran Host is a web hosting provider that offers a range of services including shared hosting, VPS, and dedicated servers.
+  description: Iran Host is a web hosting provider that offers a range of services including shared hosting, VPS, dedicated servers, and domain registration.
   logo: /logo/iranhost.svg
   website: https://www.iranhost.com
   location: Iran
   flag: /flag/iran.svg
   tags:
-  - VPS Hosting
-  - Domain
+    - VPS Hosting
+    - Domain
+
+- name: Iran Server
+  description: IranServer is a server provider that offers dedicated servers, virtual servers, domains, and web hosting.
+  logo: /logo/iranserver.svg
+  website: https://www.iranserver.com/
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - VPS Hosting
+    - Server Provider
+
 - name: Pars Pack
   description: Parspack is Iran's first cloud computing service provider, offering a range of hosting solutions, including cloud servers, virtual private servers, domain registration, and SSL certificates.
   logo: /logo/parspack.svg
@@ -41,7 +55,8 @@ services:
   tags:
     - VPS Hosting
     - Server Provider
-    - Website Builder
+    - Domain
+
 - name: Pars VDS
   description: parsvds.com is an Iranian web hosting provider offering a range of services including virtual private servers (VPS), dedicated servers, hosting, and domain registration, with 24/7 support and over 11 years of experience.
   logo: /logo/parsvds.png
@@ -52,6 +67,7 @@ services:
     - VPS Hosting
     - Domain
     - Dedicated Servers
+
 - name: Limoo Host
   description: Limoo.Host is an Iranian web hosting provider offering various hosting services, including shared hosting, dedicated servers, virtual private servers (VPS), and domain registration.
   logo: /logo/limoohost.svg
@@ -61,3 +77,4 @@ services:
   tags:
     - VPS Hosting
     - Dedicated Servers
+    - Domain

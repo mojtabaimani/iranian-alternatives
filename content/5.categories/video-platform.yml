@@ -1,6 +1,7 @@
 title: Video Platform
 description: A video platform allows users to share and watch videos online with social features like liking and following creators. While users can upload videos directly to these platforms for public viewing, they also provide hosting services that let website owners embed videos on their own sites, with features like customizable players and automatic format conversion.
 icon: i-lucide-video
+group: Consumer Apps
 tagline: Video hosting and streaming services.
 alternativeTo:
   - YouTube

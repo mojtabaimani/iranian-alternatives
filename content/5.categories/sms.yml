@@ -1,6 +1,7 @@
 title: SMS Services
 description: SMS sending APIs enable businesses to send customized text messages to users through programmatic interfaces, supporting uses like notifications, phone number verification, and two-factor authentication.
 icon: i-simple-icons-minutemailer
+group: Infrastructure & Cloud
 tagline: SMS gateway and messaging services.
 alternativeTo:
   - Twilio

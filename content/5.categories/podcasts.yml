@@ -1,6 +1,7 @@
 title: Podcasts & Audiobooks
 description: Podcast and audiobook platforms host audio content for streaming and download, with subscriptions, playlists, and creator monetization. They are the local equivalents of Apple Podcasts, Castbox, and Audible, with Persian-language catalogs.
 icon: i-lucide-podcast
+group: Consumer Apps
 tagline: Persian audio content platforms.
 alternativeTo:
   - Castbox

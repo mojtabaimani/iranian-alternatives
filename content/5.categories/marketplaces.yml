@@ -1,6 +1,7 @@
 title: Online Marketplaces
 description: Online marketplaces connect buyers with many independent sellers on a single platform, handling product discovery, payments, and often logistics and fulfillment. International examples include Amazon, Etsy, and eBay.
 icon: i-lucide-shopping-cart
+group: Consumer Apps
 tagline: Online shopping platforms.
 alternativeTo:
   - Amazon

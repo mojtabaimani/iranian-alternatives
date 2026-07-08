@@ -1,6 +1,7 @@
 title: PaaS
 description: A platform as a service offers a complete environment for developing and running applications in the cloud, handling infrastructure management so users can focus on their application code.
 icon: i-lucide-layers
+group: Infrastructure & Cloud
 tagline: Platform services for application deployment.
 alternativeTo:
   - Heroku

@@ -1,6 +1,7 @@
 title: Home Services
 description: Home services marketplaces connect households with vetted professionals for cleaning, repairs, moving, and maintenance, handling booking, pricing, and payment. They are the local equivalents of TaskRabbit, Handy, and Thumbtack.
 icon: i-lucide-wrench
+group: Consumer Apps
 tagline: On-demand household professionals.
 alternativeTo:
   - TaskRabbit

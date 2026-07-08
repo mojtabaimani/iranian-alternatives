@@ -1,6 +1,7 @@
 title: Version Control
 description: A version control service manages software code and tracks changes made to it over time. These platforms typically include additional features like issue tracking that integrate closely with the code repository. Many services also provide built-in tools for automated testing and deployment of code through continuous integration and delivery systems.
 icon: i-lucide-git-branch
+group: Infrastructure & Cloud
 tagline: Code repository hosting with collaboration features.
 alternativeTo:
   - GitHub

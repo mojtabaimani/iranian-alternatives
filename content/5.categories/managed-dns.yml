@@ -1,6 +1,7 @@
 title: Managed DNS
 description: A managed DNS provider operates authoritative servers that maintain DNS records for specific domains. Unlike public DNS resolvers that handle general domain lookups, these specialized servers store and manage DNS information only for their assigned domains. When users access a website, their computers first contact a public DNS resolver, which then queries the appropriate authoritative DNS server to find the correct IP address. While domain registrars typically include basic DNS management with domain purchases, dedicated managed DNS providers offer more sophisticated services that work with domains from any registrar. These providers include advanced features such as automatic failover and location-based DNS routing, and can manage domains registered through different companies.
 icon: i-lucide-network
+group: Infrastructure & Cloud
 tagline: DNS management and distribution services.
 alternativeTo:
   - Cloudflare DNS

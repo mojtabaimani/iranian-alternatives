@@ -1,6 +1,7 @@
 title: App Stores
 description: App stores distribute mobile applications and handle discovery, updates, and in-app payments. Since Google Play restricts payments and some content for Iranian users, local Android app stores are the primary way Iranian developers monetize apps and users install them.
 icon: i-lucide-smartphone
+group: Consumer Apps
 tagline: Android app stores.
 alternativeTo:
   - Google Play

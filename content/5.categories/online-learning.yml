@@ -1,6 +1,7 @@
 title: Online Learning
 description: Online learning platforms host video courses on programming, business, design, and academic subjects, with certificates and structured learning paths. They are the local equivalents of Udemy and Coursera, with Persian-language instruction.
 icon: i-lucide-graduation-cap
+group: Consumer Apps
 tagline: Persian video course platforms.
 alternativeTo:
   - Udemy

@@ -1,6 +1,7 @@
 title: File Hosting
 description: File hosting services allow users to store files online, either for backup purposes or file sharing. These services typically provide applications that can automatically synchronize computer folders or upload smartphone photos to the cloud storage.
 icon: i-lucide-hard-drive
+group: Business & Productivity
 tagline: File storage and sharing platforms.
 alternativeTo:
   - Dropbox

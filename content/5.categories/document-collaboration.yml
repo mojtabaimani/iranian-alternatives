@@ -1,6 +1,7 @@
 title: Document Collaboration
 description: A document collaboration service enables multiple users to simultaneously create and edit documents, spreadsheets, and presentations together online.
 icon: i-lucide-file-text
+group: Business & Productivity
 tagline: Real-time document editing and team collaboration tools.
 alternativeTo:
   - Google Docs

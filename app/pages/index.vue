@@ -16,6 +16,7 @@ const ctaLinks = computed(() => page.value?.cta?.links as ButtonProps[] | undefi
 // homepage but stay reachable from /categories.
 const { data: categories } = await useAsyncData('index-categories', () => queryCollection('categories').order('title', 'ASC').all(), { default: () => [] })
 const featuredCategories = computed(() => categories.value.filter(category => category.services?.length))
+const categoryGroups = computed(() => groupCategories(featuredCategories.value))
 
 // Featured-services logo strip: names come from the landing YAML, logo and
 // category link are resolved from the categories collection (single source of
@@ -144,35 +145,44 @@ defineOgImage('Saas', {
       :description="page.features.description"
       :links="featureLinks"
     >
-      <UPageGrid>
-        <UPageCard
-          v-for="category in featuredCategories"
-          :key="category.path"
-          :title="category.title"
-          :icon="category.icon"
-          :to="category.path"
-          :ui="{
-            leadingIcon: 'size-8 shrink-0 text-green-600 dark:text-green-500'
-          }"
-        >
-          <template #description>
-            <span>{{ category.tagline || category.description }}</span>
-            <span
-              v-if="category.alternativeTo?.length"
-              class="mt-2 block text-xs font-medium text-green-600 dark:text-green-500"
-            >
-              Alternative to {{ formatAlternatives(category.alternativeTo) }}
-            </span>
-          </template>
-          <template #footer>
-            <UBadge
-              :label="`${category.services.length} ${category.services.length === 1 ? 'service' : 'services'}`"
-              color="neutral"
-              variant="subtle"
-            />
-          </template>
-        </UPageCard>
-      </UPageGrid>
+      <div
+        v-for="(group, groupIndex) in categoryGroups"
+        :key="group.name"
+        :class="groupIndex > 0 ? 'mt-16' : ''"
+      >
+        <h3 class="mb-6 text-xl font-semibold text-highlighted">
+          {{ group.name }}
+        </h3>
+        <UPageGrid>
+          <UPageCard
+            v-for="category in group.categories"
+            :key="category.path"
+            :title="category.title"
+            :icon="category.icon"
+            :to="category.path"
+            :ui="{
+              leadingIcon: 'size-8 shrink-0 text-green-600 dark:text-green-500'
+            }"
+          >
+            <template #description>
+              <span>{{ category.tagline || category.description }}</span>
+              <span
+                v-if="category.alternativeTo?.length"
+                class="mt-2 block text-xs font-medium text-green-600 dark:text-green-500"
+              >
+                Alternative to {{ formatAlternatives(category.alternativeTo) }}
+              </span>
+            </template>
+            <template #footer>
+              <UBadge
+                :label="`${category.services.length} ${category.services.length === 1 ? 'service' : 'services'}`"
+                color="neutral"
+                variant="subtle"
+              />
+            </template>
+          </UPageCard>
+        </UPageGrid>
+      </div>
     </UPageSection>
 
     <UPageSection>
