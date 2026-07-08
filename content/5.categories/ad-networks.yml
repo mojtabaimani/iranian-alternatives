@@ -1,0 +1,24 @@
+title: Ad Networks
+description: Ad networks let businesses run display, native, and in-app advertising across a network of publisher websites and apps, with targeting and performance reporting. Since Google Ads cannot bill Iranian advertisers or serve many Iranian sites, local networks handle digital advertising inside the country.
+icon: i-lucide-megaphone
+tagline: Digital advertising platforms, alternatives to Google Ads.
+services:
+- name: Yektanet
+  description: Yektanet is Iran's largest native and display advertising network, reaching most high-traffic Persian websites with targeted campaigns, retargeting, and detailed analytics.
+  logo: /logo/yektanet.png
+  website: https://www.yektanet.com/
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Ad Network
+    - Native Ads
+
+- name: Tapsell
+  description: Tapsell is a leading Iranian mobile advertising network for in-app banner, native, and rewarded video ads, with SDKs for Android and mediation tools for publishers.
+  logo: /logo/tapsell.png
+  website: https://tapsell.com/
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Ad Network
+    - Mobile Ads

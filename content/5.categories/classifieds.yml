@@ -1,0 +1,24 @@
+title: Classifieds
+description: Classifieds platforms let people list second-hand goods, vehicles, property, jobs, and services for direct buyer-to-seller contact. They are the local equivalents of Craigslist and Facebook Marketplace.
+icon: i-lucide-tags
+tagline: Buy and sell listings, alternatives to Craigslist.
+services:
+- name: Divar
+  description: Divar is Iran's dominant classifieds app for second-hand goods, cars, real estate, jobs, and services, with in-app chat and city-based listings.
+  logo: /logo/divar.png
+  website: https://divar.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Classifieds
+    - Marketplace
+
+- name: Sheypoor
+  description: Sheypoor is a major Iranian classifieds platform for second-hand goods, vehicles, and property, with verified listings and in-app messaging.
+  logo: /logo/sheypoor.svg
+  website: https://www.sheypoor.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Classifieds
+    - Marketplace

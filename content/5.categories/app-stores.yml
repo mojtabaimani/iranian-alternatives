@@ -1,0 +1,24 @@
+title: App Stores
+description: App stores distribute mobile applications and handle discovery, updates, and in-app payments. Since Google Play restricts payments and some content for Iranian users, local Android app stores are the primary way Iranian developers monetize apps and users install them.
+icon: i-lucide-smartphone
+tagline: Android app stores, alternatives to Google Play.
+services:
+- name: Cafe Bazaar
+  description: Cafe Bazaar is Iran's largest Android app store, with hundreds of thousands of Persian apps and games, in-app payments in Rial, and its own developer console and analytics.
+  logo: /logo/cafebazaar.png
+  website: https://cafebazaar.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - App Store
+    - Android
+
+- name: Myket
+  description: Myket is a major Iranian Android app store offering app and game distribution, in-app purchases in Rial, and promotion tools for developers.
+  logo: /logo/myket.png
+  website: https://myket.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - App Store
+    - Android

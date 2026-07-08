@@ -1,0 +1,13 @@
+title: Food Delivery
+description: Food delivery platforms let users order from restaurants and supermarkets for courier delivery, handling menus, payments, and live order tracking. They are the local equivalents of DoorDash, Uber Eats, and Deliveroo.
+icon: i-lucide-utensils
+tagline: Restaurant and grocery delivery, alternatives to Uber Eats.
+services:
+- name: Snappfood
+  description: Snappfood is Iran's largest food delivery platform, the local equivalent of Uber Eats, covering restaurants, supermarkets, and pharmacies in cities across the country.
+  logo: /logo/snappfood.png
+  website: https://snappfood.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Food Delivery

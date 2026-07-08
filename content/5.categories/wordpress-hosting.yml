@@ -5,7 +5,7 @@ tagline: Hosting solutions for WordPress websites.
 services:
 - name: Mihan Web Host
   description: Mihan Web Host offers WordPress-optimized hosting plans alongside its shared hosting, VPS, and domain services.
-  logo: https://my.mihanwebhost.com/templates/mwh/images/pagesIcon/logo-mwh-01.svg
+  logo: /logo/mihanwebhost.svg
   website: https://mihanwebhost.com
   location: Iran
   flag: /flag/iran.svg
@@ -15,7 +15,7 @@ services:
 
 - name: Iran Host
   description: Iran Host provides managed WordPress hosting plans in addition to shared hosting, VPS, and dedicated servers.
-  logo: https://iranhost.com/assets/images/new-iranHost-Logo-1.svg
+  logo: /logo/iranhost.svg
   website: https://www.iranhost.com
   location: Iran
   flag: /flag/iran.svg
@@ -25,7 +25,7 @@ services:
 
 - name: Pars Pack
   description: Pars Pack offers WordPress hosting on its cloud infrastructure, with SSL certificates and domain registration available in the same account.
-  logo: https://parspack.com/wp-content/themes/parspack/template/images/logo.svg
+  logo: /logo/parspack.svg
   website: https://parspack.com
   location: Iran
   flag: /flag/iran.svg
@@ -35,7 +35,7 @@ services:
 
 - name: Limoo Host
   description: Limoo Host provides WordPress hosting plans alongside shared hosting, VPS, and domain registration.
-  logo: https://limoo.host/asstes/img/logo/Logo.svg
+  logo: /logo/limoohost.svg
   website: https://limoo.host
   location: Iran
   flag: /flag/iran.svg

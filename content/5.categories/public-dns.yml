@@ -22,12 +22,3 @@ services:
   tags:
     - Public DNS
     - Anti-Sanction
-
-- name: 403.online
-  description: 403.online is a free public DNS service that lets users in Iran reach websites and developer services that block Iranian IPs.
-  website: https://403.online
-  location: Iran
-  flag: /flag/iran.svg
-  tags:
-    - Public DNS
-    - Anti-Sanction

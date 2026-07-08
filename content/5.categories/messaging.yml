@@ -5,7 +5,7 @@ tagline: Real-time communication platforms for teams and individuals.
 services:
 - name: Eitaa
   description: "Eitaa is a Persian messaging app that offers secure messaging, voice and video calls, and group chats."
-  logo: https://eitaa.com/img/eitaa_logo.svg
+  logo: /logo/eitaa.svg
   website: https://eitaa.com/
   location: Iran
   flag: /flag/iran.svg
@@ -13,7 +13,7 @@ services:
   - Messaging
 - name: Bale
   description: "Bale is a Persian messaging app that offers secure messaging, voice and video calls, and group chats."
-  logo: https://bale.ai/_next/static/media/bale_logo.ae0fd3dc.svg
+  logo: /logo/bale.svg
   website: https://bale.ai/
   location: Iran
   flag: /flag/iran.svg
@@ -21,7 +21,7 @@ services:
   - Messaging
 - name: Rubika
   description: "Rubika is a Persian messaging app that offers secure messaging, voice and video calls, and group chats."
-  logo: https://rubika.ir/static/images/logo.svg
+  logo: /logo/rubika.svg
   website: https://rubika.ir/
   location: Iran
   flag: /flag/iran.svg
@@ -29,7 +29,7 @@ services:
   - Messaging
 - name: Gap
   description: "Gap is a Persian messaging app that offers secure messaging, voice and video calls, and group chats."
-  logo: https://gap.im/gap-site/images/logo-header-en.png
+  logo: /logo/gap.png
   website: https://gap.im/
   location: Iran
   flag: /flag/iran.svg

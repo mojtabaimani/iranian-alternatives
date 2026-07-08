@@ -5,7 +5,7 @@ tagline: Scalable infrastructure services for hosting and computing needs.
 services:
 - name: Arvan Cloud
   description: Arvan Cloud is a cloud service provider that offers a range of services including CDN, DDoS protection, and cloud storage.
-  logo: https://www.arvancloud.ir/blog/wp-content//uploads/2023/08/Avatar.svg
+  logo: /logo/arvancloud.svg
   website: https://arvancloud.ir
   location: Iran
   flag: /flag/iran.svg
@@ -16,7 +16,7 @@ services:
 
 - name: Sotoon
   description: Sotoon is the cloud provider of the Hezardastan group (Cafe Bazaar, Divar), offering virtual machines, managed Kubernetes, object storage, and managed databases on Iranian infrastructure.
-  logo: /logo/sotoon.png
+  logo: /logo/sotoon.svg
   website: https://sotoon.ir
   location: Iran
   flag: /flag/iran.svg

@@ -1,0 +1,24 @@
+title: Online Learning
+description: Online learning platforms host video courses on programming, business, design, and academic subjects, with certificates and structured learning paths. They are the local equivalents of Udemy and Coursera, with Persian-language instruction.
+icon: i-lucide-graduation-cap
+tagline: Persian video course platforms, alternatives to Udemy and Coursera.
+services:
+- name: Maktabkhooneh
+  description: Maktabkhooneh is one of Iran's largest online learning platforms, offering Persian video courses from top universities and industry instructors, with certificates and career paths.
+  logo: /logo/maktabkhooneh.jpg
+  website: https://maktabkhooneh.org
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Online Learning
+    - Courses
+
+- name: Faradars
+  description: Faradars is a large Iranian e-learning platform with thousands of Persian video courses across engineering, programming, science, and business, plus completion certificates.
+  logo: /logo/faradars.png
+  website: https://faradars.org
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Online Learning
+    - Courses

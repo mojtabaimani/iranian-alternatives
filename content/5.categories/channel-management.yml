@@ -3,10 +3,10 @@ description: A Channel Management Platform is a centralized tool designed for pr
 icon: i-lucide-home
 tagline: Centralized tools for managing property listings across multiple booking websites.
 services:
-- name: Rentamon
-  description: Rentamon is a platform designed to simplify vacation rental management by integrating and automatically synchronizing calendars across multiple booking websites such as Jabama, Jajiga, Otaghak, and others. Rentamon helps Channel owners efficiently manage their rentals, ensuring accurate availability information and a smoother rental experience.
-  logo: https://rentamon.com/wp-content/uploads/2023/08/rentamon-fa-low.png
-  website: https://rentamon.com/
+- name: Miaan
+  description: Miaan (formerly Rentamon) simplifies vacation rental management by integrating and automatically synchronizing availability calendars across Iranian booking websites such as Jabama, Jajiga, and Otaghak, preventing double bookings and keeping listings accurate.
+  logo: /logo/miaan.svg
+  website: https://miaan.ir/
   location: Iran
   flag: /flag/iran.svg
   tags:

@@ -1,0 +1,14 @@
+title: Podcasts & Audiobooks
+description: Podcast and audiobook platforms host audio content for streaming and download, with subscriptions, playlists, and creator monetization. They are the local equivalents of Apple Podcasts, Castbox, and Audible, with Persian-language catalogs.
+icon: i-lucide-podcast
+tagline: Persian audio content platforms, alternatives to Castbox and Audible.
+services:
+- name: Shenoto
+  description: Shenoto is Iran's largest podcast and audiobook platform, hosting Persian podcasts, audiobooks, and audio courses with creator monetization and mobile apps.
+  logo: /logo/shenoto.png
+  website: https://www.shenoto.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Podcasts
+    - Audiobooks

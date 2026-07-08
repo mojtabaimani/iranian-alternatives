@@ -5,7 +5,7 @@ tagline: Platforms for social networking and content sharing.
 services:
 - name: Virasty
   description: "Virasty is a Persian microblogging platform that allows users to share short text posts, images, and videos with their followers. It also offers a feature called 'Virasty Stories' that lets users create temporary posts that disappear after 24 hours."
-  logo: https://virasty.com/img/icon-192.png
+  logo: /logo/virasty.png
   website: https://virasty.com/
   location: Iran
   flag: /flag/iran.svg

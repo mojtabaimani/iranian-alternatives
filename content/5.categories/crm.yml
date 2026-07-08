@@ -1,0 +1,24 @@
+title: CRM
+description: Customer relationship management platforms track leads, deals, and customer interactions in one place, helping sales teams follow up on time and managers see pipeline health. They are the local equivalents of Salesforce, HubSpot, and Pipedrive.
+icon: i-lucide-users
+tagline: Sales and customer management, alternatives to Salesforce and HubSpot.
+services:
+- name: Didar
+  description: Didar is an Iranian sales CRM with pipeline management, follow-up reminders, and integrations with local tools like SMS panels and VoIP, designed for small and mid-sized teams.
+  logo: /logo/didar.png
+  website: https://didar.me
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - CRM
+    - Sales
+
+- name: Payamgostar
+  description: Payamgostar is an Iranian enterprise CRM and business automation suite covering sales, marketing, ticketing, and workflows, deployable on-premises or in the cloud.
+  logo: /logo/payamgostar.png
+  website: https://payamgostar.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - CRM
+    - Enterprise

@@ -1,0 +1,34 @@
+title: Job Boards & Freelancing
+description: Job boards list openings and let candidates apply with structured profiles, while freelancing marketplaces connect clients with independent professionals for project work. They are the local equivalents of LinkedIn Jobs, Indeed, and Upwork.
+icon: i-lucide-briefcase
+tagline: Hiring and freelance marketplaces, alternatives to LinkedIn Jobs and Upwork.
+services:
+- name: Jobinja
+  description: Jobinja is one of Iran's leading job boards, with structured company profiles, salary insights, and applicant tracking for employers.
+  logo: /logo/jobinja.png
+  website: https://jobinja.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Job Board
+    - Hiring
+
+- name: JobVision
+  description: JobVision is a major Iranian job board and career platform offering job listings, resume building, salary reports, and employer branding tools.
+  logo: /logo/jobvision.png
+  website: https://jobvision.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Job Board
+    - Hiring
+
+- name: Ponisha
+  description: Ponisha is Iran's best-known freelancing marketplace, the local equivalent of Upwork, where businesses post projects and hire Iranian freelancers with escrow payments in Rial.
+  logo: /logo/ponisha.png
+  website: https://ponisha.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Freelancing
+    - Marketplace

@@ -1,0 +1,23 @@
+title: Ride-Hailing
+description: Ride-hailing apps connect passengers with nearby drivers for on-demand trips, with in-app pricing, tracking, and payment. Since international services like Uber and Lyft do not operate in Iran, local apps cover urban transport across the country.
+icon: i-lucide-car
+tagline: On-demand taxi apps, alternatives to Uber and Lyft.
+services:
+- name: Snapp
+  description: Snapp is Iran's largest ride-hailing app, the local equivalent of Uber, offering city rides, intercity trips, bike couriers, and a super-app ecosystem with payments and delivery.
+  logo: /logo/snapp.png
+  website: https://snapp.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Ride-Hailing
+    - Super App
+
+- name: Tapsi
+  description: Tapsi is a major Iranian ride-hailing app offering on-demand city rides, scheduled trips, and delivery, with upfront pricing and in-app payment.
+  logo: /logo/tapsi.png
+  website: https://tapsi.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Ride-Hailing

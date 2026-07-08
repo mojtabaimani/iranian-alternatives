@@ -1,0 +1,22 @@
+title: Music Streaming
+description: Music streaming services offer on-demand listening from licensed catalogs with playlists, discovery, and offline playback. Since Spotify and Apple Music do not serve Iranian users or accept Iranian payments, local platforms fill this role with strong Persian catalogs.
+icon: i-lucide-music
+tagline: On-demand music platforms, alternatives to Spotify.
+services:
+- name: Beeptunes
+  description: Beeptunes is an Iranian music platform for streaming and purchasing licensed Persian and international music, with artist pages, albums, and playlists.
+  logo: /logo/beeptunes.png
+  website: https://beeptunes.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Music Streaming
+
+- name: Navaak
+  description: Navaak is an Iranian music streaming service with a licensed Persian catalog, curated playlists, and radio-style discovery, billed in Rial.
+  logo: /logo/navaak.png
+  website: https://navaak.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Music Streaming

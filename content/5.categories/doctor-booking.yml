@@ -1,0 +1,35 @@
+title: Doctor Appointment Booking
+description: Doctor booking platforms let patients find physicians by specialty, read reviews, book in-person appointments, and hold online consultations. They are the local equivalents of Zocdoc and Doctolib.
+icon: i-lucide-stethoscope
+tagline: Find and book doctors online, alternatives to Zocdoc.
+services:
+- name: Paziresh24
+  description: Paziresh24 is Iran's largest doctor appointment platform, covering in-person booking and online consultations across specialties, with doctor profiles and patient reviews.
+  logo: /logo/paziresh24.png
+  website: https://www.paziresh24.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Healthcare
+    - Booking
+
+- name: Boghrat
+  description: Boghrat is an Iranian healthcare platform offering online doctor appointment booking and phone, video, and text consultations, plus clinic management software with electronic health records for physicians.
+  logo: /logo/boghrat.png
+  website: https://boghrat.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Healthcare
+    - Booking
+    - Clinic Management
+
+- name: Doctoreto
+  description: Doctoreto is an Iranian doctor discovery and appointment platform with physician profiles, patient reviews, and online booking for clinics, hospitals, and labs across the country.
+  logo: /logo/doctoreto.png
+  website: https://doctoreto.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Healthcare
+    - Booking

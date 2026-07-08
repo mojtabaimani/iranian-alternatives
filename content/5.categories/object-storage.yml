@@ -6,7 +6,7 @@ tagline: Object storage solutions for applications.
 services:
 - name: Arvan Cloud
   description: Arvan Cloud offers S3-compatible object storage alongside its CDN and cloud services, so tools and SDKs built for Amazon S3 work against Iranian infrastructure.
-  logo: https://www.arvancloud.ir/blog/wp-content//uploads/2023/08/Avatar.svg
+  logo: /logo/arvancloud.svg
   website: https://arvancloud.ir
   location: Iran
   flag: /flag/iran.svg

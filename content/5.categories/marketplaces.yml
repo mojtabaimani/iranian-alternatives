@@ -1,0 +1,25 @@
+title: Online Marketplaces
+description: Online marketplaces connect buyers with many independent sellers on a single platform, handling product discovery, payments, and often logistics and fulfillment. International examples include Amazon, Etsy, and eBay.
+icon: i-lucide-shopping-cart
+tagline: Online shopping platforms, alternatives to Amazon and Etsy.
+services:
+- name: Digikala
+  description: Digikala is Iran's largest online retailer and marketplace, the local equivalent of Amazon, with its own nationwide logistics and fulfillment network and a large third-party seller ecosystem.
+  logo: /logo/digikala.png
+  website: https://www.digikala.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Marketplace
+    - E-commerce
+
+- name: Basalam
+  description: Basalam is a social marketplace for handmade, artisanal, and local goods from small Iranian vendors, the local equivalent of Etsy, with direct chat between buyers and sellers.
+  logo: /logo/basalam.png
+  website: https://basalam.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Marketplace
+    - Handmade
+    - E-commerce

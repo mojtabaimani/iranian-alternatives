@@ -1,0 +1,24 @@
+title: Accounting
+description: Accounting software tracks invoices, expenses, inventory, and financial reports for businesses. Local products handle Iranian requirements that international tools like QuickBooks and Xero do not, including Rial bookkeeping, Persian invoicing, and Iranian tax rules.
+icon: i-lucide-calculator
+tagline: Business accounting tools, alternatives to QuickBooks and Xero.
+services:
+- name: Hesabfa
+  description: Hesabfa is an Iranian cloud accounting service for small businesses, covering invoicing, expenses, inventory, and financial reports, with online access from any device.
+  logo: /logo/hesabfa.png
+  website: https://hesabfa.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Accounting
+    - Invoicing
+
+- name: Sepidar
+  description: Sepidar, from the Hamkaran System group, is a widely used accounting and business management package for small and mid-sized Iranian companies, covering bookkeeping, payroll, and inventory under Iranian tax rules.
+  logo: /logo/sepidar.jpg
+  website: https://sepidarsystem.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Accounting
+    - Payroll

@@ -5,7 +5,7 @@ tagline: Mapping and geolocation services.
 services:
 - name: Neshan
   description: Neshan's developer platform offers Iranian map tiles, geocoding, routing, and search APIs with detailed local coverage, powering the same maps used by its consumer navigation app.
-  logo: https://neshan.org/wp-content/uploads/2024/01/Asset-51x-1.svg
+  logo: /logo/neshan.svg
   website: https://platform.neshan.org
   location: Iran
   flag: /flag/iran.svg
