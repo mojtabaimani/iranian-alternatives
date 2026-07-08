@@ -1,6 +1,7 @@
 title: Web Analytics
 description: Web analytics platforms monitor and collect data about visitor interactions on websites, providing site owners with insights into user behavior patterns. This information helps businesses understand how their sites are being used and make data-driven improvements to enhance the user experience.
 icon: i-lucide-bar-chart
+tagline: Tools for analyzing website traffic and visitor behavior.
 services:
 - name: Jetseo
   description: "Optimizes SEO by analyzing website performance, detecting technical errors, guiding keyword research, and providing recommendations."

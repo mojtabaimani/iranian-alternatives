@@ -1,6 +1,7 @@
 title: Email Services
 description: Email providers offer users unique email addresses and storage for their messages. They typically include a web-based interface where users can read, write, and manage their emails directly through their internet browser.
 icon: i-lucide-mail
+tagline: Email hosting with business features.
 services:
 - name: Chmail
   description: Chmail is a free email service provider that offers email hosting with a focus on privacy and security.

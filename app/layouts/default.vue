@@ -1,8 +1,23 @@
 <script setup lang="ts">
-import type { ParsedContent } from '@nuxt/content'
+const { data: navigation } = await useAsyncData('navigation', async () => {
+  const [docs, blog, categories] = await Promise.all([
+    queryCollectionNavigation('docs'),
+    queryCollectionNavigation('blog'),
+    queryCollectionNavigation('categories')
+  ])
 
-const { data: navigation } = await useAsyncData('navigation', () => fetchContentNavigation(), { default: () => [] })
-const { data: files } = useLazyFetch<ParsedContent[]>('/api/search.json', { default: () => [], server: false })
+  return [...docs, ...blog, ...categories]
+}, { default: () => [] })
+
+const { data: files } = useLazyAsyncData('search', async () => {
+  const [docs, blog, categories] = await Promise.all([
+    queryCollectionSearchSections('docs'),
+    queryCollectionSearchSections('blog'),
+    queryCollectionSearchSections('categories')
+  ])
+
+  return [...docs, ...blog, ...categories]
+}, { default: () => [], server: false })
 
 provide('navigation', navigation)
 </script>

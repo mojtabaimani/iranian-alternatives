@@ -1,6 +1,7 @@
 title: Navigation
 description: Navigation apps help users find and follow the best routes to reach their destinations.
 icon: i-lucide-map
+tagline: Mapping and routing services.
 services:
 - name: Neshan
   description: Neshan is a local mapping service that offers mapping and location services for Iran.

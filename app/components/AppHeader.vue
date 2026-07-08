@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import type { NavItem } from '@nuxt/content'
+import type { ContentNavigationItem } from '@nuxt/content'
 
-const navigation = inject<Ref<NavItem[]>>('navigation', ref([]))
+const navigation = inject<Ref<ContentNavigationItem[]>>('navigation', ref([]))
 
 const links = [
   {
@@ -24,8 +24,8 @@ const links = [
 </script>
 
 <template>
-  <UHeader :links="links">
-    <template #logo>
+  <UHeader>
+    <template #title>
       <div class="flex items-center gap-2">
         <UColorModeImage
           light="/logo/iran.svg"
@@ -40,9 +40,9 @@ const links = [
         />
       </div>
     </template>
-    <!-- <template #center>
-      <UContentSearchButton />
-    </template> -->
+
+    <UNavigationMenu :items="links" />
+
     <template #right>
       <UColorModeButton size="sm" />
 
@@ -51,15 +51,16 @@ const links = [
         target="_blank"
         icon="i-simple-icons-github"
         aria-label="GitHub"
-        color="gray"
+        color="neutral"
         variant="ghost"
       />
     </template>
 
-    <template #panel>
-      <UNavigationTree
-        :links="mapContentNavigation(navigation)"
+    <template #body>
+      <UContentNavigation
+        :navigation="navigation"
         default-open
+        highlight
       />
     </template>
   </UHeader>

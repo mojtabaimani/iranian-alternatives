@@ -1,6 +1,7 @@
 title: Machine Translation
 description: A machine translation service automatically converts text from one language to another using computer algorithms.
 icon: i-lucide-languages
+tagline: Machine translation with Persian language support.
 services:
 - name: Abadis
   description: Abadis is a machine translation service that supports Persian and other languages.

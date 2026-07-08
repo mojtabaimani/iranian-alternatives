@@ -1,6 +1,7 @@
 title: Document Collaboration
 description: A document collaboration service enables multiple users to simultaneously create and edit documents, spreadsheets, and presentations together online.
 icon: i-lucide-file-text
+tagline: Real-time document editing and team collaboration tools.
 services:
 - name: Collabora Online
   description: Collabora Online is an open source online office suite that allows you to create, edit, and collaborate on documents, spreadsheets, and presentations in real-time.

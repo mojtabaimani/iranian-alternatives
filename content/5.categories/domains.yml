@@ -1,6 +1,7 @@
 title: Domain Name Registrars
 description: Domain name registrars are companies that handle the registration and management of website addresses on the internet.
 icon: i-lucide-globe
+tagline: Domain name registration services.
 services:
 - name: IRNIC
   description: IRNIC is the official registry for .ir domain names in Iran. It manages the registration and administration of .ir domains, ensuring the stability and security of the Iranian internet space.

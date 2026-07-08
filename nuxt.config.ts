@@ -1,44 +1,51 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  extends: ['@nuxt/ui-pro'],
-
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
     '@nuxt/fonts',
     '@nuxt/image',
     '@nuxt/ui',
-    '@nuxthq/studio',
     '@vueuse/nuxt',
-    'nuxt-og-image'
+    '@nuxtjs/seo'
   ],
 
   devtools: {
     enabled: true
   },
 
+  css: ['~/assets/css/main.css'],
+
+  site: {
+    url: 'https://iranian-alternatives.ir',
+    name: 'Iranian Alternatives',
+    description: 'Find Iranian alternatives for digital services and products, including cloud services, SaaS products and more. Support local businesses and ensure data compliance.'
+  },
+
   colorMode: {
     disableTransition: true
   },
 
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio'
+    }
+  },
+
   routeRules: {
-    '/api/search.json': { prerender: true },
     '/docs': { redirect: '/docs/overview', prerender: false }
   },
 
-  future: {
-    compatibilityVersion: 4
-  },
-
-  compatibilityDate: '2024-07-11',
+  compatibilityDate: '2026-07-07',
 
   nitro: {
     prerender: {
       routes: [
         '/',
-        '/docs',
         '/categories',
-        '/blog'
+        '/blog',
+        '/robots.txt',
+        '/sitemap.xml'
       ],
       crawlLinks: true
     }
@@ -46,15 +53,6 @@ export default defineNuxtConfig({
 
   typescript: {
     strict: false
-  },
-
-  hooks: {
-    // Define `@nuxt/ui` components as global to use them in `.md` (feel free to add those you need)
-    'components:extend': (components) => {
-      const globals = components.filter(c => ['UButton'].includes(c.pascalName))
-
-      globals.forEach(c => c.global = true)
-    }
   },
 
   eslint: {

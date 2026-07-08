@@ -1,25 +1,29 @@
 <script setup lang="ts">
-import type { NavItem } from '@nuxt/content'
+import type { ContentNavigationItem } from '@nuxt/content'
 
-const navigation = inject<Ref<NavItem[]>>('navigation', ref([]))
+const navigation = inject<Ref<ContentNavigationItem[]>>('navigation', ref([]))
 
-const links = computed(() => navigation.value.find(item => item._path === '/docs')?.children ?? [])
+const links = computed(() => navigation.value.find(item => item.path === '/docs')?.children ?? [])
 </script>
 
 <template>
   <UContainer>
     <UPage>
       <template #left>
-        <UAside>
+        <UPageAside>
           <template #top>
             <UContentSearchButton
+              :collapsed="false"
               class="rounded-md"
               size="sm"
             />
           </template>
 
-          <UNavigationTree :links="mapContentNavigation(links)" />
-        </UAside>
+          <UContentNavigation
+            :navigation="links"
+            highlight
+          />
+        </UPageAside>
       </template>
 
       <NuxtPage />

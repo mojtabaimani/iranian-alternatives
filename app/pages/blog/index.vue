@@ -1,15 +1,10 @@
 <script setup lang="ts">
-import type { BlogPost } from '~/types'
-
-const { data: page } = await useAsyncData('blog', () => queryContent('/blog').findOne())
+const { data: page } = await useAsyncData('blog', () => queryCollection('blogLanding').first())
 if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
 }
 
-const { data: posts } = await useAsyncData('posts', () => queryContent<BlogPost>('/blog')
-  .where({ _extension: 'md' })
-  .sort({ date: -1 })
-  .find())
+const { data: posts } = await useAsyncData('posts', () => queryCollection('blog').order('date', 'DESC').all(), { default: () => [] })
 
 useSeoMeta({
   title: page.value.title,
@@ -18,22 +13,26 @@ useSeoMeta({
   ogDescription: page.value.description
 })
 
-defineOgImageComponent('Saas')
+defineOgImage('Saas', {
+  title: page.value.title,
+  description: page.value.description
+})
 </script>
 
 <template>
   <UContainer>
     <UPageHeader
-      v-bind="page"
+      :title="page.title"
+      :description="page.description"
       class="py-[50px]"
     />
 
     <UPageBody>
-      <UBlogList>
+      <UBlogPosts v-if="posts.length">
         <UBlogPost
           v-for="(post, index) in posts"
           :key="index"
-          :to="post._path"
+          :to="post.path"
           :title="post.title"
           :description="post.description"
           :image="post.image"
@@ -46,7 +45,20 @@ defineOgImageComponent('Saas')
             description: 'line-clamp-2'
           }"
         />
-      </UBlogList>
+      </UBlogPosts>
+
+      <div
+        v-else
+        class="flex flex-col items-center gap-4 rounded-xl border border-dashed border-default py-16 text-center"
+      >
+        <UIcon
+          name="i-lucide-newspaper"
+          class="size-8 text-muted"
+        />
+        <p class="text-muted">
+          No posts yet. Check back soon.
+        </p>
+      </div>
     </UPageBody>
   </UContainer>
 </template>

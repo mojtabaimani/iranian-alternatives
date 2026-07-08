@@ -24,22 +24,18 @@ useSeoMeta({
   ogSiteName: seo?.siteName,
   ogTitle: seo?.siteName,
   ogDescription: 'Find Iranian alternatives for digital services and products, including cloud services, SaaS products and more. Support local businesses and ensure data compliance.',
-  ogImage: '/flag/iranianflagflying.png',
   twitterCard: 'summary_large_image',
   twitterTitle: seo?.siteName,
-  twitterDescription: 'Find Iranian alternatives for digital services and products, including cloud services, SaaS products and more. Support local businesses and ensure data compliance.',
-  twitterImage: '/flag/iranianflagflying.png'
+  twitterDescription: 'Find Iranian alternatives for digital services and products, including cloud services, SaaS products and more. Support local businesses and ensure data compliance.'
 })
 </script>
 
 <template>
-  <div>
+  <UApp>
     <NuxtLoadingIndicator />
 
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
-
-    <UNotifications />
-  </div>
+  </UApp>
 </template>

@@ -4,7 +4,7 @@ import { withoutTrailingSlash } from 'ufo'
 const route = useRoute()
 
 // Fetch category data from YAML file
-const { data: category } = await useAsyncData(route.path, () => queryContent(route.path).findOne())
+const { data: category } = await useAsyncData(route.path, () => queryCollection('categories').path(withoutTrailingSlash(route.path)).first())
 if (!category.value) {
   throw createError({ statusCode: 404, statusMessage: 'Category not found', fatal: true })
 }
@@ -17,10 +17,21 @@ useSeoMeta({
   ogDescription: category.value.description
 })
 
-const { data: surround } = await useAsyncData(`${route.path}-surround`, () => queryContent('/categories')
-  .where({ _extension: 'yml', navigation: { $ne: false } })
-  .only(['title', 'description', '_path'])
-  .findSurround(withoutTrailingSlash(route.path)), { default: () => [] })
+const { data: surround } = await useAsyncData(`${route.path}-surround`, () => queryCollectionItemSurroundings('categories', withoutTrailingSlash(route.path), {
+  fields: ['description']
+}), { default: () => [] })
+
+// GitHub edit link for this category's YAML file, used by the empty-state CTA
+const slug = computed(() => withoutTrailingSlash(route.path).split('/').pop())
+const editUrl = computed(() => `https://github.com/mojtabaimani/iranian-alternatives/edit/main/content/5.categories/${slug.value}.yml`)
+
+function hostname(url: string) {
+  try {
+    return new URL(url).hostname.replace(/^www\./, '')
+  } catch {
+    return url
+  }
+}
 </script>
 
 <template>
@@ -28,19 +39,18 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () => qu
     <UPageHeader
       :title="category.title"
       :description="category.description"
-      :links="category.links"
     >
-      <template #icon>
+      <template #headline>
         <UIcon
           v-if="category.icon"
           :name="category.icon"
-          class="w-8 h-8 text-green-600 dark:text-green-500"
+          class="size-8 text-green-600 dark:text-green-500"
         />
       </template>
     </UPageHeader>
 
     <UPageBody>
-      <UPageGrid>
+      <UPageGrid v-if="category.services?.length">
         <UPageCard
           v-for="service in category.services"
           :key="service.name"
@@ -56,13 +66,13 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () => qu
                 :alt="`${service.name} logo`"
                 class="w-40 h-auto object-contain"
               >
-              <h3 class="font-semibold truncate text-2xl">
+              <h3 class="font-semibold text-2xl">
                 {{ service.name }}
               </h3>
             </div>
 
             <!-- Service Description -->
-            <p class="text-gray-500 dark:text-gray-400 text-sm">
+            <p class="text-muted text-sm">
               {{ service.description }}
             </p>
 
@@ -71,7 +81,7 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () => qu
               <UBadge
                 v-for="tag in service.tags"
                 :key="tag"
-                size="xs"
+                size="sm"
                 variant="subtle"
               >
                 {{ tag }}
@@ -79,7 +89,7 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () => qu
             </div>
 
             <!-- Country Information -->
-            <div class="flex items-center gap-2 mt-4 text-sm text-gray-500 dark:text-gray-400">
+            <div class="flex items-center gap-2 mt-4 text-sm text-muted">
               <span>Country:</span>
               <div class="flex items-center gap-1">
                 <span>{{ service.location }}</span>
@@ -92,20 +102,44 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () => qu
               </div>
             </div>
             <!-- Visit Website -->
-            <div class="flex items-start gap-2 mt-4 text-sm text-gray-500 dark:text-gray-400">
-              <span class="shrink-0">Website:</span>
-              <div class="flex-1 min-w-0">
-                <span class="break-words">{{ service.website }}</span>
-              </div>
+            <div
+              v-if="service.website"
+              class="flex items-center gap-2 mt-4 text-sm text-muted"
+            >
+              <span>Website:</span>
+              <span>{{ hostname(service.website) }}</span>
             </div>
           </div>
         </UPageCard>
       </UPageGrid>
 
-      <hr
-        v-if="surround?.length"
-        class="my-8 border-gray-200 dark:border-gray-800"
+      <div
+        v-else
+        class="flex flex-col items-center gap-4 rounded-xl border border-dashed border-default py-16 text-center"
       >
+        <UIcon
+          name="i-lucide-hourglass"
+          class="size-8 text-muted"
+        />
+        <div>
+          <p class="font-medium">
+            No services listed here yet.
+          </p>
+          <p class="text-muted text-sm mt-1">
+            Know an Iranian alternative for {{ category.title }}? Help grow the directory.
+          </p>
+        </div>
+        <UButton
+          :to="editUrl"
+          target="_blank"
+          icon="i-simple-icons-github"
+          color="neutral"
+          variant="subtle"
+          label="Contribute a service"
+        />
+      </div>
+
+      <USeparator v-if="surround?.filter(Boolean).length" />
 
       <UContentSurround :surround="surround" />
     </UPageBody>
