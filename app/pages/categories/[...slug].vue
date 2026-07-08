@@ -64,7 +64,7 @@ function hostname(url: string) {
                 v-if="service.logo"
                 :src="service.logo"
                 :alt="`${service.name} logo`"
-                class="w-40 h-auto object-contain"
+                class="w-40 h-auto object-contain dark:bg-white/90 dark:rounded-md dark:p-2"
               >
               <h3 class="font-semibold text-2xl">
                 {{ service.name }}

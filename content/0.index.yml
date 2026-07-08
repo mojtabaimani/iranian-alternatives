@@ -1,9 +1,9 @@
-title: Iranian Alternatives - Digital Services & Products
-description: Find Iranian alternatives for digital services and products, including cloud services, SaaS products and more. Support local businesses and ensure data compliance.
+title: Iranian Alternatives to Global Digital Services
+description: A directory of Iranian alternatives to international tools like Cloudflare, AWS, and Google Analytics. Support local businesses and stay compliant with Iranian regulations.
 navigation: false
 hero:
-  title: Find Iranian Digital Alternatives
-  description: We help you discover Iranian alternatives for digital services and products, like cloud services and SaaS solutions. Support local businesses while ensuring compliance with Iranian regulations.
+  title: Iranian Alternatives to Global Digital Services
+  description: A directory of Iranian services that replace international tools like Cloudflare, AWS, and Google Analytics, from cloud infrastructure to SaaS products. Support local businesses while ensuring compliance with Iranian regulations.
   links:
     - label: Browse Categories
       to: '/#categories'
@@ -16,39 +16,61 @@ hero:
       color: gray
       to: https://github.com/mojtabaimani/iranian-alternatives
       target: _blank
+logos:
+  title: Featuring services like
+  services:
+    - Arvan Cloud
+    - Aparat
+    - Eitaa
+    - Bale
+    - Neshan
+    - Zarebin
+    - Liara
+    - Kave Negar
+    - Porsline
+    - Hamravesh
 sections:
   - title: Why Choose Iranian Alternatives?
     features:
-      - name: Support Local Economy
-        description: When you choose Iranian services, you support local businesses, create jobs, and strengthen the domestic digital economy.
-        icon: i-lucide-building
-      - name: Data Sovereignty
-        description: Keep your data within Iranian borders and comply with local data protection regulations.
+      - name: Reliable Availability
+        description: No blocked signups, suspended accounts, or rejected payments. These services are built to work in Iran, with no workarounds needed.
         icon: i-lucide-shield-check
-      - name: Local Payment Methods
-        description: Easy access to local payment methods and billing in Iranian Rial (IRR).
+      - name: Payments in Rial
+        description: Pay through local gateways and get billed in Iranian Rial (IRR). No foreign credit card required.
         icon: i-lucide-wallet
-      - name: Legal Compliance
-        description: Services that comply with Iranian laws and regulations.
-        icon: i-lucide-scale
-      - name: Local Support
-        description: Get customer support in Persian and in your timezone.
+      - name: Persian Support
+        description: Customer support in Persian, in your timezone, from teams that understand the local market.
         icon: i-lucide-headphones
-      - name: Local Infrastructure
-        description: Better performance with services hosted on Iranian infrastructure.
-        icon: i-lucide-network
+      - name: Data Residency
+        description: Your data stays on Iranian infrastructure, which means lower latency and compliance with local data protection regulations.
+        icon: i-lucide-database
+      - name: Built for the Local Ecosystem
+        description: Persian interfaces with proper RTL support, the Jalali calendar, and integrations with Iranian banks and payment gateways.
+        icon: i-lucide-puzzle
+      - name: Support the Local Economy
+        description: Choosing Iranian services supports local businesses, creates jobs, and strengthens the domestic digital economy.
+        icon: i-lucide-building
 features:
-  title: Categories
-cta:
-  title: Contribute to Iranian Alternatives
-  description: Help us build the largest directory of Iranian digital services. Add missing services or suggest improvements.
+  title: Browse by Category
+  description: Find the Iranian alternative to the tool you already use. Every category lists local services with a description, logo, and link.
   links:
-    - label: Add Service
+    - label: View all categories
+      to: /categories
+      color: gray
+      icon: i-lucide-arrow-right
+      trailing: true
+cta:
+  # {count} is replaced at build time with the number of empty categories
+  # (see app/pages/index.vue)
+  title: '{count} categories are still empty'
+  description: Know an Iranian service that belongs here? Add it and help build the most complete directory of Iranian digital services.
+  links:
+    - label: Add a service
       to: https://github.com/mojtabaimani/iranian-alternatives/issues/new
       target: _blank
       icon: i-lucide-plus
-    - label: Back to top
-      to: /#top
+    - label: "See what's missing"
+      to: /categories
       icon: i-lucide-arrow-right
       color: gray
       trailing: true

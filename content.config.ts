@@ -23,6 +23,13 @@ export default defineContentConfig({
           description: z.string(),
           links: z.array(linkSchema).optional()
         }).optional(),
+        // Featured-services logo strip under the hero. Services are referenced
+        // by name; logo and category link are resolved from the `categories`
+        // collection in app/pages/index.vue so logos are not duplicated here.
+        logos: z.object({
+          title: z.string().optional(),
+          services: z.array(z.string()).optional()
+        }).optional(),
         sections: z.array(z.object({
           title: z.string().optional(),
           description: z.string().optional(),
@@ -38,7 +45,8 @@ export default defineContentConfig({
         // section heading lives here.
         features: z.object({
           title: z.string().optional(),
-          description: z.string().optional()
+          description: z.string().optional(),
+          links: z.array(linkSchema).optional()
         }).optional(),
         cta: z.object({
           title: z.string().optional(),
