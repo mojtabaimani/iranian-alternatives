@@ -1,7 +1,10 @@
 title: CRM
 description: Customer relationship management platforms track leads, deals, and customer interactions in one place, helping sales teams follow up on time and managers see pipeline health. They are the local equivalents of Salesforce, HubSpot, and Pipedrive.
 icon: i-lucide-users
-tagline: Sales and customer management, alternatives to Salesforce and HubSpot.
+tagline: Sales and customer management.
+alternativeTo:
+  - Salesforce
+  - HubSpot
 services:
 - name: Didar
   description: Didar is an Iranian sales CRM with pipeline management, follow-up reminders, and integrations with local tools like SMS panels and VoIP, designed for small and mid-sized teams.

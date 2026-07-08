@@ -1,7 +1,10 @@
 title: Online Marketplaces
 description: Online marketplaces connect buyers with many independent sellers on a single platform, handling product discovery, payments, and often logistics and fulfillment. International examples include Amazon, Etsy, and eBay.
 icon: i-lucide-shopping-cart
-tagline: Online shopping platforms, alternatives to Amazon and Etsy.
+tagline: Online shopping platforms.
+alternativeTo:
+  - Amazon
+  - Etsy
 services:
 - name: Digikala
   description: Digikala is Iran's largest online retailer and marketplace, the local equivalent of Amazon, with its own nationwide logistics and fulfillment network and a large third-party seller ecosystem.

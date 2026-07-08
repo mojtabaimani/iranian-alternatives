@@ -1,7 +1,10 @@
 title: Online Learning
 description: Online learning platforms host video courses on programming, business, design, and academic subjects, with certificates and structured learning paths. They are the local equivalents of Udemy and Coursera, with Persian-language instruction.
 icon: i-lucide-graduation-cap
-tagline: Persian video course platforms, alternatives to Udemy and Coursera.
+tagline: Persian video course platforms.
+alternativeTo:
+  - Udemy
+  - Coursera
 services:
 - name: Maktabkhooneh
   description: Maktabkhooneh is one of Iran's largest online learning platforms, offering Persian video courses from top universities and industry instructors, with certificates and career paths.

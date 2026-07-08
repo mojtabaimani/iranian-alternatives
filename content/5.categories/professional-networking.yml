@@ -2,4 +2,6 @@ title: Professional Networking
 description: A professional networking platform connects people for business and career purposes, enabling them to build and maintain work-related relationships.
 icon: i-lucide-users
 tagline: Social platforms for career development.
+alternativeTo:
+  - LinkedIn
 services: []

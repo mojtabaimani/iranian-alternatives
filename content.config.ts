@@ -66,6 +66,9 @@ export default defineContentConfig({
         icon: z.string().optional(),
         // Short label for the homepage category card; falls back to `description`
         tagline: z.string().optional(),
+        // International products this category replaces, shown as
+        // "Alternative to X, Y" on category cards and headers
+        alternativeTo: z.array(z.string()).optional(),
         services: z.array(z.object({
           name: z.string(),
           description: z.string().optional(),

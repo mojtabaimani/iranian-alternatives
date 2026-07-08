@@ -46,6 +46,12 @@ function hostname(url: string) {
           :name="category.icon"
           class="size-8 text-green-600 dark:text-green-500"
         />
+        <span
+          v-if="category.alternativeTo?.length"
+          class="text-sm font-medium text-green-600 dark:text-green-500"
+        >
+          Alternative to {{ formatAlternatives(category.alternativeTo) }}
+        </span>
       </template>
     </UPageHeader>
 

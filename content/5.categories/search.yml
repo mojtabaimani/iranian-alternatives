@@ -2,6 +2,8 @@ title: Search Engines
 description: A search engine enables people to find and access information across the internet by entering keywords or phrases.
 icon: i-lucide-search
 tagline: Search platforms optimized for regional content and languages.
+alternativeTo:
+  - Google Search
 services:
   - name: Parseek
     description: "Parseek started in 2002 as a Persian web search engine and later evolved into a news aggregator, automatically curating headlines from hundreds of trusted news sites. Its redesign focuses on enhancing the news browsing experience and fostering closer collaboration with news website managers."

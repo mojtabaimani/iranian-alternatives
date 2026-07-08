@@ -2,6 +2,9 @@ title: Channel Management
 description: A Channel Management Platform is a centralized tool designed for property owners and hospitality providers to efficiently manage and synchronize their listings across multiple booking websites. By automatically updating availability calendars and reservations in real-time, it prevents double bookings, minimizes cancellations, reduces administrative workload, and helps maximize occupancy and revenue.
 icon: i-lucide-home
 tagline: Centralized tools for managing property listings across multiple booking websites.
+alternativeTo:
+  - Guesty
+  - Hostaway
 services:
 - name: Miaan
   description: Miaan (formerly Rentamon) simplifies vacation rental management by integrating and automatically synchronizing availability calendars across Iranian booking websites such as Jabama, Jajiga, and Otaghak, preventing double bookings and keeping listings accurate.

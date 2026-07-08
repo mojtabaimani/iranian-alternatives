@@ -2,6 +2,9 @@ title: Maps API
 description: A maps API service enables websites and apps to display interactive maps through a programming interface, allowing businesses to embed location-based features like store locations on their websites.
 icon: i-lucide-map-pin
 tagline: Mapping and geolocation services.
+alternativeTo:
+  - Google Maps Platform
+  - Mapbox
 services:
 - name: Neshan
   description: Neshan's developer platform offers Iranian map tiles, geocoding, routing, and search APIs with detailed local coverage, powering the same maps used by its consumer navigation app.

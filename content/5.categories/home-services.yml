@@ -1,7 +1,10 @@
 title: Home Services
 description: Home services marketplaces connect households with vetted professionals for cleaning, repairs, moving, and maintenance, handling booking, pricing, and payment. They are the local equivalents of TaskRabbit, Handy, and Thumbtack.
 icon: i-lucide-wrench
-tagline: On-demand household professionals, alternatives to TaskRabbit.
+tagline: On-demand household professionals.
+alternativeTo:
+  - TaskRabbit
+  - Thumbtack
 services:
 - name: Achareh
   description: Achareh is Iran's leading home services marketplace, booking vetted professionals for cleaning, repairs, moving, and hundreds of other services with upfront pricing.

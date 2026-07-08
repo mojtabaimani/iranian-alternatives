@@ -1,7 +1,10 @@
 title: Classifieds
 description: Classifieds platforms let people list second-hand goods, vehicles, property, jobs, and services for direct buyer-to-seller contact. They are the local equivalents of Craigslist and Facebook Marketplace.
 icon: i-lucide-tags
-tagline: Buy and sell listings, alternatives to Craigslist.
+tagline: Buy and sell listings.
+alternativeTo:
+  - Craigslist
+  - Facebook Marketplace
 services:
 - name: Divar
   description: Divar is Iran's dominant classifieds app for second-hand goods, cars, real estate, jobs, and services, with in-app chat and city-based listings.

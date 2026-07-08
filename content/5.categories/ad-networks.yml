@@ -1,7 +1,10 @@
 title: Ad Networks
 description: Ad networks let businesses run display, native, and in-app advertising across a network of publisher websites and apps, with targeting and performance reporting. Since Google Ads cannot bill Iranian advertisers or serve many Iranian sites, local networks handle digital advertising inside the country.
 icon: i-lucide-megaphone
-tagline: Digital advertising platforms, alternatives to Google Ads.
+tagline: Digital advertising platforms.
+alternativeTo:
+  - Google Ads
+  - AdMob
 services:
 - name: Yektanet
   description: Yektanet is Iran's largest native and display advertising network, reaching most high-traffic Persian websites with targeted campaigns, retargeting, and detailed analytics.

@@ -2,6 +2,9 @@ title: CDN Services
 description: A content delivery network distributes network traffic through multiple servers located across different geographical locations.
 icon: i-lucide-network
 tagline: Content delivery networks optimized for regional performance.
+alternativeTo:
+  - Cloudflare
+  - Akamai
 services:
 - name: Arvan Cloud
   description: Arvan Cloud is a cloud service provider that offers a range of services including CDN, DDoS protection, and cloud storage.

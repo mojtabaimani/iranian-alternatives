@@ -1,7 +1,10 @@
 title: Doctor Appointment Booking
 description: Doctor booking platforms let patients find physicians by specialty, read reviews, book in-person appointments, and hold online consultations. They are the local equivalents of Zocdoc and Doctolib.
 icon: i-lucide-stethoscope
-tagline: Find and book doctors online, alternatives to Zocdoc.
+tagline: Find and book doctors online.
+alternativeTo:
+  - Zocdoc
+  - Doctolib
 services:
 - name: Paziresh24
   description: Paziresh24 is Iran's largest doctor appointment platform, covering in-person booking and online consultations across specialties, with doctor profiles and patient reviews.

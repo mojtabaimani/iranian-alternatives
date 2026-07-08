@@ -1,7 +1,9 @@
 title: App Stores
 description: App stores distribute mobile applications and handle discovery, updates, and in-app payments. Since Google Play restricts payments and some content for Iranian users, local Android app stores are the primary way Iranian developers monetize apps and users install them.
 icon: i-lucide-smartphone
-tagline: Android app stores, alternatives to Google Play.
+tagline: Android app stores.
+alternativeTo:
+  - Google Play
 services:
 - name: Cafe Bazaar
   description: Cafe Bazaar is Iran's largest Android app store, with hundreds of thousands of Persian apps and games, in-app payments in Rial, and its own developer console and analytics.

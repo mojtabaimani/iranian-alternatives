@@ -1,7 +1,10 @@
 title: Accounting
 description: Accounting software tracks invoices, expenses, inventory, and financial reports for businesses. Local products handle Iranian requirements that international tools like QuickBooks and Xero do not, including Rial bookkeeping, Persian invoicing, and Iranian tax rules.
 icon: i-lucide-calculator
-tagline: Business accounting tools, alternatives to QuickBooks and Xero.
+tagline: Business accounting tools.
+alternativeTo:
+  - QuickBooks
+  - Xero
 services:
 - name: Hesabfa
   description: Hesabfa is an Iranian cloud accounting service for small businesses, covering invoicing, expenses, inventory, and financial reports, with online access from any device.

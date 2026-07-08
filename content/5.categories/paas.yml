@@ -2,6 +2,9 @@ title: PaaS
 description: A platform as a service offers a complete environment for developing and running applications in the cloud, handling infrastructure management so users can focus on their application code.
 icon: i-lucide-layers
 tagline: Platform services for application deployment.
+alternativeTo:
+  - Heroku
+  - Render
 services:
 - name: Liara
   description: "Liara is a Persian platform as a service that helps you deploy, manage, and scale applications without managing servers."

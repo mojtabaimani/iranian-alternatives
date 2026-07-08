@@ -1,7 +1,10 @@
 title: Books & E-Books
 description: Book platforms sell print books online or offer e-books and audiobooks for reading in an app with a personal library. They are the local equivalents of Amazon's bookstore, Kindle, and Google Play Books, with deep Persian catalogs.
 icon: i-lucide-book-open
-tagline: Persian bookstores and reading apps, alternatives to Kindle.
+tagline: Persian bookstores and reading apps.
+alternativeTo:
+  - Kindle
+  - Google Play Books
 services:
 - name: Taaghche
   description: Taaghche is Iran's most popular e-book and audiobook app, the local equivalent of Kindle, with a large Persian catalog, subscription reading, and cross-device sync.

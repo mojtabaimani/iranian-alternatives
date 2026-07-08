@@ -2,6 +2,9 @@ title: Payment Services
 description: A payment service provider enables businesses to accept various forms of payment, particularly in online stores. They process the transactions and typically offer multiple payment options for customers. PSPs usually handle the secure payment pages where customers enter sensitive information like bank card details, keeping this data separate from the merchant's website to enhance security.
 icon: i-lucide-credit-card
 tagline: Secure payment processing and gateway solutions.
+alternativeTo:
+  - Stripe
+  - PayPal
 services:
 - name: ZarinPal
   description: ZarinPal is one of Iran's most widely used payment gateways, letting businesses and individuals accept online payments through a simple API, payment links, and e-commerce plugins.

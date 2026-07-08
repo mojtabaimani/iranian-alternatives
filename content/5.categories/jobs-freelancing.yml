@@ -1,7 +1,10 @@
 title: Job Boards & Freelancing
 description: Job boards list openings and let candidates apply with structured profiles, while freelancing marketplaces connect clients with independent professionals for project work. They are the local equivalents of LinkedIn Jobs, Indeed, and Upwork.
 icon: i-lucide-briefcase
-tagline: Hiring and freelance marketplaces, alternatives to LinkedIn Jobs and Upwork.
+tagline: Hiring and freelance marketplaces.
+alternativeTo:
+  - LinkedIn Jobs
+  - Upwork
 services:
 - name: Jobinja
   description: Jobinja is one of Iran's leading job boards, with structured company profiles, salary insights, and applicant tracking for employers.

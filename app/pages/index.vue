@@ -140,13 +140,21 @@ defineOgImage('Saas', {
           v-for="category in featuredCategories"
           :key="category.path"
           :title="category.title"
-          :description="category.tagline || category.description"
           :icon="category.icon"
           :to="category.path"
           :ui="{
             leadingIcon: 'size-8 shrink-0 text-green-600 dark:text-green-500'
           }"
         >
+          <template #description>
+            <span>{{ category.tagline || category.description }}</span>
+            <span
+              v-if="category.alternativeTo?.length"
+              class="mt-2 block text-xs font-medium text-green-600 dark:text-green-500"
+            >
+              Alternative to {{ formatAlternatives(category.alternativeTo) }}
+            </span>
+          </template>
           <template #footer>
             <UBadge
               :label="`${category.services.length} ${category.services.length === 1 ? 'service' : 'services'}`"

@@ -2,6 +2,9 @@ title: Public DNS Resolvers
 description: When users visit a website, their device contacts a public DNS resolver (also called a recursive DNS server) to find the website's IP address. While internet service providers offer DNS servers, many users choose specialized public DNS resolvers that offer better speed and security than their ISP's default servers.
 icon: i-lucide-network
 tagline: Public DNS resolvers and servers.
+alternativeTo:
+  - Google Public DNS
+  - Cloudflare 1.1.1.1
 services:
 - name: Shecan
   description: Shecan is Iran's best-known public DNS service. It resolves domains that restrict Iranian IP addresses, letting developers reach package registries, container hubs, and other tools that would otherwise block them.

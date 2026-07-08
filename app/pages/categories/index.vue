@@ -27,13 +27,21 @@ defineOgImage('Saas', { title, description })
           v-for="category in categories"
           :key="category.path"
           :title="category.title"
-          :description="category.description"
           :icon="category.icon"
           :to="category.path"
           :ui="{
             leadingIcon: 'size-8 shrink-0 text-green-600 dark:text-green-500'
           }"
         >
+          <template #description>
+            <span>{{ category.description }}</span>
+            <span
+              v-if="category.alternativeTo?.length"
+              class="mt-2 block text-xs font-medium text-green-600 dark:text-green-500"
+            >
+              Alternative to {{ formatAlternatives(category.alternativeTo) }}
+            </span>
+          </template>
           <template
             v-if="!category.services?.length"
             #footer

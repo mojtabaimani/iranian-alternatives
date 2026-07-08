@@ -1,7 +1,9 @@
 title: Push Notifications
 description: Push notification services let websites and mobile apps send targeted messages to users' devices for engagement and retention, with segmentation, scheduling, and delivery analytics. They are the local equivalents of OneSignal and Firebase Cloud Messaging campaigns.
 icon: i-lucide-bell-ring
-tagline: Web and app push messaging, alternatives to OneSignal.
+tagline: Web and app push messaging.
+alternativeTo:
+  - OneSignal
 services:
 - name: Najva
   description: Najva is an Iranian web push notification service for engaging site visitors with targeted, scheduled notifications and campaign analytics, reachable without foreign infrastructure.

@@ -2,6 +2,9 @@ title: Font Services
 description: A font service offers a collection of typefaces for websites or computer use. Web font providers typically supply code snippets that can be added to websites to display these custom fonts.
 icon: i-lucide-type
 tagline: Professional web font delivery and optimization services.
+alternativeTo:
+  - Google Fonts
+  - Adobe Fonts
 services:
 - name: FontIran
   description: FontIran licenses popular Persian typefaces such as IRANSans and IRANYekan for web and app use, with web font packages ready to embed in websites.

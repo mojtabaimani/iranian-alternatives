@@ -1,7 +1,10 @@
 title: Music Streaming
 description: Music streaming services offer on-demand listening from licensed catalogs with playlists, discovery, and offline playback. Since Spotify and Apple Music do not serve Iranian users or accept Iranian payments, local platforms fill this role with strong Persian catalogs.
 icon: i-lucide-music
-tagline: On-demand music platforms, alternatives to Spotify.
+tagline: On-demand music platforms.
+alternativeTo:
+  - Spotify
+  - Apple Music
 services:
 - name: Beeptunes
   description: Beeptunes is an Iranian music platform for streaming and purchasing licensed Persian and international music, with artist pages, albums, and playlists.
