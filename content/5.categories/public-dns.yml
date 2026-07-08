@@ -2,4 +2,32 @@ title: Public DNS Resolvers
 description: When users visit a website, their device contacts a public DNS resolver (also called a recursive DNS server) to find the website's IP address. While internet service providers offer DNS servers, many users choose specialized public DNS resolvers that offer better speed and security than their ISP's default servers.
 icon: i-lucide-network
 tagline: Public DNS resolvers and servers.
-services: []
+services:
+- name: Shecan
+  description: Shecan is Iran's best-known public DNS service. It resolves domains that restrict Iranian IP addresses, letting developers reach package registries, container hubs, and other tools that would otherwise block them.
+  logo: /logo/shecan.png
+  website: https://shecan.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Public DNS
+    - Anti-Sanction
+
+- name: Begzar
+  description: Begzar is a free public DNS resolver that helps users in Iran open websites and services that restrict access from Iranian IP addresses.
+  logo: /logo/begzar.png
+  website: https://begzar.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Public DNS
+    - Anti-Sanction
+
+- name: 403.online
+  description: 403.online is a free public DNS service that lets users in Iran reach websites and developer services that block Iranian IPs.
+  website: https://403.online
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Public DNS
+    - Anti-Sanction

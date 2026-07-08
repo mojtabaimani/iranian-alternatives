@@ -13,3 +13,13 @@ services:
     - Cloud Computing
     - CDN
     - DNS
+
+- name: Sotoon
+  description: Sotoon is the cloud provider of the Hezardastan group (Cafe Bazaar, Divar), offering virtual machines, managed Kubernetes, object storage, and managed databases on Iranian infrastructure.
+  logo: /logo/sotoon.png
+  website: https://sotoon.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Cloud Computing
+    - IaaS

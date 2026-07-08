@@ -2,4 +2,24 @@ title: Live Chat
 description: Website owners can integrate live chat functionality that enables visitors to communicate instantly with customer support representatives through an embedded interface. This direct communication channel makes it easier for users to get help while browsing the site. To handle common inquiries more efficiently and minimize response times, many live chat providers now include AI chatbots that can automatically respond to frequently asked questions, reducing the workload on human support staff.
 icon: i-lucide-message-square
 tagline: Customer engagement and support solutions.
-services: []
+services:
+- name: Goftino
+  description: Goftino is an Iranian live chat widget for websites, with a shared team inbox, canned responses, visitor tracking, and mobile apps for answering customers in real time.
+  logo: /logo/goftino.png
+  website: https://www.goftino.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Live Chat
+    - Customer Support
+
+- name: Raychat
+  description: Raychat is an Iranian customer messaging platform that combines website live chat, chatbots, and multi-channel inboxes so teams can support and convert visitors.
+  logo: /logo/raychat.png
+  website: https://raychat.io
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Live Chat
+    - Chatbot
+    - Customer Support

@@ -3,4 +3,25 @@ title: Object Storage
 description: Object storage services provide a way to store files hierarchically where each file can include additional descriptive information. The service handles all aspects of data management and backup. Amazon S3 is the leading provider in this field, and their method of handling files has become a widely adopted standard. Many other storage providers now offer "S3-compatible" services, meaning they work with the same protocols as Amazon S3. This compatibility allows users to use popular tools and applications originally designed for S3, making these services more adaptable and user-friendly.
 icon: i-lucide-database
 tagline: Object storage solutions for applications.
-services: []
+services:
+- name: Arvan Cloud
+  description: Arvan Cloud offers S3-compatible object storage alongside its CDN and cloud services, so tools and SDKs built for Amazon S3 work against Iranian infrastructure.
+  logo: https://www.arvancloud.ir/blog/wp-content//uploads/2023/08/Avatar.svg
+  website: https://arvancloud.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Object Storage
+    - S3-Compatible
+    - Cloud Computing
+
+- name: Liara
+  description: Liara provides S3-compatible object storage buckets with a simple console and per-usage pricing, hosted in Iranian datacenters alongside its PaaS offering.
+  logo: /logo/liara.svg
+  website: https://liara.ir/
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Object Storage
+    - S3-Compatible
+    - PaaS

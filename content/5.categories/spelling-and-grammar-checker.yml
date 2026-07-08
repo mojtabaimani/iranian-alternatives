@@ -2,4 +2,13 @@ title: Spelling and Grammar Checker
 description: A spelling and grammar checker analyzes text to identify and correct writing mistakes in both spelling and sentence structure.
 icon: i-lucide-spell-check
 tagline: Check spelling and grammar to identify and correct mistakes.
-services: []
+services:
+- name: Paknevis
+  description: Paknevis is an online Persian spell and grammar checker that finds typos, spacing problems, and grammatical mistakes in Persian text as you write.
+  logo: /logo/paknevis.png
+  website: https://paknevis.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Spell Checker
+    - Persian

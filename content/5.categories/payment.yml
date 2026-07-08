@@ -2,4 +2,44 @@ title: Payment Services
 description: A payment service provider enables businesses to accept various forms of payment, particularly in online stores. They process the transactions and typically offer multiple payment options for customers. PSPs usually handle the secure payment pages where customers enter sensitive information like bank card details, keeping this data separate from the merchant's website to enhance security.
 icon: i-lucide-credit-card
 tagline: Secure payment processing and gateway solutions.
-services: []
+services:
+- name: ZarinPal
+  description: ZarinPal is one of Iran's most widely used payment gateways, letting businesses and individuals accept online payments through a simple API, payment links, and e-commerce plugins.
+  logo: /logo/zarinpal.svg
+  website: https://www.zarinpal.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Payment Gateway
+  - Fintech
+
+- name: Zibal
+  description: Zibal is a payment and banking-as-a-service platform offering payment gateways, wallets, mass payouts, and financial APIs for businesses of all sizes.
+  logo: /logo/zibal.svg
+  website: https://zibal.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Payment Gateway
+  - Banking APIs
+  - Fintech
+
+- name: IDPay
+  description: IDPay is an Iranian payment service provider offering payment gateways, payment links, and identity-verified transactions for online businesses.
+  logo: /logo/idpay.svg
+  website: https://idpay.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Payment Gateway
+  - Fintech
+
+- name: PayPing
+  description: PayPing is a developer-friendly payment gateway focused on small businesses and freelancers, with payment links, invoicing, and a straightforward API.
+  logo: /logo/payping.png
+  website: https://payping.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Payment Gateway
+  - Fintech

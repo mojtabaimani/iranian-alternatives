@@ -2,4 +2,13 @@ title: Email Marketing
 description: Email marketing services help businesses create and send newsletters and promotional emails to subscribers. These platforms provide tools to manage subscriber lists, including signup forms with verification steps. They typically include user-friendly editors for designing attractive email campaigns without needing technical skills.
 icon: i-lucide-mail-plus
 tagline: Email campaign and automation tools.
-services: []
+services:
+- name: Pakat
+  description: Pakat is an Iranian email marketing service for building subscriber lists, designing campaigns, and tracking opens and clicks, with billing in Rial and Persian support.
+  logo: /logo/pakat.png
+  website: https://pakat.net
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - Email Marketing
+    - Newsletters
