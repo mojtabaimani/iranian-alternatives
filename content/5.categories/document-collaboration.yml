@@ -2,4 +2,13 @@ title: Document Collaboration
 description: A document collaboration service enables multiple users to simultaneously create and edit documents, spreadsheets, and presentations together online.
 icon: i-lucide-file-text
 tagline: Real-time document editing and team collaboration tools.
-services: []
+services:
+- name: Neveshti
+  description: Neveshti is a minimal, Persian-focused online document editor for writing, sharing, and editing documents together in real time. Built and hosted in Iran, it is a simple and fast alternative to Google Docs and Dropbox Paper that works well even on slow connections.
+  logo: /logo/neveshti.png
+  website: https://neveshti.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+  - Document Collaboration
+  - Real-time Editing
