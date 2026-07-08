@@ -1,0 +1,27 @@
+title: Video Streaming (VOD)
+description: Video-on-demand platforms stream licensed movies and series, plus their own original productions, on a subscription basis. They are the local equivalents of Netflix and Prime Video, with Persian originals, dubbed and subtitled international titles, and billing in Rial.
+icon: i-lucide-clapperboard
+group: Consumer Apps
+tagline: Subscription movie and series streaming.
+alternativeTo:
+  - Netflix
+services:
+- name: Filimo
+  description: Filimo is Iran's largest subscription video-on-demand service, from the Aparat group, streaming Persian movies, series, and exclusive originals alongside dubbed international titles.
+  logo: /logo/filimo.png
+  website: https://www.filimo.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - VOD
+    - Streaming
+
+- name: Namava
+  description: Namava is a major Iranian video-on-demand platform with licensed movies and series, exclusive Namava originals, and multi-profile subscriptions.
+  logo: /logo/namava.png
+  website: https://www.namava.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - VOD
+    - Streaming

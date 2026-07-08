@@ -1,0 +1,27 @@
+title: E-commerce Builders
+description: E-commerce builders let anyone launch an online store without coding, bundling storefront themes, product management, payments, and shipping in one hosted platform. They are the local equivalents of Shopify and Wix, with Iranian payment gateways and .ir domains built in.
+icon: i-lucide-store
+group: Business & Productivity
+tagline: Hosted online store platforms.
+alternativeTo:
+  - Shopify
+services:
+- name: Shopfa
+  description: Shopfa is an Iranian store builder for launching an online shop with ready themes, connected local payment gateways, marketing tools, and SEO features, no coding required.
+  logo: /logo/shopfa.png
+  website: https://shopfa.com
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - E-commerce
+    - Store Builder
+
+- name: Portal
+  description: Portal is an Iranian website and store builder that launches an e-commerce site in minutes, with hosted infrastructure, a free .ir domain, Instagram shop integration, and tiered plans for growing businesses.
+  logo: /logo/portal.png
+  website: https://www.portal.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - E-commerce
+    - Store Builder
