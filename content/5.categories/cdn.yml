@@ -13,3 +13,14 @@ services:
     - Cloud Computing
     - CDN
     - DNS
+
+- name: nsin
+  description: nsin is a connectivity-first CDN with zero-config SSL, caching, WAF, and managed DNS that keeps websites reachable from both Iran and abroad.
+  logo: /logo/nsin.png
+  website: https://nsin.ir
+  location: Iran
+  flag: /flag/iran.svg
+  tags:
+    - CDN
+    - DNS
+    - WAF
